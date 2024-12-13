@@ -123,7 +123,7 @@ const menu_data = [
     },
     {
         title: 'Contact',
-        link: '/contact-me',
+        link: '/contact-us',
         mega_menu: false,
        // submenus: [
          //   { title: 'Contact Us', link: '/contact-us' },
