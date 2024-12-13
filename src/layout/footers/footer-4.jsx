@@ -28,7 +28,7 @@ const footer_contents = {
             class: 'quick-link-widget',
             widget_title: 'Links',
             footer_links: [
-                { link: 'contact-me', title: 'Contact' },
+                { link: 'contact-us', title: 'Contact' },
                 { link: 'gallery-grid', title: 'Gallery' },
                 { link: 'blog-standard', title: 'News & Articles' },
                 { link: 'faq', title: "FAQ's" },
