@@ -14,7 +14,7 @@ const HeaderTopRight = () => {
            {/* <li><Link href="/sign-in" legacyBehavior><a>Login</a></Link></li>
             <li><Link href="/sign-in" legacyBehavior><a>Register</a></Link></li>*/}
             <li><a href="tel:+91-9789655455"><i className="icon-phone"></i>Call: +91-9789655455</a></li>
-            <li><a href="mailto:speaksure@gmail.com" rel="noreferrer" target="_blank"  aria-label="Open><i className="icon-envelope"></i></a></li>
+            <li><a href="mailto:speaksure@gmail.com" rel="noreferrer" target="_blank"  aria-label="Speaksure@gmail.com"><i className="icon-envelope"></i></a></li>
             <li className="social-icon">
                 {social_share.map((social, i) => (
                     <a key={i} href={social.link} target={social.target ? social.target : ''} className={`${social.color}`}>
