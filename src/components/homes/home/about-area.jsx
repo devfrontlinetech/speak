@@ -21,7 +21,7 @@ const AboutArea = () => {
                                     <div className="inner">
                                         <div className="thumb">
                                             <img src="/assets/images/about/about-02.webp" alt="About Image" />
-                                            <button onClick={() => setIsVideoOpen(true)} className="popup-icon video-popup-activation border-0" aria-label="Name">
+                                            <button onClick={() => setIsVideoOpen(true)} className="popup-icon video-popup-activation border-0">
                                             <i className="icon-18"></i>
                                             </button>
                                         </div>
