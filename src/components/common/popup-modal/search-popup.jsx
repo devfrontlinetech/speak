@@ -11,12 +11,12 @@ const SearchPopup = ({isSearchOpen,setIsSearchOpen}) => {
                     
                 </div>
                 <div className="close-button" onClick={() => setIsSearchOpen(false)}>
-                    <button className="close-trigger" aria-label="Close" id="text"><i className="icon-73"></i></button>
+                    <button className="close-trigger" aria-label="Name"><i className="icon-73"></i></button>
                 </div>
                 <div className="inner">
                     <form className="search-form" onSubmit={handleSubmit}>
                         <input type="text" className="edublink-search-popup-field" placeholder="Search Here..." />
-                        <button className="submit-button" aria-label="Submit form" id="text"><i className="icon-2"></i></button>
+                        <button className="submit-button" aria-label="Name"><i className="icon-2"></i></button>
                     </form>
                 </div>
             </div>
