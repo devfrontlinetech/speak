@@ -41,7 +41,7 @@ const FooterThree = () => {
                             <div className="edu-footer-widget">
                                 <div className="logo">
                                     <Link href="" legacyBehavior>
-                                        <a>
+                                        <a aria-label="Speaksure">
                                             <img className="logo-dark" src="/assets/images/logo/logo.jpg" alt="Corporate Logo" />
                                        
                                         </a>
