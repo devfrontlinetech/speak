@@ -92,7 +92,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                     <li className="search-bar">
                                         <div className="input-group">
                                             <input type="text" className="form-control" placeholder="Search" />
-                                            <button className="search-btn" type="button">
+                                            <button className="search-btn" type="button" aria-label="Name">
                                                 <i className="icon-2"></i>
                                             </button>
                                         </div>
