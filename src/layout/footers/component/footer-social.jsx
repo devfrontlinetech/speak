@@ -12,7 +12,7 @@ const FooterSocial = () => {
     return (
         <>
             {social_share.map((social, i) => (
-                <li key={i}><a href={social.link} target={social.target ? social.target : ''} className={`${social.color}`} aria-label="Read more about Seminole tax hike">
+                <li key={i}><a href={social.link} target={social.target ? social.target : ''} className={`${social.color}`} aria-label="Read more about speaksure">
                 <i className={social.icon}></i>
                 </a></li>
             ))}
