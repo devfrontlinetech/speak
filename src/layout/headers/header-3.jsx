@@ -46,7 +46,7 @@ const HeaderThree = () => {
                                     <li className="search-bar">
                                         <div className="input-group">
                                             <input type="text" className="form-control" placeholder="Search" />
-                                            <button onClick={() => setIsSearchOpen(true)} className="search-btn" type="button"><i className="icon-2"></i></button>
+                                            <button onClick={() => setIsSearchOpen(true)} className="search-btn" type="button" aria-label="Search"><i className="icon-2"></i></button>
                                         </div>
                                     </li>
 
