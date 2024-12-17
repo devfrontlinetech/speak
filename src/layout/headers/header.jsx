@@ -126,7 +126,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                         </Link>
                                     </li>
                                     <li className="mobile-menu-bar d-block d-xl-none">
-                                        <button className="hamberger-button" onClick={() => setIsOpen(true)} aria-label="Button">
+                                        <button className="hamberger-button" onClick={() => setIsOpen(true)} aria-label="button">
                                             <i className="icon-54"></i>
                                         </button>
                                     </li>
