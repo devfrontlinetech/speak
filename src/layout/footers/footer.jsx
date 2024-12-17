@@ -51,7 +51,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                             <div className="edu-footer-widget">
                                 <div className="logo">
                                     <Link href={''} legacyBehavior>
-                                        <a>
+                                        <a aria-label="Speaksure">
                                             {!dark_bg && <>
                                                 {!style_2 && <img className="logo-light" src={logoLight} alt="Corporate Logo" />}
                                                 <img className="logo-dark" src={logoDark} alt="Corporate Logo" />
@@ -60,7 +60,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                                     </Link>
 
                                     <Link href={'/'} legacyBehavior>
-                                        <a>
+                                        <a aria-label="Speaksure">
                                             {dark_bg && <img className="logo-light" src={home_4?'/assets/images/logo/logo.jpg' :'/assets/images/logo/logo.jpg'} alt="Corporate Logo" />}
                                         </a>
                                     </Link>
