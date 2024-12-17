@@ -51,7 +51,7 @@ const HeaderThree = () => {
                                     </li>
 
                                     <li className="icon search-icon">
-                                        <a href='#' className="search-trigger"  aria-label="Open Search Bar">
+                                        <a href='#' className="search-trigger">
                                             <i className="icon-2"></i>
                                         </a>
                                     </li>
