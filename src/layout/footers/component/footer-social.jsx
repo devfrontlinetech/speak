@@ -12,7 +12,7 @@ const FooterSocial = () => {
     return (
         <>
             {social_share.map((social, i) => (
-                <li key={i}><a href={social.link} target={social.target ? social.target : ''} className={`${social.color}`} >
+                <li key={i}><a href={social.link} target={social.target ? social.target : ''} className={`${social.color}`}>
                 <i className={social.icon}></i>
                 </a></li>
             ))}
