@@ -114,7 +114,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="inner text-center">
-                                <p>Copyright1 {new Date().getFullYear()} <a href="https://speaksure.in/" rel="noreferrer" target="_blank" aria-label="Speaksure">Speaksure</a> Designed By <a href="https://frontlinetech.in/" rel="noreferrer" target="_blank" aria-label="Speaksure">Frontline Technologies</a>. All Rights Reserved</p>
+                                <p>Copyright {new Date().getFullYear()} <a href="https://speaksure.in/" rel="noreferrer" target="_blank" aria-label="Speaksure">Speaksure</a> Designed By <a href="https://frontlinetech.in/" rel="noreferrer" target="_blank" aria-label="Speaksure">Frontline Technologies</a>. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
