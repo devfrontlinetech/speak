@@ -90,7 +90,7 @@ const TopCategories = () => {
                                     <i className={item.icon}></i>
                                 </div>
                                 <div className="content">
-                                    <Link href="/" legacyBehavior>
+                                    <Link href={item.link}>
                                         <a>
                                             <h5 className="title">{item.title}</h5>
                                         </a>
