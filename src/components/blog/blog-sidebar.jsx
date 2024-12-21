@@ -69,7 +69,7 @@ const BlogSidebar = () => {
                     <h4 className="title">Get Online Courses From <span>SpeakSure</span></h4>
                     <span className="shape-line"><i className="icon-19"></i></span>
                     <p>Choose your course growth your carrer</p>
-                    <a href="#" className="edu-btn btn-medium">Start Now <i className="icon-4"></i></a>
+                    <a href="contact-us" className="edu-btn btn-medium">Start Now <i className="icon-4"></i></a>
                 </div>
             </div>
 
