@@ -125,7 +125,7 @@ const BlogDetailsArea = ({blog}) => {
                             </div>
                         </div>
 
-                        <div className="blog-pagination">
+{/*                         <div className="blog-pagination">
                             <div className="row g-5">
                                 <div className="col-lg-6">
                                     <div className="blog-pagination-list prev-post">
@@ -145,7 +145,7 @@ const BlogDetailsArea = ({blog}) => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/*  Start Comment Area  */}
                      {/* <CommentArea />
