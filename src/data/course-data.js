@@ -1624,7 +1624,7 @@ const course_data = [
     title: 'Toastmasters Public Speaking and Leadership Training',
     rating: '5',
     rating_count: 40,
-    course_price: 'Membership fees may apply (varies by location)',
+    course_price: '75',
     lesson: 20,
     student: 36,
     category:'Academics',
