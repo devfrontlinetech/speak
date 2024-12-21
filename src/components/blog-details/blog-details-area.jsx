@@ -77,9 +77,9 @@ const BlogDetailsArea = ({blog}) => {
                                         <div className="blog-tags">
                                             <h6 className="title">Tags:</h6>
                                             <div className="tag-list">
-                                                <a href="#">Language</a>
-                                                <a href="#">eLearn</a>
-                                                <a href="#">Tips</a>
+                                                <a>Language</a>
+                                                <a>eLearn</a>
+                                                <a>Tips</a>
                                             </div>
                                         </div>
                                     </div>
