@@ -1616,7 +1616,7 @@ const course_data = [
   {
     id: 19,
     kitchen_course:true,
-    duration: 'Typically ongoing membership, with regular meetings and participation (weekly/monthly)',
+    duration: '2 months',
     course_outline:'Onsite Only',
     img: 'course-19.jpg',
     hours: 35,
