@@ -20,11 +20,11 @@ const SidebarOne = () => {
                     <h4 className="widget-title">Tags</h4>
                     <div className="content">
                         <div className="tag-list">
-                            <a href="#">Language</a>
-                            <a href="#">eLearn</a>
-                            <a href="#">Tips</a>
-                            <a href="#">Course</a>
-                            <a href="#">Motivation</a>
+                            <a href="contact-us">Language</a>
+                            <a href="contact-us">eLearn</a>
+                            <a href="contact-us">Tips</a>
+                            <a href="contact-us">Course</a>
+                            <a href="contact-us">Motivation</a>
                         </div>
                     </div>
                 </div>
