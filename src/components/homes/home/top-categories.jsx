@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const category_contents = {
     title: 'Top Categories',
-    text: 'Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore',
+    // text: 'Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore',
     category_items: [
         {
             delay: '50',
