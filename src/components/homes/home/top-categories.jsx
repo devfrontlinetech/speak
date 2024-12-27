@@ -65,7 +65,7 @@ const category_contents = {
             color: 'color-extra06-style',
             icon: 'icon-17 video-photography',
             title: 'Visa Interview Training',
-             link: '/spoken-english'
+             link: '/contact-us'
         }
     ]
 }
