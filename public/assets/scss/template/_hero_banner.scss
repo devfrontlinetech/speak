@@ -44,6 +44,7 @@
         p {
             color: var(--color-heading);
             font-size: 18px;
+            text-align: justify;
         }
         .shape-group {
             @extend %liststyle;
