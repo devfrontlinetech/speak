@@ -2,7 +2,7 @@ const course_data = [
   
     {
       id: 1,
-      img: 'course-01.jpg',
+      img: 'tech1.jpg',
       duration: '6 Weeks',
       course_outline: 'Online + Onsite',
       level: 'Beginner to Advanced',
@@ -87,7 +87,7 @@ const course_data = [
     
     {
       id:"2",
-     "img": "course-06.jpg",
+     "img": "tech.jpg",
     "duration": "8 Weeks",
     "course_outline": "Online + Onsite",
     "level": "Beginner to Intermediate",
