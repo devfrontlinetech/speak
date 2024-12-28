@@ -11,9 +11,9 @@ const HeroArea = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
                         <div className="banner-content">
-                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">
+                            <h2 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">
                                 Speak Like a Native, Live Like a Global Citizen    
-                            </h1>
+                            </h2>
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">
                                 speak English more fluently in daily conversations, ace interviews, or improve your professional communication, our courses are tailored to meet your needs. Join thousands of learners who are transforming their English skills with us today!    
                             </p>
