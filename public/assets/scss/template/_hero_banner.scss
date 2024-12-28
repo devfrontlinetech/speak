@@ -802,8 +802,9 @@
             text-align: center;
             padding-bottom: 30px;
             p {
-                width: 70%;
+                width: 60%;
                 margin: 0 auto 30px;
+                text-align: justify;
                 @media #{$md-layout-1} {
                     width: 100%;
                 }
