@@ -28,7 +28,7 @@ const Categories = () => {
                     <span className="pre-title pre-textsecondary">Categories</span>
                     <h2 className="title">Online <span className="color-primary">Classes</span> For Remote Learning.</h2>
                     <span className="shape-line"><i className="icon-19"></i></span>
-                    <p>Consectetur adipiscing elit sed do eiusmod tempor.</p>
+{/*                     <p>Consectetur adipiscing elit sed do eiusmod tempor.</p> */}
                 </div>
                 <div className="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 g-4">
                     <Category delay={'100'} color={'color-primary-style'} icon="icon-9" title={'Spoken English'} />
