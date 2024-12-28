@@ -12,12 +12,12 @@ import OffCanvas from '../../components/common/sidebar/off-canvas';
 import Cart from './component/cart';
 
 const categories = [
-    { link: '/spoken-english', title: 'Spoken English' },
-    { link: '/competitive-exam', title: 'Competitive Exam Training' },
-    { link: '/language-training', title: 'Language Training' },
-    /*{ link: '/course-style-4', title: 'Apps' },
-    
-    { link: '/course-style-5', title: 'Soft Skill Training' },*/
+    { title: 'Spoken English', link: '/home-online-academy' },
+    { title: 'IELTS', link: '/home-distant-learning' },
+    { title: 'CELPIP', link: '/home-kindergarten' },
+    { title: 'TOEFL', link: '/home-language-academy' },
+    { title: 'PTE', link: '/home-kitchen' },
+   
    
 ]
 
