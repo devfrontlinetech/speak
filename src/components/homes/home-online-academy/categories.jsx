@@ -36,13 +36,13 @@ const Categories = () => {
                     <Category delay={'200'} color={'color-extra04-style'} icon="icon-11" title={'PTE'} />
                     <Category delay={'250'} color={'color-tertiary-style'} icon="icon-12" title={'TOEFL'} />
                     <Category delay={'300'} color={'color-extra02-style'} icon="icon-13" title={'CELPIP'} />
-                    <Category delay={'100'} color={'color-extra07-style'} icon="icon-42" icon_name={'design-pencil-icon'}
+{/*                     <Category delay={'100'} color={'color-extra07-style'} icon="icon-42" icon_name={'design-pencil-icon'}
                     title={'Language Training'} />
                     <Category delay={'150'} color={'color-extra06-style'} icon="icon-14" title={'Interview Training'} />
                     <Category delay={'200'} color={'color-extra03-style'} icon="icon-16" icon_name={'laptop-icon'}
                     title={'Business English Course'} />
                     <Category delay={'250'} color={'color-extra01-style'} icon="icon-17" title={'Visa Interview Training'} />
-                    <Category delay={'300'} color={'color-extra05-style'} icon="icon-43" title={'Toastmasters Club Training'} />
+                    <Category delay={'300'} color={'color-extra05-style'} icon="icon-43" title={'Toastmasters Club Training'} /> */}
                 </div>
             </div>
         </div>
