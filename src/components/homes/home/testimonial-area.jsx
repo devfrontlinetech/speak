@@ -71,7 +71,7 @@ export default function TestimonialArea() {
                                 <h2 className="title">What Our Students Have To Say</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                                 <p>An excellent learning experience. The instructors were very knowledgeable and always available for questions.</p>
-                                <a href="#" className="edu-btn btn-large">View All<i className="icon-4"></i></a>
+                                <a href="blog-details" className="edu-btn btn-large">View All<i className="icon-4"></i></a>
                             </div>
                         </div>
                     </div>

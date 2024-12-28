@@ -77,9 +77,9 @@ const BlogDetailsArea = ({blog}) => {
                                         <div className="blog-tags">
                                             <h6 className="title">Tags:</h6>
                                             <div className="tag-list">
-                                                <a href="#">Language</a>
-                                                <a href="#">eLearn</a>
-                                                <a href="#">Tips</a>
+                                                <a>Language</a>
+                                                <a>eLearn</a>
+                                                <a>Tips</a>
                                             </div>
                                         </div>
                                     </div>
@@ -125,7 +125,7 @@ const BlogDetailsArea = ({blog}) => {
                             </div>
                         </div>
 
-                        <div className="blog-pagination">
+{/*                         <div className="blog-pagination">
                             <div className="row g-5">
                                 <div className="col-lg-6">
                                     <div className="blog-pagination-list prev-post">
@@ -145,7 +145,7 @@ const BlogDetailsArea = ({blog}) => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         {/*  Start Comment Area  */}
                      {/* <CommentArea />
