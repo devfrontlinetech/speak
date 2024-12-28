@@ -12,12 +12,12 @@ import OffCanvas from '../../components/common/sidebar/off-canvas';
 import Cart from './component/cart';
 
 const categories = [
-    { link: '/spoken-english', title: 'Spoken English' },
-    { link: '/competitive-exam', title: 'Competitive Exam Training' },
-    { link: '/language-training', title: 'Language Training' },
-    /*{ link: '/course-style-4', title: 'Apps' },
-    
-    { link: '/course-style-5', title: 'Soft Skill Training' },*/
+    { title: 'Spoken English', link: '/home-online-academy' },
+    { title: 'IELTS', link: '/home-distant-learning' },
+    { title: 'CELPIP', link: '/home-kindergarten' },
+    { title: 'TOEFL', link: '/home-language-academy' },
+    { title: 'PTE', link: '/home-kitchen' },
+   
    
 ]
 
@@ -51,7 +51,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                         <div className="header-navbar">
                             <div className="header-brand">
                                 <div className="logo">
-                                    <Link href={''} legacyBehavior>
+                                    <Link href={'/'} legacyBehavior>
                                         <a>
                                             <img className="logo-light" src='/assets/images/santhosh/speaksure.png' alt="logo" />
                                             <img className="logo-dark" src='/assets/images/santhosh/speaksure.png' alt="logo" />
@@ -64,7 +64,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                         <nav className="mainmenu-nav">
                                             <ul className="mainmenu">
                                                 <li className="has-droupdown">
-                                                    <a href="#"><i className="icon-1"></i>Category</a>
+                                                    <a href="/"><i className="icon-1"></i>Category</a>
                                                     <ul className="submenu">
                                                         {
                                                             categories.map((category, i) => (
@@ -92,13 +92,13 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                     <li className="search-bar">
                                         <div className="input-group">
                                             <input type="text" className="form-control" placeholder="Search" />
-                                            <button className="search-btn" type="button">
+                                            <button className="search-btn" type="button" aria-label="Name">
                                                 <i className="icon-2"></i>
                                             </button>
                                         </div>
                                     </li>
                                     <li className="icon search-icon">
-                                        <a style={{cursor:'pointer'}} onClick={() => setIsSearchOpen(true)} className="search-trigger">
+                                        <a href="#" style={{cursor:'pointer'}} onClick={() => setIsSearchOpen(true)} className="search-trigger"  aria-label="Open Search Bar">
                                             <i className="icon-2"></i>
                                         </a>
                                     </li>
@@ -126,7 +126,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                         </Link>
                                     </li>
                                     <li className="mobile-menu-bar d-block d-xl-none">
-                                        <button className="hamberger-button" onClick={() => setIsOpen(true)}>
+                                        <button className="hamberger-button" onClick={() => setIsOpen(true)} aria-label="button">
                                             <i className="icon-54"></i>
                                         </button>
                                     </li>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FooterThree, HeaderThree } from '../../../layout';
+import { FooterThree, Header } from '../../../layout';
 import AboutArea from './about-area';
 import AdBanner from './ad-banner';
 import BlogArea from './blog-area';
@@ -13,7 +13,7 @@ const index = () => {
     return (
         <div className='sticky-header'>
             <div id="main-wrapper" className="main-wrapper">
-                <HeaderThree/>
+                <Header no_top_bar={true} />
                 <HeroArea/>
                 <AboutArea/>
                 <CoursesArea/>

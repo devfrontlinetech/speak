@@ -11,13 +11,13 @@ const gallery_items = [
     {img: '/assets/images/gallery/gallery-06.jpg', category: 'Competitive Exams' },
     { img: '/assets/images/gallery/gallery-07.jpg', category: 'Language Training' },
     { img: '/assets/images/gallery/gallery-08.jpg', category: 'Language Training' },
-    { img: '/assets/images/gallery/gallery-09.jpg', category: 'Language Training' },
-    { img: '/assets/images/gallery/gallery-10.jpg', category: 'Apps' },
-    { img: '/assets/images/gallery/gallery-11.jpg', category: 'Apps' },
-    { img: '/assets/images/gallery/gallery-13.jpg', category: 'Apps' },
-    { img: '/assets/images/gallery/gallery-14.jpg', category: 'Apps' },
-    { img: '/assets/images/gallery/gallery-15.jpg', category: 'Apps' },
-    { img: '/assets/images/gallery/gallery-16.jpg', category: 'Apps' }
+    { img: '/assets/images/gallery/gallery-09.jpg', category: 'Language Training' }
+    // { img: '/assets/images/gallery/gallery-10.jpg', category: 'Apps' },
+    // { img: '/assets/images/gallery/gallery-11.jpg', category: 'Apps' },
+    // { img: '/assets/images/gallery/gallery-13.jpg', category: 'Apps' },
+    // { img: '/assets/images/gallery/gallery-14.jpg', category: 'Apps' },
+    // { img: '/assets/images/gallery/gallery-15.jpg', category: 'Apps' },
+    // { img: '/assets/images/gallery/gallery-16.jpg', category: 'Apps' }
     
     
 ]

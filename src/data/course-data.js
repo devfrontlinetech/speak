@@ -1616,7 +1616,7 @@ const course_data = [
   {
     id: 19,
     kitchen_course:true,
-    duration: 'Typically ongoing membership, with regular meetings and participation (weekly/monthly)',
+    duration: '2 months',
     course_outline:'Onsite Only',
     img: 'course-19.jpg',
     hours: 35,
@@ -1624,7 +1624,7 @@ const course_data = [
     title: 'Toastmasters Public Speaking and Leadership Training',
     rating: '5',
     rating_count: 40,
-    course_price: 'Membership fees may apply (varies by location)',
+    course_price: '75',
     lesson: 20,
     student: 36,
     category:'Academics',

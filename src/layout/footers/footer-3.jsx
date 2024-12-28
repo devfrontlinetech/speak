@@ -41,7 +41,7 @@ const FooterThree = () => {
                             <div className="edu-footer-widget">
                                 <div className="logo">
                                     <Link href="" legacyBehavior>
-                                        <a>
+                                        <a aria-label="Speaksure">
                                             <img className="logo-dark" src="/assets/images/logo/logo.jpg" alt="Corporate Logo" />
                                        
                                         </a>
@@ -99,7 +99,7 @@ const FooterThree = () => {
                             <div className="inner text-center">
                                 <p>
                                     Copyright {new Date().toDateString()} 
-                                    <a href="https://speaksure.in/" rel="noreferrer" target="_blank">Speaksure</a> Designed By <a href="https://frontlinetech.in/" target="_blank" rel="noreferrer">Speaksure</a>. All Rights Reserved
+                                    <a href="https://speaksure.in/" rel="noreferrer" target="_blank" aria-label="Speaksure">Speaksure</a> Designed By <a href="https://frontlinetech.in/" target="_blank" rel="noreferrer" aria-label="Speaksure">Frontline Technologies</a>. All Rights Reserved
                                 </p>
                             </div>
                         </div>

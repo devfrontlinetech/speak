@@ -20,11 +20,11 @@ const SidebarOne = () => {
                     <h4 className="widget-title">Tags</h4>
                     <div className="content">
                         <div className="tag-list">
-                            <a href="#">Language</a>
-                            <a href="#">eLearn</a>
-                            <a href="#">Tips</a>
-                            <a href="#">Course</a>
-                            <a href="#">Motivation</a>
+                            <a href="contact-us">Language</a>
+                            <a href="contact-us">eLearn</a>
+                            <a href="contact-us">Tips</a>
+                            <a href="contact-us">Course</a>
+                            <a href="contact-us">Motivation</a>
                         </div>
                     </div>
                 </div>
@@ -35,12 +35,12 @@ const SidebarOne = () => {
                     <h4 className="widget-title">Categories</h4>
                     <div className="content">
                         <ul className="category-list">
-                            <li><a href="#">Business Studies <span>(3)</span></a></li>
-                            <li><a href="#">Computer Engineering <span>(7)</span></a></li>
-                            <li><a href="#">Medical &amp; Health<span>(2)</span></a></li>
-                            <li><a href="#">Software <span>(1)</span></a></li>
-                            <li><a href="#">Web development <span>(3)</span></a></li>
-                            <li><a href="#">Uncategorized <span>(9)</span></a></li>
+                            <li><a href="spoken-english">Spoken English <span>(3)</span></a></li>
+                            <li><a href="competitive-exam">Competitive Exam <span>(7)</span></a></li>
+                            <li><a href="language-training">Language Training<span>(2)</span></a></li>
+                            <li><a href="contact-us">Interview Training<span>(1)</span></a></li>
+                            <li><a href="contact-me">Visa Interview<span>(3)</span></a></li>
+                            <li><a href="language-training">Soft Skills<span>(9)</span></a></li>
                         </ul>
                     </div>
                 </div>

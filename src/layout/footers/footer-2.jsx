@@ -28,7 +28,7 @@ const footer_contents = {
             class: 'quick-link-widget',
             widget_title: 'Links',
             footer_links: [
-                { link: 'contact-me', title: 'Contact' },
+                { link: 'contact-us', title: 'Contact' },
                 { link: 'gallery-grid', title: 'Gallery' },
                 { link: 'blog-standard', title: 'News & Articles' },
                 { link: 'faq', title: "FAQ's" },
@@ -139,7 +139,7 @@ const FooterTwo = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="inner text-center">
-                                <p>Copyright {new Date().getFullYear()} <a href="https://speaksure.in/" rel="noreferrer" target="_blank">Speaksure</a> Designed By <a href="https://frontlinetech.in/" target="_blank" rel="noreferrer">Speaksure</a>. All Rights Reserved</p>
+                                <p>Copyright {new Date().getFullYear()} <a href="https://speaksure.in/" rel="noreferrer" target="_blank" aria-label="Speaksure">Speaksure</a> Designed By <a href="https://frontlinetech.in/" target="_blank" rel="noreferrer" aria-label="Speaksure">Frontline Technologies</a>. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const category_contents = {
     title: 'Top Categories',
-    text: 'Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore',
+    // text: 'Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore',
     category_items: [
         {
             delay: '50',
@@ -65,7 +65,7 @@ const category_contents = {
             color: 'color-extra06-style',
             icon: 'icon-17 video-photography',
             title: 'Visa Interview Training',
-             link: '/spoken-english'
+             link: '/contact-us'
         }
     ]
 }
@@ -90,7 +90,7 @@ const TopCategories = () => {
                                     <i className={item.icon}></i>
                                 </div>
                                 <div className="content">
-                                    <Link href="/" legacyBehavior>
+                                    <Link href={item.link}>
                                         <a>
                                             <h5 className="title">{item.title}</h5>
                                         </a>

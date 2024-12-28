@@ -66,7 +66,7 @@ const HeaderTwo = ({ style_3, no_topBar = false }) => {
                             <div className="header-right">
                                 <ul className="header-action">
                                     <li className="icon search-icon" onClick={() => setIsSearchOpen(true)}>
-                                        <a style={{cursor:'pointer'}} className="search-trigger">
+                                        <a href="#" style={{cursor:'pointer'}} className="search-trigger"  aria-label="Open Search Bar">
                                             <i className="icon-2"></i>
                                         </a>
                                     </li>
@@ -97,7 +97,7 @@ const HeaderTwo = ({ style_3, no_topBar = false }) => {
                                     }
 
                                     <li className="mobile-menu-bar d-block d-xl-none">
-                                        <button className="hamberger-button" onClick={()=> setIsOpen(true)}>
+                                        <button className="hamberger-button" onClick={()=> setIsOpen(true)} aria-label="button">
                                             <i className="icon-54"></i>
                                         </button>
                                     </li>

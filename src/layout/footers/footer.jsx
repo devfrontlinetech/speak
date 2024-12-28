@@ -27,7 +27,7 @@ const footer_contents = {
             class: 'quick-link-widget',
             widget_title: 'Links',
             footer_links: [
-                { link: 'contact-me', title: 'Contact' },
+                { link: 'contact-us', title: 'Contact' },
                 { link: 'gallery-grid', title: 'Gallery' },
                 /*{ link: 'blog-standard', title: 'News & Articles' },*/
                 { link: 'faq', title: "FAQ's" },
@@ -51,7 +51,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                             <div className="edu-footer-widget">
                                 <div className="logo">
                                     <Link href={''} legacyBehavior>
-                                        <a>
+                                        <a aria-label="Speaksure">
                                             {!dark_bg && <>
                                                 {!style_2 && <img className="logo-light" src={logoLight} alt="Corporate Logo" />}
                                                 <img className="logo-dark" src={logoDark} alt="Corporate Logo" />
@@ -60,7 +60,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                                     </Link>
 
                                     <Link href={'/'} legacyBehavior>
-                                        <a>
+                                        <a aria-label="Speaksure">
                                             {dark_bg && <img className="logo-light" src={home_4?'/assets/images/logo/logo.jpg' :'/assets/images/logo/logo.jpg'} alt="Corporate Logo" />}
                                         </a>
                                     </Link>
@@ -114,7 +114,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="inner text-center">
-                                <p>Copyright {new Date().getFullYear()} <a href="https://speaksure.in/" rel="noreferrer" target="_blank">Speaksure</a> Designed By <a href="https://frontlinetech.in/" rel="noreferrer" target="_blank">Frontline Technologies</a>. All Rights Reserved</p>
+                                <p>Copyright {new Date().getFullYear()} <a href="https://speaksure.in/" rel="noreferrer" target="_blank" aria-label="Speaksure">Speaksure</a> Designed By <a href="https://frontlinetech.in/" rel="noreferrer" target="_blank" aria-label="Speaksure">Frontline Technologies</a>. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
