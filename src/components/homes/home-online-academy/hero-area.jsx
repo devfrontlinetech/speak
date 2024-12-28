@@ -11,14 +11,14 @@ const HeroArea = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
                         <div className="banner-content">
-                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">
-                                The Best Program to Enroll for Exchange    
-                            </h1>
+                            <h2 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">
+                                Speak Like a Native, Live Like a Global Citizen    
+                            </h2>
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">
-                                Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.    
+                                speak English more fluently in daily conversations, ace interviews, or improve your professional communication, our courses are tailored to meet your needs. Join thousands of learners who are transforming their English skills with us today!    
                             </p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="/" legacyBehavior>
+                                <Link href="our-course" legacyBehavior>
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
@@ -37,7 +37,7 @@ const HeroArea = () => {
                         </div>
                         <div className="content">
                             <span className="subtitle">Online Support </span>
-                            <h4 className="title"><a href="tel:+0123456789">(+091) 9789655455</a></h4>
+                            <h4 className="title"><a href="tel:+0123456789">+91 9789655455</a></h4>
                         </div>
                     </div>
                 </div>
