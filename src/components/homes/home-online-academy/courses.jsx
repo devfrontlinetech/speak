@@ -27,8 +27,8 @@ const Courses = () => {
                 </div>
                 
                 <div className="course-view-all" data-sal-delay="150" data-sal="slide-up" data-sal-duration="1200">
-                    <Link href="/" legacyBehavior>
-                        <a className="our-course">Browse more courses <i className="icon-4"></i></a>
+                    <Link href="/our-course" legacyBehavior>
+                        <a className="edu-btn">Browse more courses <i className="icon-4"></i></a>
                     </Link>
                 </div>
                 <ul className="shape-group">
