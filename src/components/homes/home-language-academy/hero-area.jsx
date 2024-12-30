@@ -15,7 +15,7 @@ const HeroArea = () => {
                             <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Take Online <br /> <span className="color-secondary">Language</span> Courses<br />With Certificate</h1>
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="/" legacyBehavior>
+                                <Link href="/our-course" legacyBehavior>
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
@@ -39,7 +39,7 @@ const HeroArea = () => {
                             <div className="thumbnail" data-sal-delay="500" data-sal="slide-left" data-sal-duration="1000">
                                 <img src="/assets/images/banner/flag-boy.webp" alt="flag-boy Image" />
                             </div>
-                            <div className="instructor-info" data-sal-delay="800" data-sal="fade-in" data-sal-duration="1000">
+{/*                             <div className="instructor-info" data-sal-delay="800" data-sal="fade-in" data-sal-duration="1000">
                                 <div className="inner">
                                     <div className="enrolled-counter">
                                         <div className="counterup-wrapper">
@@ -62,7 +62,7 @@ const HeroArea = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <ul className="shape-group">
                                 <li className="shape-3" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
