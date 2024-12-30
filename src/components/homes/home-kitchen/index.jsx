@@ -22,15 +22,15 @@ const index = () => {
                 <HeroArea/>
                 <CategoryArea/>
                 <AboutArea/>
-                <BrandArea/>
-                <CoursesArea/>
+{/*                 <BrandArea/> */}
+{/*                 <CoursesArea/> */}
                 <TestimonialArea/>
                 <CounterArea/>
-                <TeamArea/>
+                // <TeamArea/>
                 <FaqArea/>
                 <AdBanner/>
-                <BlogArea/>
-                <InstagramArea/>
+{/*                 <BlogArea/> */}
+{/*                 <InstagramArea/> */}
                 <FooterTwo/>
             </div>
         </div>
