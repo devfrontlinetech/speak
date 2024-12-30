@@ -15,7 +15,7 @@ const AboutArea = () => {
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-7">
                         <div className="about-image-gallery">
-                            <img className="main-img-1" src="/assets/images/about/about-03.webp" alt="About Image" />
+                            <img className="main-img-1" src="/assets/images/about/ielts.webp" alt="About Image" />
 {/*                             <div className="author-box">
                                 <div className="inner">
                                     <div className="thumb">
