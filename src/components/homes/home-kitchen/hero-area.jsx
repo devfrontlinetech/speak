@@ -23,7 +23,7 @@ const HeroArea = () => {
                     <div className="col-lg-6">
                         <div className="banner-thumbnail">
                             <div className="thumbnail" data-sal-delay="500" data-sal="slide-left" data-sal-duration="1000">
-                                <img src="/assets/images/banner/couple-cooking.webp" alt="Couple Image" />
+                                <img src="/assets/images/banner/pte-01.jpg" alt="Couple Image" />
                             </div>
                             <ul className="shape-group">
                                 <li className="shape-1" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
