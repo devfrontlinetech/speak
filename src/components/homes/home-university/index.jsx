@@ -28,7 +28,7 @@ const index = () => {
 {/*                 <Testimonial/> */}
                 <VideoArea/>
                 <Cta/>
-                // <EventArea/>
+                    {/*<EventArea/>*/}
                 <BrandArea/>
                 <AdBanner/>
                 <Footer dark_bg={true} />
