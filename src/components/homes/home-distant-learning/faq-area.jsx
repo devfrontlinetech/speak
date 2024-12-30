@@ -106,6 +106,12 @@ const FaqArea = () => {
                                 <span className="shape-line">
                                     <i className="icon-19"></i>
                                 </span>
+                                 <p>Comprehensive courses covering all four sections: Listening, Reading, Writing, and Speaking.</p>
+                                 <p>Join a global community of successful IELTS candidates with our trusted courses.</p>
+                                <p>Focused training to meet the specific needs of Academic and General IELTS.</p>
+                                 <p>Expert instructors with in-depth knowledge of the IELTS exam format.</p>
+                                 <p>Personalized feedback and strategies to improve your performance.</p>
+                                 
                             </div>
 {/*                             <div className="faq-accordion" id="faq-accordion">
                                 <div className="accordion"> 
