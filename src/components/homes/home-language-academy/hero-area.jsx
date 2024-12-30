@@ -37,7 +37,7 @@ const HeroArea = () => {
                     <div className="col-lg-6">
                         <div className="banner-thumbnail">
                             <div className="thumbnail" data-sal-delay="500" data-sal="slide-left" data-sal-duration="1000">
-                                <img src="/assets/images/banner/flag-boy.webp" alt="flag-boy Image" />
+                                <img src="/assets/images/banner/celpip.jpg" alt="flag-boy Image" />
                             </div>
 {/*                             <div className="instructor-info" data-sal-delay="800" data-sal="fade-in" data-sal-duration="1000">
                                 <div className="inner">
