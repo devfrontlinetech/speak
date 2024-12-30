@@ -72,7 +72,7 @@ const AboutArea = () => {
                         <div className="about-content">
                             <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 <span className="pre-title">About Us</span>
-                                <h2 className="title">10+ Years of Expertise in Distance Learning for <span className="color-secondary">IELTS</span> Success</h2>
+                                <h3 className="title">10+ Years of Expertise in Distance Learning for <span className="color-secondary">IELTS</span> Success</h3>
                                 
                                 <span className="shape-line">
                                     <i className="icon-19"></i>
