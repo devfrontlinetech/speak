@@ -6,7 +6,7 @@ import Link from 'next/link';
 const testimonial_contents = {
     pre_title: 'Testimonials',
     title: 'What Our Students Have To Say',
-    text: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor incididunt labore dolore magna aliquaenim ad minim.',
+    text: 'Our students often share inspiring stories about their learning experiences. Here what a few of them have said.',
     testimonial_data: [
         {
             img: '/assets/images/testimonial/testimonial-01.png',
@@ -55,9 +55,9 @@ const Testimonial = () => {
                                 <h2 className="title">{title}</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                                 <p>{text}</p>
-                                <Link href="/about-1" legacyBehavior>
+{/*                                 <Link href="/about-1" legacyBehavior>
                                     <a className="edu-btn btn-large">View All<i className="icon-4"></i></a>
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                     </div>
