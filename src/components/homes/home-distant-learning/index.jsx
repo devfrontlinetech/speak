@@ -3,7 +3,8 @@ import { Footer, Header } from '../../../layout';
 import BlogArea from './blog-area';
 import AboutArea from './about-area';
 import BrandArea from './brand-area';
-import CategoryArea from './category-area';
+// import CategoryArea from './category-area';
+import Categories from '../home-online-academy/categories'; 
 import CounterArea from './counter-area';
 import CoursesArea from './courses-area';
 import FaqArea from './faq-area';
@@ -17,7 +18,8 @@ const index = () => {
             <div id="main-wrapper" className="main-wrapper">
                 <Header no_top_bar={true}/>
                 <HeroArea/>
-                <CategoryArea/>
+{/*                 <CategoryArea/> */}
+                <Categories/>
                 <AboutArea/>
                 <CoursesArea/>
                 <VideoArea/>
