@@ -11,8 +11,9 @@ const HeroArea = () => {
                     <div className="col-lg-6">
                         <div className="banner-content">
                             <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">
-                                The Best <br /> Program to <span className="color-secondary">Enroll</span> for Exchange
+                                Achieve Your Dream <span className="color-secondary">IELTS</span> Score with Expert Guidance
                             </h1>
+                            
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">
                                 Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.
                             </p>
