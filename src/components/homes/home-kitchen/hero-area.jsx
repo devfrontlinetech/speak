@@ -11,10 +11,10 @@ const HeroArea = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="banner-content">
-                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Take Your Cooking Skill To The Next Level</h1>
-                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
+                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Achieve Your Desired  <span className="color-secondary"> PTE </span>Score with Expert Guidance!</h1>
+                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Get ready for the PTE Academic and General exams with personalized lessons, expert instructors, and flexible learning options designed to boost your score.</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="/" legacyBehavior>
+                                <Link href="/our-course" legacyBehavior>
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
