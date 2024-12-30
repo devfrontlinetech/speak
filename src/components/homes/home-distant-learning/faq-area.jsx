@@ -107,7 +107,7 @@ const FaqArea = () => {
                                     <i className="icon-19"></i>
                                 </span>
                             </div>
-                            <div className="faq-accordion" id="faq-accordion">
+{/*                             <div className="faq-accordion" id="faq-accordion">
                                 <div className="accordion"> 
                                     {accordion_items.map((item,i) => { const {desc,id,show,title} = item; 
                                         return (
@@ -124,7 +124,7 @@ const FaqArea = () => {
                                         )
                                     })} 
                                 </div>
-                            </div>
+                            </div> */}
                             <ul className="shape-group">
                                 <motion.li className="shape-1 scene" data-sal-delay="500" data-sal="fade" data-sal-duration="200"
                                     animate={ {
