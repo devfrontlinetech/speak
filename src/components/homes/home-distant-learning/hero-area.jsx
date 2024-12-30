@@ -15,7 +15,7 @@ const HeroArea = () => {
                             </h1>
                             
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">
-                                Prepare Anytime, Anywhere with Our Flexible IELTS Programs
+                                Prepare Anytime, Anywhere with Our Flexible IELTS Programs.
                             </p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
                                 <Link href="/" legacyBehavior>
