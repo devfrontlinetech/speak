@@ -101,7 +101,7 @@ const FaqArea = () => {
                     <div className="col-lg-6" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
                         <div className="edu-faq-content">
                             <div className="section-title section-left">
-                                <span className="pre-title">FAQ’s</span>
+{/*                                 <span className="pre-title">FAQ’s</span> */}
                                 <h2 className="title">Over 10 Years in <span className="color-secondary">Distant <br /> Skill</span> development</h2>
                                 <span className="shape-line">
                                     <i className="icon-19"></i>
