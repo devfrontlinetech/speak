@@ -418,6 +418,7 @@ Custom Row
 .row--45 {
     margin-left: -45px;
     margin-right: -45px;
+    margin-top: 100px;
 
     // Responsive
     @media #{$laptop-device} {
