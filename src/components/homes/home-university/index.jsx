@@ -25,10 +25,10 @@ const index = () => {
                 <CounterArea home_3={true} />
                 <CoursesArea/>
                 {/*<CollegeCampus/>*/}
-                <Testimonial/>
+{/*                 <Testimonial/> */}
                 <VideoArea/>
                 <Cta/>
-                <EventArea/>
+                // <EventArea/>
                 <BrandArea/>
                 <AdBanner/>
                 <Footer dark_bg={true} />
