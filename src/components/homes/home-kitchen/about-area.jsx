@@ -18,9 +18,9 @@ const AboutArea = () => {
                     <div className="col-lg-6">
                         <div className="about-image-gallery">
                             <div className="main-img-1" data-sal-delay="50" data-sal="slide-right" data-sal-duration="800">
-                                <img src="/assets/images/about/about-06.webp" alt="About Image" />
+                                <img src="/assets/images/about/pte-02.jpg" alt="About Image" />
                             </div>
-                            <img className="main-img-2" src="/assets/images/about/about-07.webp" alt="About Image" data-sal-delay="60" data-sal="slide-up" data-sal-duration="900" />
+                            <img className="main-img-2" src="/assets/images/about/pte-03.png" alt="About Image" data-sal-delay="60" data-sal="slide-up" data-sal-duration="900" />
                             <ul className="shape-group">
                                 <motion.li className="shape-1 scene" data-sal-delay="500" data-sal="fade" data-sal-duration="200"
                                     animate={ {
@@ -56,16 +56,16 @@ const AboutArea = () => {
                         <div className="about-content">
                             <div className="section-title section-left">
                                 <span className="pre-title">About Us</span>
-                                <h2 className="title">Welcome To Professional Language Training Course</h2>
+                                <h2 className="title">Welcome To Professional Training Course</h2>
                                 <span className="shape-line">
                                     <i className="icon-19"></i>
                                 </span>
-                                <p>Magna aliquaenim minim veniam quis nostrud exercitation ullamco laborisLorem ipsum dolor sit amet consectetur adipisicing elit sed do eius tempor incididunt labore.</p>
+                                <p>Our mission is to offer high-quality, results-oriented PTE courses that cater to every student’s unique learning style and needs.</p>
                             </div>
                             <ul className="features-list"> {lists.map((l, i) => <li key={i}>{l}</li>)} </ul>
-                            <Link href="/about-1" legacyBehavior>
+{/*                             <Link href="/about-1" legacyBehavior>
                                 <a className="edu-btn">Get Start Today <i className="icon-4"></i></a>
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>
