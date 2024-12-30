@@ -25,9 +25,9 @@ const index = () => {
                {/* <TeamArea/> */}
                 <CounterArea/>
                 <FaqArea/>
-                <EventArea event_2={true} />
+{/*                 <EventArea event_2={true} /> */}
                 <CtaArea/>
-                <BlogArea/>
+{/*                 <BlogArea/> */}
                 <AdBanner home_4={true} />
                 <Footer dark_bg={true} home_4={true} />
             </div>
