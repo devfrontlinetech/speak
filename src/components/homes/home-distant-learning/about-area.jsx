@@ -16,7 +16,7 @@ const AboutArea = () => {
                     <div className="col-lg-7">
                         <div className="about-image-gallery">
                             <img className="main-img-1" src="/assets/images/about/about-03.webp" alt="About Image" />
-                            <div className="author-box">
+{/*                             <div className="author-box">
                                 <div className="inner">
                                     <div className="thumb">
                                         <img src="/assets/images/about/shape-03.png" alt="Shape Image" />
@@ -26,7 +26,7 @@ const AboutArea = () => {
                                         <p>Minim veniam nostrud exer citation.</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="award-status bounce-slide">
                                 <div className="inner">
                                     <div className="icon">
