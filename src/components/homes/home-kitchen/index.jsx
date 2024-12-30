@@ -26,7 +26,7 @@ const index = () => {
 {/*                 <CoursesArea/> */}
                 <TestimonialArea/>
                 <CounterArea/>
-                // <TeamArea/>
+ {/*                <TeamArea/>   */}
                 <FaqArea/>
                 <AdBanner/>
 {/*                 <BlogArea/> */}
