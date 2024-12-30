@@ -72,11 +72,12 @@ const AboutArea = () => {
                         <div className="about-content">
                             <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 <span className="pre-title">About Us</span>
-                                <h2 className="title">Over 10 Years in <span className="color-secondary">Distant learning</span> for Skill development</h2>
+                                <h2 className="title">10+ Years of Expertise in Distance Learning for <span className="color-secondary">IELTS</span> Success</h2>
+                                
                                 <span className="shape-line">
                                     <i className="icon-19"></i>
                                 </span>
-                                <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim ad minim.</p>
+                                <p>Our expert instructors offer personalized guidance, practical strategies, and comprehensive resources to ensure success in every section of the IELTS exam. Whether you're preparing for academic or general training, our flexible online courses cater to your learning needs, helping you build the skills and confidence needed to excel. Join us and take the first step toward your IELTS success!</p>
                             </div>
                             <ul className="features-list" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"> {features_list.map((l,i) => <li key={i}>{l}</li>)} </ul>
                         </div>
