@@ -4,16 +4,16 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
 const accordion_items = [
     {
-        id: 'collapseOne', show: true, title: 'How can I contact a school directly?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        id: 'collapseOne', show: true, title: 'How can I contact a institute directly?',
+        desc: 'If you have any questions or need more information about our spoken English courses, we’re here to help! Please fill out the form below or reach us through our contact details.'
     },
     {
-        id: 'collapseTwo', show: false, title: 'How do I find a school where I want to study?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        id: 'collapseTwo', show: false, title: 'Is there a demo class available before I commit to the full course?',
+        desc: 'Yes, absolutely! We offer a free demo class so you can get a feel of the course before making a decision. The demo class covers some basic topics and gives you a chance to meet our instructors.'
     },
     {
-        id: 'collapseThree', show: false, title: 'Where should I study abroad?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        id: 'collapseThree', show: false, title: 'hanks a lot for the information! I’m looking forward to the demo class?',
+        desc: 'You’re welcome! We look forward to having you in our class. If you have any other questions, feel free to reach out anytime. Have a great day!'
     }
 ];
 
@@ -29,7 +29,7 @@ const FaqArea = () => {
                                 <span className="pre-title">FAQ’s</span>
                                 <h2 className="title">Learn Your Best Education Culture with SpeakSure</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt labore dolore magna.</p>
+                                <p>If you have any questions or need more information about our spoken English courses, we’re here to help! Please fill out the form below or reach us through our contact details.</p>
                             </div>
                             <div className="faq-accordion" id="faq-accordion">
                                 <div className="accordion">
