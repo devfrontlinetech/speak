@@ -18,9 +18,9 @@ const index = () => {
                 <HeroArea />
                 <Features />
                 <AboutArea />
-                <FaqArea />
+{/*                 <FaqArea /> */}
                 <Testimonial />
-                <VideoArea />
+{/*                 <VideoArea /> */}
                 <CounterArea />
                 <BlogArea />
                 <Footer />
