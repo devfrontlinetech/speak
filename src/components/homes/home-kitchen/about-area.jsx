@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
 const lists = [
-    'Cooking award achived', 
+    'Award achived', 
     'Available online courses', 
     'Online Certification'
 ];
