@@ -7,16 +7,16 @@ const CategoryArea = () => {
             <div className="container">
                 <div className="row g-5">
                     <FeatureBox delay={'50'} color={'color-primary-style'} icon={<SkilledLecturersTwo />}
-                    title={<><span>Skilled </span>Lecturers</>} text={'Lorem ipsum dolor consec tur elit adicing sed umod tempor.'} />
+                    title={<><span>Skilled </span>Lecturers</>} text={''} />
 
                     <FeatureBox delay={'100'} color={'color-secondary-style'} icon={<HybridDistanceProgramsTwo />}
-                    title={<><span>Distance</span> Programs</>} text={'Lorem ipsum dolor consec tur elit adicing sed umod tempor.'} />
+                    title={<><span>Distance</span> Programs</>} text={''} />
 
                     <FeatureBox delay={'150'} color={'color-extra08-style'} icon={<CertificateTwo />}
-                    title={<><span>Online</span>Certifications</>} text={'Lorem ipsum dolor consec tur elit adicing sed umod tempor.'} />
+                    title={<><span>Online</span>Certifications</>} text={''} />
                     
                     <FeatureBox delay={'150'} color={'color-extra05-style'} icon={<UserTwo />}
-                    title={<><span>6000</span>Members</>} text={'Lorem ipsum dolor consec tur elit adicing sed umod tempor.'} />
+                    title={<><span>200</span>Members</>} text={''} />
                 </div>
             </div>
         </div>
