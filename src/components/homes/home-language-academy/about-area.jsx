@@ -4,16 +4,16 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
 const tabs = {
     heading:[
-        {active:true,target:'about-edu',title:'About EduBlink'},
+        {active:true,target:'about-speaksure',title:'About SpeakSure'},
         {target:'about-mission',title:'Our Mission'},
         {target:'about-vision',title:'Our Vision'}
     ],
     content:[
-        {show:true,id:'about-edu',desc:"Magna aliquaenim minim veniam quis nostrud exercitation ullamco laborisLorem ipsum dolor sit amet consectetur adipisicing elit sed do eius tempor incididunt labore.",
+        {show:true,id:'about-edu',desc:"we are dedicated to helping you achieve your goals with the Canadian English Language Proficiency Index Program (CELPIP).",
         feature_list:['Education award achived','Available online courses']},
-        {id:'about-mission',desc:"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.",
+        {id:'about-mission',desc:" We are committed to providing high-quality, results-driven training that prepares students for success, whether they are pursuing immigration, academic goals, or career advancement.",
         feature_list:['Education award achived','Available online courses']},
-        {id:'about-vision',desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer.",
+        {id:'about-vision',desc:"We envision a world where our students not only excel in their CELPIP scores but also gain the language skills and cultural confidence to thrive in Canada’s diverse and dynamic environment.",
         feature_list:['Education award achived','Available online courses']}
     ]
 }
@@ -27,10 +27,10 @@ const AboutArea = () => {
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-6">
                         <div className="about-image-gallery">
-                            <img className="main-img-1" data-sal-delay="100" data-sal="fade-in" data-sal-duration="800" src="/assets/images/about/about-19.webp" alt="About Image" />
+                            <img className="main-img-1" data-sal-delay="100" data-sal="fade-in" data-sal-duration="800" src="/assets/images/about/celpip-02.jpg" alt="About Image" />
                             <div className="main-img-wrapper">
                                 <div className="main-img-inner" data-sal-delay="100" data-sal="fade-in" data-sal-duration="800">
-                                    <img className="main-img-2" src="/assets/images/about/about-20.webp" alt="About Image" />
+                                    <img className="main-img-2" src="/assets/images/about/celpip-01.png" alt="About Image" />
                                 </div>
                             </div>
 
@@ -54,7 +54,8 @@ const AboutArea = () => {
                         <div className="about-content">
                             <div className="section-title section-left">
                                 <span className="pre-title">About Us</span>
-                                <h2 className="title">We Provide Best <span className="color-primary">Language</span> Courses For You</h2>
+{/*                                 <h2 className="title">We Provide Best <span className="color-primary">Language</span> Courses For You</h2> */}
+                                <h2 className="title">Get to Know Us</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                             </div>
 
