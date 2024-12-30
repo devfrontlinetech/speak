@@ -102,7 +102,7 @@ const FaqArea = () => {
                         <div className="edu-faq-content">
                             <div className="section-title section-left">
 {/*                                 <span className="pre-title">FAQ’s</span> */}
-                                <h2 className="title">Over 10 Years in <span className="color-secondary">Distant <br /> Skill</span> development</h2>
+                                <h3 className="title">Over 10 Years in <span className="color-secondary">Distant <br /> Skill</span> development</h3>
                                 <span className="shape-line">
                                     <i className="icon-19"></i>
                                 </span>
