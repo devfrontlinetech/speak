@@ -8,7 +8,7 @@ const features = () => {
                     <span className="pre-title pre-textsecondary">features</span>
                     <h2 className="title">Explore Yourself All Over The World</h2>
                     <span className="shape-line"><i className="icon-19"></i></span>
-                    <p>Consectetur adipiscing elit sed do eiusmod tempor.</p>
+{/*                     <p>Consectetur adipiscing elit sed do eiusmod tempor.</p> */}
                 </div>
                 <div className="features-grid-wrap">
                     <div className="features-box features-style-6 ">
@@ -17,7 +17,7 @@ const features = () => {
                         </div>
                         <div className="content">
                             <h5 className="title">80+ Online Courses</h5>
-                            <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p>
+{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
                         </div>
                     </div>
                     <div className="features-box features-style-6 ">
@@ -26,7 +26,7 @@ const features = () => {
                         </div>
                         <div className="content">
                             <h5 className="title">Top Instructors</h5>
-                            <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p>
+{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
                         </div>
                     </div>
                     <div className="features-box features-style-6  feature-wrapper">
@@ -35,7 +35,7 @@ const features = () => {
                         </div>
                         <div className="content">
                             <h5 className="title">Online Certificates</h5>
-                            <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p>
+{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
                         </div>
                     </div>
                     <div className="features-box features-style-6 feature-wrapper">
@@ -44,7 +44,7 @@ const features = () => {
                         </div>
                         <div className="content">
                             <h5 className="title">6000k+ Members</h5>
-                            <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p>
+{/*                             <p>Lorem ipsum dolor sit amet cont adipiscing elit.</p> */}
                         </div>
                     </div>
                 </div>
