@@ -77,7 +77,7 @@ const AboutArea = () => {
                                 <span className="shape-line">
                                     <i className="icon-19"></i>
                                 </span>
-                                <p>Our expert instructors offer personalized guidance, practical strategies, and comprehensive resources to ensure success in every section of the IELTS exam. Whether you're preparing for academic or general training, our flexible online courses cater to your learning needs, helping you build the skills and confidence needed to excel. Join us and take the first step toward your IELTS success!</p>
+                                <p>Our expert instructors offer personalized guidance, practical strategies, and comprehensive resources to ensure success in every section of the IELTS exam. Join us and take the first step toward your IELTS success!</p>
                             </div>
                             <ul className="features-list" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800"> {features_list.map((l,i) => <li key={i}>{l}</li>)} </ul>
                         </div>
