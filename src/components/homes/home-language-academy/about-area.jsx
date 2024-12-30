@@ -9,7 +9,7 @@ const tabs = {
         {target:'about-vision',title:'Our Vision'}
     ],
     content:[
-        {show:true,id:'about-edu',desc:"we are dedicated to helping you achieve your goals with the Canadian English Language Proficiency Index Program (CELPIP).",
+        {show:true,id:'about-speaksure',desc:"we are dedicated to helping you achieve your goals with the Canadian English Language Proficiency Index Program (CELPIP).",
         feature_list:['Education award achived','Available online courses']},
         {id:'about-mission',desc:" We are committed to providing high-quality, results-driven training that prepares students for success, whether they are pursuing immigration, academic goals, or career advancement.",
         feature_list:['Education award achived','Available online courses']},
@@ -53,7 +53,7 @@ const AboutArea = () => {
                     <div className="col-lg-6" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
                         <div className="about-content">
                             <div className="section-title section-left">
-                                <span className="pre-title">About Us</span>
+{/*                                 <span className="pre-title">About Us</span> */}
 {/*                                 <h2 className="title">We Provide Best <span className="color-primary">Language</span> Courses For You</h2> */}
                                 <h2 className="title">Get to Know Us</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
@@ -84,7 +84,7 @@ const AboutArea = () => {
                             </div>
 
                             <div className="about-btn sal-animate" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <a href="#" className="edu-btn">Learn more <i className="icon-4"></i></a>
+{/*                                 <a href="#" className="edu-btn">Learn more <i className="icon-4"></i></a> */}
                             </div>
                         </div>
                     </div>
