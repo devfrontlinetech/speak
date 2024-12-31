@@ -17,13 +17,13 @@ const index = () => {
                 <Header/>
                 <HeroArea/>
                 <AboutArea/>
-                <CourseArea/>
+{/*                 <CourseArea/> */}
                 <CounterArea/>
                 <WhyChose/>
-                <TeamArea/>
-                <VideoArea/>
+{/*                 <TeamArea/> */}
+{/*                 <VideoArea/> */}
                 <TestimonialArea/>
-                <InstagramArea/>
+{/*                 <InstagramArea/> */}
                 <FooterFour/>
             </div>
         </div>
