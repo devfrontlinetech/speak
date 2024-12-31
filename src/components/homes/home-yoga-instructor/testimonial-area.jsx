@@ -7,28 +7,28 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 const testimonial_contents = {
     pre_title: 'Testimonials',
     title: 'What Our Students Have To Say',
-    sm_text: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor incididunt labore dolore magna aliquaenim ad minim.',
+    sm_text: 'Our students success stories speak volumes about the dedication and expertise we bring to the table. Here what some of our happy students have to say about their experience with us',
     testimonials: [
         {
             img: '/assets/images/testimonial/testimonial-01.png',
-            desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
+            desc: 'I couldn’t have made it without their guidance! The process was smooth and stress-free, and I’m now studying in the USA',
             ratings: [1, 2, 3, 4, 5],
             name: 'Ray Sanchez',
             title: 'Student'
         },
         {
             img: '/assets/images/testimonial/testimonial-02.png',
-            desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
+            desc: 'Thanks to the team at SpeakSure, I got my visa approval in no time and am now pursuing my dreams in Canada!',
             ratings: [1, 2, 3, 4, 5],
             name: 'Amber Page',
-            title: 'Designer'
+            title: 'Student'
         },
         {
             img: '/assets/images/testimonial/testimonial-03.png',
-            desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
+            desc: 'From start to finish, the team was supportive and informative. I’m so grateful for their help in securing my UK study visa!',
             ratings: [1, 2, 3, 4, 5],
             name: 'Sara Taylor',
-            title: 'developer'
+            title: 'Student'
         }
     ]
 }
