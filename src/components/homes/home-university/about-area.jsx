@@ -26,7 +26,7 @@ const tabs = {
         },
         {
             id:'about-mission',
-            desc:"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.",
+            desc:" to empower students worldwide to achieve their highest potential on the TOEFL exam. Through personalized instruction, expert-led courses, and a comprehensive approach to language learning, we equip our students with the skills, confidence, and strategies needed to succeed.",
             feature_list:[
                 'Industry Expert Instructor',
                 'Up-to-Date Course Content'
@@ -34,7 +34,7 @@ const tabs = {
         },
         {
             id:'about-vision',
-            desc:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer.",
+            desc:"be a global leader in TOEFL coaching, recognized for transforming students language proficiency and enabling them to thrive in academic and professional environments.",
             feature_list: [
                 'Online Remote Learning',
                 'Lifetime Access For Learning'
