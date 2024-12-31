@@ -15,8 +15,7 @@ const index = () => {
         <div className='sticky-header'>
             <div id="main-wrapper" className="main-wrapper">
                  <Header no_top_bar={true}/>
-                <Header/>
-                <HeroArea/>
+                 <HeroArea/>
                 <AboutArea/>
 {/*                 <CourseArea/> */}
                 <CounterArea/>
