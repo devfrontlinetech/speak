@@ -4,7 +4,7 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
 const contents = {
     pre_title: 'FAq’s',
-    title: 'Frequently Asked Questions.',
+    title: 'Step into Your Dream with PTE Achieve!',
     faq_img: "/assets/images/faq/faq-07.jpg",
     accordion_items: [
         {
