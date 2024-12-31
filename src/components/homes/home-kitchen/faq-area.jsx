@@ -33,7 +33,7 @@ const FaqArea = () => {
                     <div className="col-lg-6" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                         <div className="edu-faq-content">
                             <div className="section-title section-left">
-                                <span className="pre-title">{pre_title}</span>
+{/*                                 <span className="pre-title">{pre_title}</span> */}
                                 <h2 className="title">{title}</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                             </div>
