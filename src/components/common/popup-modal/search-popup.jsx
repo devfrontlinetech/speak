@@ -43,6 +43,7 @@ const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
         { id: 7, name: 'Language Training', link: '/language-training' },
         { id: 8, name: 'Toastmasters club training', link: '/language-training' },
         { id: 9, name: 'Visa Interview', link: '/contact-us' },
+        { id: 10, name: 'French', link: '/course-details/18'}
     
 
         ];
