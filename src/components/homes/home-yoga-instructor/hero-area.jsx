@@ -11,10 +11,10 @@ const HeroArea = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="banner-content">
-                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Yoga A Way of Feeling Relaxed & Calm!</h1>
-                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
+                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Step Into Your Future with a <span className="color-secondary"> Study Visa</span> !</h1>
+                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">global opportunities with expert guidance on study visas for top destinations. Let's make your dream of studying abroad a reality!</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="/" legacyBehavior>
+                                <Link href="/our-course" legacyBehavior>
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
@@ -23,7 +23,7 @@ const HeroArea = () => {
                     <div className="col-lg-6">
                         <div className="banner-thumbnail">
                             <div className="thumbnail" data-sal-delay="500" data-sal="slide-up" data-sal-duration="1000">
-                                <img src="/assets/images/banner/girl-3.webp" alt="Yoga Image" />
+                                <img src="/assets/images/banner/study-04.jpg" alt="Yoga Image" />
                             </div>
                             <ul className="shape-group">
                                 <li className="shape-1" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
