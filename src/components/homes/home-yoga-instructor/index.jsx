@@ -1,5 +1,5 @@
 import React from 'react';
-import { FooterFour, Header } from '../../../layout';
+import { Footer, Header } from '../../../layout';
 import AboutArea from './about-area';
 import CounterArea from './counter-area';
 import CourseArea from './course-area';
@@ -24,7 +24,7 @@ const index = () => {
 {/*                 <VideoArea/> */}
                 <TestimonialArea/>
 {/*                 <InstagramArea/> */}
-                <FooterFour/>
+                <Footer/>
             </div>
         </div>
     )
