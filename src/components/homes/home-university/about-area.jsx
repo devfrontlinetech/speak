@@ -18,7 +18,7 @@ const tabs = {
         {
             show:true,
             id:'about-edu',
-            desc:"Speaksure Academy, your trusted destination for mastering English proficiency exams. Specializing in IELTS, PTE, and CELPIP, TOEFL we offer expert-led courses designed to boost your scores and enhance your language skills. With personalized coaching, comprehensive study materials, and proven strategies, we ensure you're well-prepared to excel in these globally recognized exams. Whether you're aiming for immigration, education, or career advancement, Speaksure Academy is dedicated to your success. Achieve your goals with tailored programs that cater to every student's unique needs, helping you reach fluency with confidence..",
+            desc:"Speaksure Academy, your trusted destination for mastering English proficiency exams. Specializing in IELTS, PTE, and CELPIP, TOEFL we offer expert-led courses designed to boost your scores and enhance your language skills. Whether you're aiming for immigration, education, or career advancement, Speaksure Academy is dedicated to your success. Achieve your goals with tailored programs that cater to every student's unique needs, helping you reach fluency with confidence..",
             feature_list: [
                 'Education award achived',
                 'Available online courses'
