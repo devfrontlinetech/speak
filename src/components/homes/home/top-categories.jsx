@@ -8,50 +8,50 @@ const category_contents = {
             delay: '50',
             color: 'color-primary-style',
             icon: 'icon-9',
-            title: 'Competitive English Training',
-             link: '/competitive-exam'
+            title: 'Spoken English',
+             link: '/spoken-class'
         },
         {
             delay: '100',
             color: 'color-secondary-style',
             icon: 'icon-10 art-design',
-            title: 'Soft Skill Training',
-            link: '/spoken-english'
+            title: 'IELTS',
+            link: '/ielts'
         },
         {
             delay: '150',
             color: 'color-extra01-style',
             icon: 'icon-11 personal-development',
-            title: 'Communicative English Skills',
-            link: '/competitive-exam'
+            title: 'CELPIP',
+            link: '/celpip'
         },
         {
             delay: '50',
             color: 'color-tertiary-style',
             icon: 'icon-12 health-fitness',
-            title: 'Language Training',
-             link: '/language-training'
+            title: 'TOEFL',
+             link: '/toefl'
         },
         {
             delay: '100',
             color: 'color-extra02-style',
             icon: 'icon-13 data-science',
-            title: 'Merchandaiser Training',
-             link: '/spoken-english'
+            title: 'PTE',
+             link: '/pte'
         },
         {
             delay: '150',
             color: 'color-extra03-style',
             icon: 'icon-14',
-            title: 'Interview Training',
-             link: '/spoken-english'
+            title: 'Competitive English Training',
+             link: '/competitive-exam'
         },
         {
             delay: '50',
             color: 'color-extra04-style',
             icon: 'icon-15',
-            title: 'Business English Course',
-             link: '/spoken-english'
+            title: 'Language Training',
+             link: '/language-training'
         },
         {
             delay: '100',
