@@ -8,8 +8,8 @@ const category_contents = {
             delay: '50',
             color: 'color-primary-style',
             icon: 'icon-9',
-            title: 'Spoken English',
-             link: '/spoken-class'
+            title: 'Study Visa',
+             link: '/study-visa'
         },
         {
             delay: '100',
@@ -64,8 +64,8 @@ const category_contents = {
             delay: '150',
             color: 'color-extra06-style',
             icon: 'icon-17 video-photography',
-            title: 'Visa Interview Training',
-             link: '/contact-us'
+            title: 'Spoken English',
+             link: '/spoken-class'
         }
     ]
 }
