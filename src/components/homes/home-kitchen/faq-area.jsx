@@ -37,7 +37,7 @@ const FaqArea = () => {
                                 <h2 className="title">{title}</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                             </div>
-                            <div className="faq-accordion" id="faq-accordion">
+{/*                             <div className="faq-accordion" id="faq-accordion">
                                 <div className="accordion">
                                     {accordion_items.map((item, i) => {
                                         const { desc, id, show, title } = item;
@@ -57,7 +57,7 @@ const FaqArea = () => {
                                         )
                                     })}
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
