@@ -16,9 +16,9 @@ const CounterArea = () => {
                     {counter_data.map((count, i) => (
                         <div key={i} className="col-12 col-lg-3 col-md-6 col-sm-6">
                             <div className="edu-counterup counterup-style-6">
-                                <div className="icon">
+{/*                                 <div className="icon">
                                     <i className={count.icon}></i>
-                                </div>
+                                </div> */}
                                 <h2 className="counter-item count-number">
                                     <span className="odometer">
                                         <Counter number={parseFloat(count.count)} text={count.text} decimal={count.decimal} />
