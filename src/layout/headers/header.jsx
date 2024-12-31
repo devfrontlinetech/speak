@@ -21,16 +21,19 @@ import Cart from './component/cart';
         { id: 7, name: 'Language Training', link: '/language-training' },
         { id: 8, name: 'Toastmasters club training', link: '/language-training' },
         { id: 9, name: 'Visa Interview', link: '/contact-us' },
+        { id: 10, name: 'Study Visa', link:'/study-visa'},
     
 
         ];
 
 const categories = [
+    { title: 'Study Visa', link: '/study-visa'},
     { title: 'Spoken English', link: '/spoken-class' },
     { title: 'IELTS', link: '/ielts' },
     { title: 'CELPIP', link: '/celpip' },
     { title: 'TOEFL', link: '/toefl' },
     { title: 'PTE', link: '/pte' },
+    { title: 'Spoken English', link: '/spoken-class' },
    
    
 ];
