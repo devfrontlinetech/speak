@@ -6,19 +6,19 @@ const features = [
         color:'color-secondary-style',
         icon:'icon-81',
         title:'Exclusive Program',
-        text:'Magna aliquaenim minim veniam nostrud exercit ation ullamco laboris.'
+        text:'Designed for students who want a personalized and streamlined approach to their study visa journey.'
     },
     {
         color:'color-primary-style',
         icon:'icon-82',
         title:'Online Training',
-        text:'Consectetur adipisicing elit, sed do eiusmod tempor ux incididunt ut labore et dolore.'
+        text:' Online Training platform provides flexible, accessible, and comprehensive study materials that cater to students across the globe. '
     },
     {
         color:'color-extra05-style',
         icon:'icon-83',
         title:'Individual Care',
-        text:'Incididunt ut labore et dolore magna aliqua. Ut enim ad minim.'
+        text:'We believe in providing Individual Care to every student, offering personalized support and one-on-one consultation throughout your study visa process.'
     }
 ];
 
@@ -33,9 +33,9 @@ const WhyChose = () => {
                         <div className="why-choose-content">
                             <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 <span className="pre-title pre-textsecondary">Why Choose</span>
-                                <h2 className="title">Why Choose My Yoga Courses?</h2>
+                                <h2 className="title">Why We're the Best Choice for Your Study Visa Needs</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
-                                <p>Magna aliquaenim minim veniam quis nostrud exercitation ullamco laborisLorem ipsum dolor sit amet consectetur.</p>
+                                <p>When it comes to studying abroad, choosing the right partner to guide you through the visa process is crucial. At SpeakSure Academy, we provide expert advice, personalized support, and a seamless process to ensure you succeed in obtaining your study visa.</p>
                             </div>
                             <div className="features-list" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 {features.map((item,i) => {
