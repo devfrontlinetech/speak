@@ -17,20 +17,20 @@ const AboutArea = () => {
                         <div className="col-lg-6">
                             <div className="about-image-gallery">
                                 <img className="main-img-1" src="/assets/images/about/about-01.webp" alt="About Image" />
-                                <div className="video-box" data-sal-delay="150" data-sal="slide-down" data-sal-duration="800">
+{/*                                 <div className="video-box" data-sal-delay="150" data-sal="slide-down" data-sal-duration="800">
                                     <div className="inner">
-{/*                                         <div className="thumb">
+                                         <div className="thumb">
                                             <img src="/assets/images/about/about-02.webp" alt="About Image" />
                                             <button onClick={() => setIsVideoOpen(true)} className="popup-icon video-popup-activation border-0" aria-label="Name">
                                             <i className="icon-18"></i>
                                             </button>
-                                        </div> */}
+                                        </div> 
                                         <div className="loading-bar">
                                             <span></span>
                                             <span></span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="award-status bounce-slide">
                                     <div className="inner">
                                         <div className="icon">
