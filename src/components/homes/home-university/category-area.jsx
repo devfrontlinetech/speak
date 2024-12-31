@@ -34,7 +34,7 @@ const CategoryArea = () => {
                             </div>
                             <div className="content">
                                 <h4 className="title">{c.title}</h4>
-                                <p>{c.text}</p>
+{/*                                 <p>{c.text}</p> */}
                             </div>
                         </div>
                     ))}
