@@ -28,7 +28,6 @@ import Cart from './component/cart';
 
 const categories = [
     { title: 'Study Visa', link: '/study-visa'},
-    { title: 'Spoken English', link: '/spoken-class' },
     { title: 'IELTS', link: '/ielts' },
     { title: 'CELPIP', link: '/celpip' },
     { title: 'TOEFL', link: '/toefl' },
