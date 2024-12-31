@@ -1,5 +1,5 @@
 import React from 'react';
-import { FooterTwo, Header } from '../../../layout';
+import { Footer, Header } from '../../../layout';
 import AboutArea from './about-area';
 import AdBanner from './ad-banner';
 import BlogArea from './blog-area';
@@ -31,7 +31,7 @@ const index = () => {
                 <AdBanner/>
 {/*                 <BlogArea/> */}
 {/*                 <InstagramArea/> */}
-                <FooterTwo/>
+                <Footer dark_bg={true} />
             </div>
         </div>
     )
