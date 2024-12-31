@@ -31,7 +31,7 @@ const Categories = () => {
 {/*                     <p>Consectetur adipiscing elit sed do eiusmod tempor.</p> */}
                 </div>
                 <div className="row row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 g-4">
-                    <Category delay={'100'} color={'color-primary-style'} icon="icon-9" title={'Spoken English'} />
+                    <Category delay={'100'} color={'color-primary-style'} icon="icon-9" title={'Study Visa'} />
                     <Category delay={'150'} color={'color-secondary-style'} icon="icon-10" title={'IELTS'} />
                     <Category delay={'200'} color={'color-extra04-style'} icon="icon-11" title={'PTE'} />
                     <Category delay={'250'} color={'color-tertiary-style'} icon="icon-12" title={'TOEFL'} />
