@@ -36,6 +36,12 @@ const FaqArea = () => {
 {/*                                 <span className="pre-title">{pre_title}</span> */}
                                 <h2 className="title">{title}</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
+                                <p>Every dream begins with a single step. Let that step be your commitment to prepare for the PTE, and with every effort, you move closer to the future you’ve always dreamed of.</p>
+                                <p>Receive one-on-one coaching from experienced instructors who tailor lessons to your unique strengths and areas for improvement, ensuring focused and efficient learning.</p>
+                                <p>Enjoy the flexibility of studying at your own pace with our online platform, which provides 24/7 access to lessons, practice exercises, and additional resources.</p>
+                                <p> Step into your dreams, because with every lesson, you’re one step closer to making them a reality.</p>
+                                <p>With PTE Achieve, you're not just learning for a test—you're learning for your future.</p>
+                                
                             </div>
 {/*                             <div className="faq-accordion" id="faq-accordion">
                                 <div className="accordion">
