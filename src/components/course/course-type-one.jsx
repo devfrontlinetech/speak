@@ -72,7 +72,7 @@ const CourseTypeOne = ({ data, classes, image_location_path='01' }) => {
                         </div>
                         <span className="rating-count">({data.rating} /{data.rating_count} Rating)</span>
                     </div>
-                    <div className="course-price">${data.course_price}</div>
+                    <div className="course-price">{data.course_price}</div>
                     <ul className="course-meta">
                         <li><i className="icon-24"></i>{data.lesson} Lessons</li>
                         <li><i className="icon-25"></i>{data.student} Students</li>
