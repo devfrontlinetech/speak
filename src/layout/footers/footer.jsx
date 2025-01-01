@@ -4,7 +4,7 @@ import FooterSocial from "./component/footer-social";
 const footer_contents = {
     logoLight: '/assets/images/logo/logo.jpg',
     logoDark: '/assets/images/logo/logo.jpg',
-    desc: 'Welcome to Speaksure Academy, your trusted destination for mastering English proficiency exams.',
+    desc: 'Welcome to Speaksure Academy, your trusted destination for mastering English proficiency exams. Specializing in IELTS, PTE, and CELPIP, TOEFL we offer expert-led courses designed to boost your scores and enhance your language skills.',
     add: '29/11 A Old Bypass Road, Near SBI, Karur 1.',
     call: '+91-9789655455',
     email: 'speaksure@gmail.com',
