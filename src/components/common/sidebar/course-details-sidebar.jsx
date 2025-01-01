@@ -34,7 +34,7 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
                                     <span className="label"><i className="icon-60"></i>Price:</span>
                                      <button className="click">
                                         <span className="value price" style={{ cursor: 'pointer' }} onClick={handleWhatsAppClick}>
-                                            price
+                                            Ask
                                         </span>
                                      </button>
                                 </li>
