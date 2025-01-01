@@ -9,7 +9,7 @@ const course_data = [
       title: 'Mastering Spoken English for Everyday Conversations',
       rating: '4.8',
       rating_count: 15,
-      course_price: '59.00',
+      course_price: '',
       lesson: 12,
       student: 50,
       category: 'Language & Communication',
@@ -94,7 +94,7 @@ const course_data = [
     "title": "Communicative English Training: Speaking & Listening for Confidence",
     "rating": "4.7",
     "rating_count": 55,
-    "course_price": "79.99",
+    "course_price": "",
     "lesson": 12,
     "student": 80,
     "category": "Language & Communication",
@@ -217,7 +217,7 @@ const course_data = [
   "title": "English Fluency Training: Speak Like a Native",
   "rating": "4.9",
   "rating_count": 30,
-  "course_price": "99.99",
+  "course_price": "",
   "lesson": 12,
   "student": 65,
   "category": "Language Learning",
@@ -340,7 +340,7 @@ const course_data = [
   "title": "Business English Mastery: Communicating Effectively in the Workplace",
   "rating": "4.8",
   "rating_count": 40,
-  "course_price": "89.99",
+  "course_price": "",
   "lesson": 15,
   "student": 65,
   "category": "Language & Communication",
@@ -480,7 +480,7 @@ const course_data = [
       "title": "Mastering Interview Skills: Comprehensive Training Course",
       "rating": "4.7",
       "rating_count": 15,
-      "course_price": "89.99",
+      "course_price": "",
       "lesson": 12,
       "student": 50,
       "category": "Career development",
@@ -565,7 +565,7 @@ const course_data = [
     "title": "Visa Interview Training: Mastering the Process",
     "rating": "4.8",
     "rating_count": 20,
-    "course_price": "79.99",
+    "course_price": "",
     "lesson": 10,
     "student": 45,
     "category": "Travel & Immigration",
@@ -672,7 +672,7 @@ const course_data = [
   title: 'Merchandaiser Training',
   rating: '4.8',
   rating_count: 15,
-  course_price: '129.99',
+  course_price: '',
   lesson: 30,
   student: 52,
   category: 'Business',
@@ -755,7 +755,7 @@ const course_data = [
   title: 'Soft Skills Training',
   rating: '4.8',
   rating_count: 30,
-  course_price: '89.99',
+  course_price: '',
   lesson: 15,
   student: 50,
   category: 'Professional development',
@@ -835,7 +835,7 @@ const course_data = [
     title: 'IELTS Preparation Course',
     rating: '4.8',
     rating_count: 200,
-    course_price: '149.99',
+    course_price: '',
     lesson: 30,
     student: 150,
     category: 'Language & Test Prep',
@@ -905,7 +905,7 @@ const course_data = [
     title: 'PTE Academic Test Preparation',
     rating: '4.7',
     rating_count: 150,
-    course_price: '99.99',
+    course_price: '',
     lesson: 20,
     student: 200,
     category: 'Language & Test Prep',
@@ -992,7 +992,7 @@ const course_data = [
     title: 'TOEFL Test Preparation',
     rating: '4.8',
     rating_count: 200,
-    course_price: '109.99',
+    course_price: '',
     lesson: 22,
     student: 300,
     category: 'Language & Test Prep',
@@ -1086,7 +1086,7 @@ const course_data = [
     title: 'CELPIP Test Preparation (General & Academic)',
     rating: '4.9',
     rating_count: 120,
-    course_price: '79.99',
+    course_price: '',
     lesson: 10,
     student: 180,
     category: 'Language & Test Prep',
@@ -1172,7 +1172,7 @@ const course_data = [
   title: 'OET Test Preparation (Healthcare Professionals)',
   rating: '4.8',
   rating_count: 65,
-  course_price: '59.99',
+  course_price: '',
   lesson: 18,
   student: 50,
   category: 'Language & Test Prep',
@@ -1263,7 +1263,7 @@ const course_data = [
     title: 'Young Learners English Training',
     rating: '4.5', // Average rating
     rating_count: 55, // Number of ratings
-    course_price: '60', // Course price
+    course_price: '', // Course price
     lesson: 12, // Number of lessons
     student: 50, // Number of students enrolled
     category: 'Language', // Category of the course
@@ -1347,7 +1347,7 @@ const course_data = [
     title: 'Hindi Language Training - Learn Hindi from Scratch',
     rating: '4.8', // Average rating
     rating_count: 60, // Number of ratings
-    course_price: '70', // Course price
+    course_price: '', // Course price
     lesson: 16, // Number of lessons
     student: 50, // Number of students enrolled
     category: 'Language', // Course category
@@ -1432,7 +1432,7 @@ const course_data = [
   title: 'French Language Class - Learn French from Basics to Advanced',
   rating: '4.9', // Average rating
   rating_count: 45, // Number of ratings
-  course_price: '50', // Course price
+  course_price: '', // Course price
   lesson: 20, // Number of lessons
   student: 40, // Number of students enrolled
   category: 'Language development', // Course category
@@ -1528,7 +1528,7 @@ const course_data = [
   title: 'German Language Mastery - Speak German with Confidence',
   rating: '4.5', // Average rating
   rating_count: 50, // Number of ratings
-  course_price: '60', // Course price
+  course_price: '', // Course price
   lesson: 15, // Number of lessons
   student: 40, // Number of students enrolled
   category: 'Language Learning', // Course category
@@ -1624,7 +1624,7 @@ const course_data = [
     title: 'Toastmasters Public Speaking and Leadership Training',
     rating: '5',
     rating_count: 40,
-    course_price: '75',
+    course_price: '',
     lesson: 20,
     student: 36,
     category:'Academics',
