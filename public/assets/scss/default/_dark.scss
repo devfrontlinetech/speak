@@ -1957,6 +1957,8 @@
                 a.cart-icon,
                 button.search-trigger {
                     color: var(--color-white);
+		    background: transparent;
+                    border: none;
                 }
             }
         }
