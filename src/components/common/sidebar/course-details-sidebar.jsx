@@ -10,7 +10,7 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
 
     // Generate the WhatsApp message without including the image URL
     const handleWhatsAppClick = () => {
-        const phoneNumber = '9585086741'; // Replace with the desired phone number
+        const phoneNumber = '9789655455'; // Replace with the desired phone number
         const message = `Hi, I’m interested in the course:\n\n*Course Title*: ${title}\n*Price*: ?\n\nCould you please provide more details about it?`;
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(whatsappURL, '_blank');
