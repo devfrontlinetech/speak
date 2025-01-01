@@ -55,7 +55,7 @@ const CourseTypeFour = ({ data, classes }) => {
                     </Link>
                 </div>
                 <div className="content">
-                    <div className="course-price price-round">${Math.trunc(data.course_price)}</div>
+                    <div className="course-price price-round">{Math.trunc(data.course_price)}</div>
                     <span className="course-level">{data.level}</span>
                     <h5 className="title">
                         <Link href={`/course-details/${data.id}`} legacyBehavior>
