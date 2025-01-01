@@ -32,9 +32,11 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
                             <ul className="course-item">
                                 <li>
                                     <span className="label"><i className="icon-60"></i>Price:</span>
-                                    <span className="value price" style={{ cursor: 'pointer' }} onClick={handleWhatsAppClick}>
-                                        price
-                                    </span>
+                                     <button className="click">
+                                        <span className="value price" style={{ cursor: 'pointer' }} onClick={handleWhatsAppClick}>
+                                            price
+                                        </span>
+                                     </button>
                                 </li>
 
                                 <li>
