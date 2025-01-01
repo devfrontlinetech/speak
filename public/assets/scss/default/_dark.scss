@@ -1957,11 +1957,14 @@
                 a.cart-icon,
                 button.search-trigger {
                     color: var(--color-white);
-		    background: transparent;
-                    border: none;
+		    
                 }
             }
         }
+	    .search-trigger{
+		    background: transparent;
+                    border: none;
+	    }
         .header-btn {
             a {
                 color: var(--color-white);
