@@ -64,8 +64,8 @@ const SearchPopup = ({ isSearchOpen, setIsSearchOpen }) => {
     <div className={`edu-search-popup ${isSearchOpen ? 'open' : ''}`}>
       <div className="content-wrap">
         <div className="site-logo">
-                <img className="logo-light" src='/assets/images/santhosh/Speaksure.png' alt="logo" />
-                <img className="logo-dark" src='/assets/images/santhosh/Speaksure.png' alt="logo" />
+                <img className="logo-light" src='/assets/images/santhosh/speaksure.png' alt="logo" />
+                <img className="logo-dark" src='/assets/images/santhosh/speaksure.png' alt="logo" />
         </div>
         <div className="close-button" onClick={() => setIsSearchOpen(false)}>
           <button className="close-trigger">
