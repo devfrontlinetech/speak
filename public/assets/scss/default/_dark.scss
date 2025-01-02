@@ -1947,10 +1947,7 @@
     ---------------------*/
     .header-action {
         li {
-		.search-trigger{
-			 background: transparent!important;
-                    border: none!important;
-		}
+		
 		
             &.icon {
                 a {
@@ -3118,4 +3115,8 @@
             }
         }
     }
+	.search-trigger{
+			 background: transparent!important;
+                    border: none!important;
+		}
 }
