@@ -1955,10 +1955,14 @@
                         color: var(--color-white);
                     }
                 }
-                a.search-trigger,
-                a.cart-icon,.search-trigger {
+               a.search-trigger,
+                a.cart-icon,
+                button.search-trigger{
                     color: var(--color-white);
 		     
+	            background: transparent!important;
+                    border: none!important;
+		
                 }
             }
         }
@@ -3115,8 +3119,5 @@
             }
         }
     }
-	.search-trigger{
-			 background: transparent!important;
-                    border: none!important;
-		}
+	
 }
