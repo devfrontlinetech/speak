@@ -1947,6 +1947,11 @@
     ---------------------*/
     .header-action {
         li {
+		.search-trigger{
+			 background: transparent!important;
+                    border: none!important;
+		}
+		
             &.icon {
                 a {
                     .count {
@@ -1954,13 +1959,9 @@
                     }
                 }
                 a.search-trigger,
-                a.cart-icon,
-                button.search-trigger {
+                a.cart-icon,.search-trigger {
                     color: var(--color-white);
 		     
-		    background: transparent!important;
-                    border: none!important;
-	    
                 }
             }
         }
