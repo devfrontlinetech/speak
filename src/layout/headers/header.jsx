@@ -146,7 +146,7 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                           
                                         </button>  */}
                                        
-                                        <button style={{cursor:'pointer',backgroundColor:'transparent',border:'none'}} type="button" onClick={() => setIsSearchOpen(true)} className="search-trigger">
+                                        <button  aria-label="Name" style={{cursor:'pointer',backgroundColor:'transparent',border:'none'}} type="button" onClick={() => setIsSearchOpen(true)} className="search-trigger">
                                             <i className="icon-2" style={{fontSize:'25px'}}></i>
                                         </button>
                                     
