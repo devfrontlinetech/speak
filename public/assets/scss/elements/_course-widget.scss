@@ -271,3 +271,9 @@
             display: inline-block;
             font-size: 13px;
         }
+
+/* Glow effect on hover */
+button.click:hover .value.price {
+    box-shadow: 0 0 8px 3px #1ab69d;  /* Glow effect */
+    transition: box-shadow 0.3s ease-in-out;  /* Smooth transition */
+}
