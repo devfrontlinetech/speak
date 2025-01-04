@@ -45,7 +45,7 @@ const { mouseDirection, mouseReverse } = useMouseMoveUI();
                                             <img src="/assets/images/banner/author-1.png" alt="Images" />
                                         </div>
                                         <div className="content">
-                                            <span>Best</span> Instructors
+                                            <span>15</span> Instructors
                                         </div>
                                     </div>
                                 </div>
