@@ -110,12 +110,12 @@ const menu_data = [
         title: 'Blog',
         link: '/blog-details',
         mega_menu: false,
-        submenus: [
+      //  submenus: [
            /* { title: 'Blog Standard', link: '/blog-standard' },
             { title: 'Blog Masonry', link: '/blog-masonry' },
             { title: 'Blog List', link: '/blog-list' },*/
             //{ title: 'Blog Details', link: '/blog-details' }
-        ]
+      //  ]
     }, 
     {
         title: 'LMS',
