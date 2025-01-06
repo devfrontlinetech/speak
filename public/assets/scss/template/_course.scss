@@ -42,7 +42,7 @@
             img {
                 border-radius: 5px 5px 0 0;
                 transition: 0.4s;
-                width: 100%;
+                width: 100%!important;
             }
             &:after {
                 content: "";
