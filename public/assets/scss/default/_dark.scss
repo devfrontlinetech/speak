@@ -125,7 +125,8 @@
     .edu-course.course-style-5 .content .course-meta li,
     .edu-breadcrumb-area.breadcrumb-style-4 .course-meta li,
     .pricing-table .pricing-body .list-item li.item-off {
-        color: var(--color-body);
+        // color: var(--color-body);
+	    color: white;
     }
 
     .about-image-gallery .video-box .inner .thumb .popup-icon:hover,
