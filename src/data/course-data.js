@@ -1,15 +1,15 @@
 const course_data = [
   
     {
-      id: 1,
+      id: 'spoken-english',
       img: 'course-01.jpg',
       duration: '6 Weeks',
       course_outline: 'Online + Onsite',
       level: 'Beginner to Advanced',
-      title: 'Mastering Spoken English for Everyday Conversations',
+      title: 'Mastering Spoken English',
       rating: '4.8',
       rating_count: 15,
-      course_price: '',
+      course_price: '59.00',
       lesson: 12,
       student: 50,
       category: 'Language & Communication',
@@ -86,138 +86,138 @@ const course_data = [
     },
     
     {
-      id:"2",
-     "img": "course-02.jpg",
-    "duration": "8 Weeks",
-    "course_outline": "Online + Onsite",
-    "level": "Beginner to Intermediate",
-    "title": "Communicative English Training: Speaking & Listening for Confidence",
-    "rating": "4.7",
-    "rating_count": 55,
-    "course_price": "",
-    "lesson": 12,
-    "student": 80,
-    "category": "Language & Communication",
-    "short_desc": "Boost your spoken English skills and gain the confidence to communicate effectively in any setting.",
-    "instructor": "Anbarasi",
-    "instructor_img": "team-06.webp",
-    "instructor_title": "English Communication Specialist",
-    "instructor_desc": "She is an expert in teaching spoken English with over 8 years of experience in helping non-native speakers build confidence in communication.",
-    "features": [
+      id: 'english-training',
+     img: "course-06.jpg",
+    duration: "8 Weeks",
+    course_outline: "Online + Onsite",
+    level: "Beginner to Intermediate",
+    title: "Communicative English Training",
+    rating: "4.7",
+    rating_count: 55,
+    course_price: "79.99",
+    lesson: 12,
+    student: 80,
+    category: "Language & Communication",
+    short_desc: "Boost your spoken English skills and gain the confidence to communicate effectively in any setting.",
+    instructor: "Anbarasi",
+    instructor_img: "team-06.webp",
+    instructor_title: "English Communication Specialist",
+    instructor_desc: "She is an expert in teaching spoken English with over 8 years of experience in helping non-native speakers build confidence in communication.",
+  features: [
         "Engage in interactive speaking exercises to develop fluency.",
         "Focus on practical vocabulary and expressions used in everyday conversations.",
         "Learn listening techniques to better understand native speakers."
     ],
-    "social_links": [
-        { "link": "http://facebook.com", "target": "_blank", "icon": "icon-facebook" },
-        { "link": "http://twitter.com", "target": "_blank", "icon": "icon-twitter" },
-        { "link": "https://www.linkedin.com/", "target": "_blank", "icon": "icon-linkedin2" },
-        { "link": "https://www.youtube.com/", "target": "_blank", "icon": "icon-youtube" }
+    social_links: [
+        { link: "http://facebook.com", "target": "_blank", "icon": "icon-facebook" },
+        { link: "http://twitter.com", "target": "_blank", "icon": "icon-twitter" },
+        { link: "https://www.linkedin.com/", "target": "_blank", "icon": "icon-linkedin2" },
+        { link: "https://www.youtube.com/", "target": "_blank", "icon": "icon-youtube" }
     ],
-    "language": "English",
-    "certificate": "yes",
-    "videoId": "abc123xyz",
-    "course_desc": "This dynamic course is designed to improve your speaking and listening skills in real-world situations, helping you feel more confident in conversations.",
-    "course_desc_2": "Through practical exercises, role-plays, and interactive sessions, you’ll strengthen your ability to communicate fluently in everyday and professional settings.",
-    "learn_list": [
+    language: "English",
+    certificate: "yes",
+    videoId: "abc123xyz",
+    course_desc: "This dynamic course is designed to improve your speaking and listening skills in real-world situations, helping you feel more confident in conversations.",
+    course_desc_2: "Through practical exercises, role-plays, and interactive sessions, you’ll strengthen your ability to communicate fluently in everyday and professional settings.",
+    learn_list: [
         "Enhance speaking fluency and pronunciation.",
         "develop listening skills to understand native speakers with ease.",
         "Learn effective communication strategies for social and professional situations."
     ],
-    "course_desc_3": "By the end of this course, you'll be able to participate confidently in conversations and discussions, both in personal and professional environments.",
-    "curriculum_desc": "The curriculum spans 8 weeks, focusing on key areas of speaking and listening, using real-world scenarios to enhance language skills.",
-    "course_lessons": [
+    course_desc_3: "By the end of this course, you'll be able to participate confidently in conversations and discussions, both in personal and professional environments.",
+    curriculum_desc: "The curriculum spans 8 weeks, focusing on key areas of speaking and listening, using real-world scenarios to enhance language skills.",
+    course_lessons: [
         {
-            "title": "Week 1: Introduction to Communicative English",
-            "text": "Get familiar with key vocabulary and expressions used in everyday conversations.",
-            "lessons": [
-                { "title": "Common Phrases for Everyday Conversations", "icon": "icon-68" },
-                { "title": "Building Confidence in Speaking", "icon": "icon-68" },
-                { "title": "Pronunciation Basics", "icon": "icon-68" }
+            title: "Week 1: Introduction to Communicative English",
+            text: "Get familiar with key vocabulary and expressions used in everyday conversations.",
+            lessons: [
+                { title: "Common Phrases for Everyday Conversations", "icon": "icon-68" },
+                { title :"Building Confidence in Speaking", "icon": "icon-68" },
+                { title: "Pronunciation Basics", "icon": "icon-68" }
             ]
         },
         {
-            "title": "Week 2: Asking and Answering Questions",
-            "text": "Master the art of asking and answering questions in various situations.",
-            "lessons": [
-                { "title": "Yes/No Questions", "icon": "icon-68" },
-                { "title": "Open-Ended Questions", "icon": "icon-68" },
-                { "title": "Follow-up Questions", "icon": "icon-68" }
+            title: "Week 2: Asking and Answering Questions",
+            text: "Master the art of asking and answering questions in various situations.",
+            lessons: [
+                { title: "Yes/No Questions", "icon": "icon-68" },
+                { title: "Open-Ended Questions", "icon": "icon-68" },
+                { title: "Follow-up Questions", "icon": "icon-68" }
             ]
         },
         {
-            "title": "Week 3: Effective Listening Skills",
-            "text": "Learn how to understand and respond to what native speakers are saying.",
-            "lessons": [
-                { "title": "Listening for Key Information", "icon": "icon-68" },
-                { "title": "Understanding Accents and Varieties", "icon": "icon-68" },
-                { "title": "Active Listening Techniques", "icon": "icon-68" }
+          title: "Week 3: Effective Listening Skills",
+            text: "Learn how to understand and respond to what native speakers are saying.",
+            lessons: [
+                { title: "Listening for Key Information", "icon": "icon-68" },
+                { title: "Understanding Accents and Varieties", "icon": "icon-68" },
+                { title: "Active Listening Techniques", "icon": "icon-68" }
             ]
         },
         {
-            "title": "Week 4: Speaking with Clarity",
-            "text": "develop your speaking skills to sound more natural and clear in conversation.",
-            "lessons": [
-                { "title": "Intonation and Stress", "icon": "icon-68" },
-                { "title": "Reducing Common Mistakes in Pronunciation", "icon": "icon-68" },
-                { "title": "Fluency and Speed in Speaking", "icon": "icon-68" }
+            title: "Week 4: Speaking with Clarity",
+            text: "develop your speaking skills to sound more natural and clear in conversation.",
+            lessons: [
+                { title: "Intonation and Stress", "icon": "icon-68" },
+                { title: "Reducing Common Mistakes in Pronunciation", "icon": "icon-68" },
+                { title: "Fluency and Speed in Speaking", "icon": "icon-68" }
             ]
         },
         {
-            "title": "Week 5: Social Conversations",
-            "text": "Learn how to participate in casual conversations and small talk.",
-            "lessons": [
-                { "title": "Making Introductions", "icon": "icon-68" },
-                { "title": "Talking About Hobbies and Interests", "icon": "icon-68" },
-                { "title": "Talking About the Weather", "icon": "icon-68" }
+            title: "Week 5: Social Conversations",
+            text: "Learn how to participate in casual conversations and small talk.",
+            lessons: [
+                { title: "Making Introductions", "icon": "icon-68" },
+                { title: "Talking About Hobbies and Interests", "icon": "icon-68" },
+                { title: "Talking About the Weather", "icon": "icon-68" }
             ]
         },
         {
-            "title": "Week 6: Expressing Opinions and Ideas",
-            "text": "Gain the confidence to express your thoughts and opinions clearly and politely.",
-            "lessons": [
-                { "title": "Agreeing and Disagreeing Politely", "icon": "icon-68" },
-                { "title": "Giving and Asking for Opinions", "icon": "icon-68" },
-                { "title": "Explaining and Clarifying Ideas", "icon": "icon-68" }
+            title: "Week 6: Expressing Opinions and Ideas",
+            text: "Gain the confidence to express your thoughts and opinions clearly and politely.",
+            lessons: [
+                { title: "Agreeing and Disagreeing Politely", "icon": "icon-68" },
+                { title: "Giving and Asking for Opinions", "icon": "icon-68" },
+                { title: "Explaining and Clarifying Ideas", "icon": "icon-68" }
             ]
         },
         {
-            "title": "Week 7: Business Communication",
-            "text": "Enhance your communication skills for the workplace.",
-            "lessons": [
-                { "title": "Making Requests and Giving Instructions", "icon": "icon-68" },
-                { "title": "Participating in Meetings", "icon": "icon-68" },
-                { "title": "Writing and Speaking for Professional Settings", "icon": "icon-68" }
+            title: "Week 7: Business Communication",
+            text: "Enhance your communication skills for the workplace.",
+            lessons: [
+                { title: "Making Requests and Giving Instructions", "icon": "icon-68" },
+                { title: "Participating in Meetings", "icon": "icon-68" },
+                { title: "Writing and Speaking for Professional Settings", "icon": "icon-68" }
             ]
         },
         {
-            "title": "Week 8: Final Practice and Review",
-            "text": "Apply everything you've learned in a final review and practice session.",
-            "lessons": [
-                { "title": "Final Speaking Exercise", "icon": "icon-68" },
-                { "title": "Final Listening Exercise", "icon": "icon-68" },
-                { "title": "Course Recap and Feedback", "icon": "icon-68" }
+            title: "Week 8: Final Practice and Review",
+            text: "Apply everything you've learned in a final review and practice session.",
+            lessons: [
+                { title: "Final Speaking Exercise", "icon": "icon-68" },
+                { title: "Final Listening Exercise", "icon": "icon-68" },
+                { title: "Course Recap and Feedback", "icon": "icon-68" }
             ]
         }
     ],
-    "reviews": [
-        { "img": "/assets/images/blog/comment-01.jpg", "rating": 5, "name": "Laura Green", "date": "Sep 30, 2023", "desc": "I now feel much more confident speaking English in both personal and work situations." },
-        { "img": "/assets/images/blog/comment-02.jpg", "rating": 5, "name": "Mark Lewis", "date": "Oct 5, 2023", "desc": "The course provided great speaking exercises that really helped me improve my fluency." },
-        { "img": "/assets/images/blog/comment-03.jpg", "rating": 5, "name": "Emma Davis", "date": "Oct 10, 2023", "desc": "James’ tips for active listening made a big difference in understanding native speakers." }
+    reviews: [
+        { img: "/assets/images/blog/comment-01.jpg", "rating": 5, "name": "Laura Green", "date": "Sep 30, 2023", "desc": "I now feel much more confident speaking English in both personal and work situations." },
+        { img: "/assets/images/blog/comment-02.jpg", "rating": 5, "name": "Mark Lewis", "date": "Oct 5, 2023", "desc": "The course provided great speaking exercises that really helped me improve my fluency." },
+        { img: "/assets/images/blog/comment-03.jpg", "rating": 5, "name": "Emma Davis", "date": "Oct 10, 2023", "desc": "James’ tips for active listening made a big difference in understanding native speakers." }
     ]
   },
   
   {
-    "id": 3,
+    id: 'speak-fluency',
     
-  "img": "fluency.jpg",
-  "duration": "8 Weeks",
-  "course_outline": "Online + Onsite",
-  "level": "Beginner to Advanced",
-  "title": "English Fluency Training: Speak Like a Native",
+  img: "fluency.jpg",
+  duration: "8 Weeks",
+  course_outline: "Online + Onsite",
+  level: "Beginner to Advanced",
+  "title": "English Fluency Training",
   "rating": "4.9",
   "rating_count": 30,
-  "course_price": "",
+  "course_price": "99.99",
   "lesson": 12,
   "student": 65,
   "category": "Language Learning",
@@ -332,15 +332,15 @@ const course_data = [
 },
 
 {
-  "id": 4,
+  "id": 'business-english-mastery',
   "img": "course-04.jpg",
   "duration": "10 Weeks",
   "course_outline": "Online + Onsite",
   "level": "Beginner to Advanced",
-  "title": "Business English Mastery: Communicating Effectively in the Workplace",
+  "title": "Business English Mastery",
   "rating": "4.8",
   "rating_count": 40,
-  "course_price": "",
+  "course_price": "89.99",
   "lesson": 15,
   "student": 65,
   "category": "Language & Communication",
@@ -472,19 +472,19 @@ const course_data = [
 },
 
 {
-    id: 5,
+    id: 'training-course',
     "img": "course-02.jpg",
       "duration": "4 Weeks",
       "course_outline": "Online + Onsite",
       "level": "Beginner to Advanced",
-      "title": "Mastering Interview Skills: Comprehensive Training Course",
+      "title": "Mastering Interview Skills",
       "rating": "4.7",
       "rating_count": 15,
-      "course_price": "",
+      "course_price": "89.99",
       "lesson": 12,
       "student": 50,
       "category": "Career development",
-      "short_desc": "Prepare confidently for job interviews with our comprehensive training program.",
+      "short_desc": "Prepare confidently for job interviews with our comprehensive training.",
       "instructor": "RR Anbuthane",
       "instructor_img": "team-02.webp",
       "instructor_title": "Career Coach & HR Specialist",
@@ -557,19 +557,19 @@ const course_data = [
       ]
   },
   {
-    "id": 6,
+    "id": 'visa-interview-training',
     "img": "course-03.jpg",
     "duration": "6 Weeks",
     "course_outline": "Online + Onsite",
     "level": "Beginner to Advanced",
-    "title": "Visa Interview Training: Mastering the Process",
+    "title": "Visa Interview Training",
     "rating": "4.8",
     "rating_count": 20,
-    "course_price": "",
+    "course_price": "79.99",
     "lesson": 10,
     "student": 45,
     "category": "Travel & Immigration",
-    "short_desc": "Prepare thoroughly for your visa interview with expert guidance and practical exercises.",
+    "short_desc": "Prepare thoroughly for your visa interview with expert guidance.",
     "instructor": "David Thompson",
     "instructor_img": "team-03.webp",
     "instructor_title": "Immigration Consultant",
@@ -662,7 +662,7 @@ const course_data = [
 
 
 {
-  id: 7,
+  id: 'merchandaiser-training',
   university_courses: true,
   img: 'course-07.jpg',
   filter_category: ['undergraduate', 'graduate'],
@@ -672,7 +672,7 @@ const course_data = [
   title: 'Merchandaiser Training',
   rating: '4.8',
   rating_count: 15,
-  course_price: '',
+  course_price: '129.99',
   lesson: 30,
   student: 52,
   category: 'Business',
@@ -745,7 +745,7 @@ const course_data = [
 },
 
 {
-  id: 8,
+  id: 'soft-skill-training',
   university_courses: true,
   img: 'course-08.jpg',
   filter_category: ["undergraduate", "graduate"],
@@ -755,7 +755,7 @@ const course_data = [
   title: 'Soft Skills Training',
   rating: '4.8',
   rating_count: 30,
-  course_price: '',
+  course_price: '89.99',
   lesson: 15,
   student: 50,
   category: 'Professional development',
@@ -825,7 +825,7 @@ const course_data = [
 },
 
   {
-    id: 9,
+    id: 'ielts-preparation',
     university_courses: true,
     img: 'san.jpg',
     filter_category: ["undergraduate", "online"],
@@ -835,7 +835,7 @@ const course_data = [
     title: 'IELTS Preparation Course',
     rating: '4.8',
     rating_count: 200,
-    course_price: '',
+    course_price: '149.99',
     lesson: 30,
     student: 150,
     category: 'Language & Test Prep',
@@ -894,7 +894,7 @@ const course_data = [
     ]
   },
   {
-    id: 10,
+    id: 'pte-academic-test',
     university_courses: true,
     img: 'sum.jpg',
     filter_category: ["test-prep", "online"],
@@ -902,14 +902,14 @@ const course_data = [
     hours: 40,
     level: 'Intermediate',
     course_outline: 'Online + onsite',
-    title: 'PTE Academic Test Preparation',
+    title: 'PTE Test Preparation',
     rating: '4.7',
     rating_count: 150,
-    course_price: '',
+    course_price: '99.99',
     lesson: 20,
     student: 200,
     category: 'Language & Test Prep',
-    short_desc: 'Comprehensive preparation for the PTE Academic exam with expert instructors and practice materials.',
+    short_desc: 'PTE Academic exam with expert instructors and practice materials.',
     instructor: 'RR Anbuthane',
     instructor_img: 'team-03.webp',
     instructor_title: 'PTE Expert & Instructor',
@@ -981,7 +981,7 @@ const course_data = [
   },
   {
     
-    id: 11,
+    id: 'toefl-preparation',
     university_courses: true,
     img: 'jeg.jpg',
     filter_category: ["test-prep", "online"],
@@ -992,7 +992,7 @@ const course_data = [
     title: 'TOEFL Test Preparation',
     rating: '4.8',
     rating_count: 200,
-    course_price: '',
+    course_price: '109.99',
     lesson: 22,
     student: 300,
     category: 'Language & Test Prep',
@@ -1077,7 +1077,7 @@ const course_data = [
     ]
   },
   {
-    id: 12,
+    id: 'celpip-preparation',
     duration: '10 Weeks',
     course_outline: 'Online + Onsite',
     img: 'cel.jpg',
@@ -1086,7 +1086,7 @@ const course_data = [
     title: 'CELPIP Test Preparation (General & Academic)',
     rating: '4.9',
     rating_count: 120,
-    course_price: '',
+    course_price: '79.99',
     lesson: 10,
     student: 180,
     category: 'Language & Test Prep',
@@ -1162,7 +1162,7 @@ const course_data = [
   },
   // kitchen course
   {
-    id: 13,
+    id: 'oet-preparation',
   kitchen_course: false,  // This is not a kitchen course, so we set it to false.
   course_outline: 'Online + Onsite',
   duration: '12 Weeks',
@@ -1172,7 +1172,7 @@ const course_data = [
   title: 'OET Test Preparation (Healthcare Professionals)',
   rating: '4.8',
   rating_count: 65,
-  course_price: '',
+  course_price: '59.99',
   lesson: 18,
   student: 50,
   category: 'Language & Test Prep',
@@ -1253,7 +1253,7 @@ const course_data = [
     { img: '/assets/images/blog/comment-03.jpg', rating: 4, name: 'Nina Patel', date: 'Aug 25, 2023', desc: 'The course provided great resources, but I would have liked even more writing exercises. Still, I passed with a high score!' },
   ]
   },
-  {id: 14, // Unique ID for this course
+  {id: 'young-learner-training', // Unique ID for this course
     kitchen_course: false, // Not a kitchen course
     duration: '12 Weeks', // Duration of the course
     course_outline: 'Online + Onsite', // The course is offered both online and onsite
@@ -1263,7 +1263,7 @@ const course_data = [
     title: 'Young Learners English Training',
     rating: '4.5', // Average rating
     rating_count: 55, // Number of ratings
-    course_price: '', // Course price
+    course_price: '60', // Course price
     lesson: 12, // Number of lessons
     student: 50, // Number of students enrolled
     category: 'Language', // Category of the course
@@ -1337,7 +1337,7 @@ const course_data = [
     ]
   },
   {
-    id: 15, // Unique ID for the course
+    id: 'hindi-language-training', // Unique ID for the course
     kitchen_course: false, // Not a kitchen course
     duration: '12 Weeks', // Duration of the course
     course_outline: 'Online + Onsite', // Course offered both online and onsite
@@ -1347,7 +1347,7 @@ const course_data = [
     title: 'Hindi Language Training - Learn Hindi from Scratch',
     rating: '4.8', // Average rating
     rating_count: 60, // Number of ratings
-    course_price: '', // Course price
+    course_price: '70', // Course price
     lesson: 16, // Number of lessons
     student: 50, // Number of students enrolled
     category: 'Language', // Course category
@@ -1422,7 +1422,7 @@ const course_data = [
     ]
   },
   {
-    id: 18, // Unique ID for the course
+    id: 'french-training', // Unique ID for the course
   kitchen_course: false, // Not a kitchen course
   duration: '16 Weeks', // Duration of the course
   course_outline: 'Online + Onsite', // Course offered both online and onsite
@@ -1432,7 +1432,7 @@ const course_data = [
   title: 'French Language Class - Learn French from Basics to Advanced',
   rating: '4.9', // Average rating
   rating_count: 45, // Number of ratings
-  course_price: '', // Course price
+  course_price: '50', // Course price
   lesson: 20, // Number of lessons
   student: 40, // Number of students enrolled
   category: 'Language development', // Course category
@@ -1518,7 +1518,7 @@ const course_data = [
   ]
   },
   {
-    id: 17, // Unique ID for the course
+    id: 'german-language-training', // Unique ID for the course
   kitchen_course: false, // Not a kitchen course
   duration: '15 Weeks', // Duration of the course
   course_outline: 'Online + Onsite', // Course offered both online and onsite
@@ -1528,7 +1528,7 @@ const course_data = [
   title: 'German Language Mastery - Speak German with Confidence',
   rating: '4.5', // Average rating
   rating_count: 50, // Number of ratings
-  course_price: '', // Course price
+  course_price: '60', // Course price
   lesson: 15, // Number of lessons
   student: 40, // Number of students enrolled
   category: 'Language Learning', // Course category
@@ -1614,21 +1614,21 @@ const course_data = [
   ]
   },
   {
-    id: 19,
+    id: 'toastmasters-speaking-leadership-training',
     kitchen_course:true,
-    duration: '2 months',
+    duration: '(weekly/monthly)',
     course_outline:'Onsite Only',
     img: 'course-19.jpg',
     hours: 35,
     level: 'Beginners to Advanced',
-    title: 'Toastmasters Public Speaking and Leadership Training',
+    title: 'Toastmasters,Speaking and Leadership Training',
     rating: '5',
     rating_count: 40,
-    course_price: '',
+    course_price: '(varies by location)',
     lesson: 20,
     student: 36,
     category:'Academics',
-    short_desc: 'Toastmasters Club training is a program designed to help individuals improve their public speaking, communication, and leadership skills in a supportive, peer-driven environment.',
+    short_desc: 'Toastmasters Club training is a program designed to help individuals improve their public speaking,peer-driven environment.',
     instructor: 'RR Anbuthane',
     instructor_img:'team-01.webp',
     instructor_title:'Founder & CEO',
