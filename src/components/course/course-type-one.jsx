@@ -8,7 +8,7 @@ const CourseTypeOne = ({ data, classes, image_location_path='01' }) => {
     const {cartCourses} = useSelector(state => state.cart);
     const dispatch = useDispatch();
     const wishlists = useSelector(wishlistItems);
-    const isWishlistSelected = wishlists.find(w => Number(w.id) === Number(data.id));
+    const isWishlistSelected = wishlists.find(w => String(w.id) === String(data.id));
 
     const handleWishlist = (course_item) => {
         if (wishlists.find(i => i.id === course_item.id)) {
