@@ -1,7 +1,7 @@
 const course_data = [
   
     {
-      id: 'spoken english',
+      id: 'spoken-english',
       img: 'course-01.jpg',
       duration: '6 Weeks',
       course_outline: 'Online + Onsite',
