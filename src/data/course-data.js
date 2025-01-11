@@ -332,7 +332,7 @@ const course_data = [
 },
 
 {
-  "id": 'business/english',
+  "id": 'business-english',
   "img": "course-04.jpg",
   "duration": "10 Weeks",
   "course_outline": "Online + Onsite",
