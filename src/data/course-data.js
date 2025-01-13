@@ -894,7 +894,7 @@ const course_data = [
     ]
   },
   {
-    id: 'pte-academic-test',
+    id: 'pte-preparation',
     university_courses: true,
     img: 'sum.jpg',
     filter_category: ["test-prep", "online"],
@@ -1614,7 +1614,7 @@ const course_data = [
   ]
   },
   {
-    id: 'toastmasters-speaking-leadership-training',
+    id: 'toastmasters-training',
     kitchen_course:true,
     duration: '(weekly/monthly)',
     course_outline:'Onsite Only',
