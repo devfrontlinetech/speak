@@ -1337,7 +1337,7 @@ const course_data = [
     ]
   },
   {
-    id: 'hindi-language-training', // Unique ID for the course
+    id: 'hindi', // Unique ID for the course
     kitchen_course: false, // Not a kitchen course
     duration: '12 Weeks', // Duration of the course
     course_outline: 'Online + Onsite', // Course offered both online and onsite
@@ -1422,7 +1422,7 @@ const course_data = [
     ]
   },
   {
-    id: 'french-training', // Unique ID for the course
+    id: 'french', // Unique ID for the course
   kitchen_course: false, // Not a kitchen course
   duration: '16 Weeks', // Duration of the course
   course_outline: 'Online + Onsite', // Course offered both online and onsite
@@ -1518,7 +1518,7 @@ const course_data = [
   ]
   },
   {
-    id: 'german-language-training', // Unique ID for the course
+    id: 'german', // Unique ID for the course
   kitchen_course: false, // Not a kitchen course
   duration: '15 Weeks', // Duration of the course
   course_outline: 'Online + Onsite', // Course offered both online and onsite
@@ -1614,7 +1614,7 @@ const course_data = [
   ]
   },
   {
-    id: 'toastmasters-training',
+    id: 'toastmasters',
     kitchen_course:true,
     duration: '(weekly/monthly)',
     course_outline:'Onsite Only',
