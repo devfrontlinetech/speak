@@ -15,7 +15,7 @@ const HeroArea = () => {
                             <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Ace Your <span className="color-secondary">CELPIP</span> Exam with Confidence!</h1>
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Unlock your potential and boost your career in Canada with expert-led CELPIP preparation.</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="/our-course" legacyBehavior>
+                                <Link href="/celpip-preparation" legacyBehavior>
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
