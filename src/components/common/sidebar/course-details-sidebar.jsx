@@ -23,9 +23,9 @@ const CourseDetailsSidebar = ({ course, details_2 = false }) => {
                     <div className="inner">
                         <div className="thumbnail">
                             <img src={`/assets/images/course/course-01/${img}`} alt="Course Thumb" />
-                            <a onClick={() => setIsVideoOpen(true)} style={{ cursor: 'pointer' }} className="play-btn video-popup-activation">
+{/*                             <a onClick={() => setIsVideoOpen(true)} style={{ cursor: 'pointer' }} className="play-btn video-popup-activation">
                                 <i className="icon-18"></i>
-                            </a>
+                            </a> */}
                         </div>
                         <div className="content">
                             <h4 className="widget-title">Course Includes:</h4>
