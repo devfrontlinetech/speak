@@ -39,7 +39,7 @@ export default function Home() {
                             },
                             publisher: {
                                 '@type': 'Organization',
-                                name: 'frontlinetraining',
+                                name: 'speaksure',
                                 logo: {
                                     '@type': 'ImageObject',
                                     url: 'https://myamazingwebsite.com/logo.png',
