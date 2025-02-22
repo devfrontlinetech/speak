@@ -21,7 +21,7 @@ const CourseTypeOne = ({ data, classes, image_location_path='01' }) => {
                     price: course_item.course_price
                 }
             }))
-        } else {
+        } else {-+
             dispatch(
                 add_to_wishlist({
                     change_type: 'add_wishlist', item: {
