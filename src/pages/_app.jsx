@@ -11,6 +11,7 @@ import { store } from '../redux/store';
 import Theme from '../components/common/theme';
 import { MouseMoveProvider } from '../contexts/mouse-move-context';
 import SEO from '../components/seo';
+import defaultSEOConfig from '../../next-seo.config';
 
 function MyApp( { Component, pageProps } ) {
     const router = useRouter();
@@ -27,6 +28,7 @@ function MyApp( { Component, pageProps } ) {
             <Provider store={ store }>
                 <ThemeProvider defaultTheme="light">
                     <MouseMoveProvider>
+                    <DefaultSeo {...defaultSEOConfig} />
                         <Component { ...pageProps } />
                     </MouseMoveProvider>
                     <Theme />
