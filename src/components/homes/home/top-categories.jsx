@@ -58,7 +58,7 @@ const category_contents = {
             color: 'color-extra05-style',
             icon: 'icon-16 computer-science',
             title: 'Toastmasters Club Training',
-             link: '/course-details/19'
+             link: '/course-details/toastmasters'
         },
         {
             delay: '150',
