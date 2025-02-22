@@ -8,7 +8,7 @@ import CourseDetailsMain from '../../components/course-details';
 const DynamicCourseDetails = () => {
     const router = useRouter();
     const { id } = router.query;
-    const course = course_data.find(item => Number(item.id) === Number(id))
+    const course = course_data.find(item => String(item.id) === String(id))
     return (
         <Wrapper>
             <SEO pageTitle={'English Program'} />

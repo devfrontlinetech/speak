@@ -206,6 +206,7 @@ p {
     font-weight: 400;
     color: var(--color-body);
     margin: 0 0 30px;
+    text-align: justify;
 
     @media #{$sm-layout} {
         margin: 0 0 20px;

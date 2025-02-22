@@ -18,7 +18,7 @@ const HeroArea = () => {
                                 speak English more fluently in daily conversations, ace interviews, or improve your professional communication, our courses are tailored to meet your needs. Join thousands of learners who are transforming their English skills with us today!    
                             </p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
-                                <Link href="our-course" legacyBehavior>
+                                <Link href="/course-details/spoken-english" legacyBehavior>
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
                                 </Link>
                             </div>
