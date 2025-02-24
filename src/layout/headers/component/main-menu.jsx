@@ -14,7 +14,7 @@ const MainMenu = () => {
                         </Link>
                     ) : menu.title === 'Course' ? (
                         // Handle the "Courses" item separately to navigate to /web-dev
-                        <Link href="/our-courses">
+                        <Link href="/our-course">
                             <a>{menu.title}</a>
                         </Link>
                     ) : (
