@@ -11,6 +11,7 @@ import { store } from '../redux/store';
 import Theme from '../components/common/theme';
 import { MouseMoveProvider } from '../contexts/mouse-move-context';
 import SEO from '../components/seo';
+import { DefaultSeo } from 'next-seo';
 import defaultSEOConfig from '../../next-seo.config';
 
 function MyApp( { Component, pageProps } ) {
