@@ -29,8 +29,8 @@ export default function Home() {
                         __html: JSON.stringify({
                             '@context': 'https://schema.org',
                             '@type': 'Article',
-                            headline: 'Welcome to Speaksure Academy',
-                            description: 'A simple explanation of why coding is so much fun!',
+                            headline: 'Speaksure Academy Ielts Pte - Karur',
+                            description: 'Welcome to Speaksure Academy, your trusted destination for mastering English proficiency exams. Specializing in Study Visa, IELTS, PTE, and CELPIP, TOEFL we offer expert-led courses designed to boost your scores and enhance your language skills.',
                             datePublished: '2025-01-25T00:00:00Z',
                             dateModified: '2025-01-25T08:00:00Z',
                             author: {
@@ -39,7 +39,7 @@ export default function Home() {
                             },
                             publisher: {
                                 '@type': 'Organization',
-                                name: 'speaksure',
+                                name: 'Speaksure Academy',
                                 logo: {
                                     '@type': 'ImageObject',
                                     url: 'https://myamazingwebsite.com/logo.png',
@@ -55,7 +55,7 @@ export default function Home() {
                         __html: JSON.stringify({
                             '@context': 'https://schema.org',
                             '@type': 'Product',
-                            'name': 'speaksure',
+                            'name': 'Speaksure Academy Ielts Pte - Karur',
                             'aggregateRating': {
                                 '@type': 'AggregateRating',
                                 'ratingValue': 4.8,
