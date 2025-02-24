@@ -8,10 +8,10 @@ import Head from 'next/head'; // Import Head from next/head
 export default function Home() {
     return (
         <Wrapper>
-            <SEO pageTitle={'Home Main'} />
+            <SEO pageTitle={'Home'} />
             <NextSeo
-                title="Welcome to Speaksure Academy"
-                description="A simple explanation of why coding is so much fun!"
+                title="Speaksure Academy Ielts Pte - Karur"
+                description="Welcome to Speaksure Academy, your trusted destination for mastering English proficiency exams. Specializing in Study Visa, IELTS, PTE, and CELPIP, TOEFL we offer expert-led courses designed to boost your scores and enhance your language skills."
                 openGraph={{
                     type: 'article',
                     article: {
