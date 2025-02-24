@@ -3,7 +3,7 @@ import HomeMain from '../components/homes/home';
 import SEO from '../components/seo';
 import { Wrapper } from '../layout';
 import { NextSeo } from 'next-seo';
-import Head from 'next/head'; // Import Head from next/head
+import Head from 'next/head';
 
 export default function Home() {
     return (
