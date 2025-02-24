@@ -58,7 +58,8 @@ export default function Home() {
                             'name': 'speaksure',
                             'aggregateRating': {
                                 '@type': 'AggregateRating',
-                                'ratingValue': 4.8, 
+                                'ratingValue': 4.8,
+                                'ratingCount': 200, 
                                 'reviewCount': 200,
                             },    
                         }),
