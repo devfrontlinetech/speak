@@ -12,9 +12,9 @@ const MainMenu = () => {
                         <Link href={menu.link}>
                             <a>{menu.title}</a>
                         </Link>
-                    ) : menu.title === 'Course' ? (
+                    ) : menu.title === 'Courses' ? (
                         // Handle the "Courses" item separately to navigate to /web-dev
-                        <Link href="/our-courses">
+                        <Link href="/our-course">
                             <a>{menu.title}</a>
                         </Link>
                     ) : (
