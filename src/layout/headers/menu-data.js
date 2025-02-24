@@ -92,7 +92,7 @@ const menu_data = [
     }, */
      {
         title: 'Courses',
-        link: '/our-courses',
+        link: '/our-course',
         mega_menu: false,
         submenus: [
             { title: 'Spoken English', link: '/spoken-english' },
