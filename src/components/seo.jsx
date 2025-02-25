@@ -17,4 +17,4 @@ const SEO = ({ pageTitle, font }) => (
     </Head>
 )     
 
-export default SEO;
+export default SEO; 
