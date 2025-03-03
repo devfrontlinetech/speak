@@ -14,7 +14,7 @@ const { mouseDirection, mouseReverse } = useMouseMoveUI();
                     <div className="col-lg-6">
                         <div className="banner-content">
                             <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Get <span className="color-secondary">25+</span> <br />Best Courses From SpeakSure</h1>
-                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Welcome to Speaksure Academy, your trusted destination for mastering English proficiency exams. Specializing in Study Visa, IELTS, PTE, and CELPIP, TOEFL we offer expert-led courses designed to boost your scores and enhance your language skills. With personalized coaching, comprehensive study materials, and proven strategies, we ensure you're well-prepared to excel in these globally recognized exams. </p>
+                            <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Get best courses in IELTS, PTE, TOEFL and Spoken English from SpeakSure.</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
                                 <Link href="/our-course" legacyBehavior>
                                     <a className="edu-btn">Find courses <i className="icon-4"></i></a>
