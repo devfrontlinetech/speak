@@ -13,7 +13,7 @@ const { mouseDirection, mouseReverse } = useMouseMoveUI();
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="banner-content">
-                            <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Get best courses in <span className="color-secondary">IELTS, PTE, TOEFL </span> <br />and Spoken English from SpeakSure.</h1>
+                            <h2 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Get best courses in <span className="color-secondary">IELTS, PTE, TOEFL </span> <br />and Spoken English from SpeakSure.</h2>
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Spoken English, Exam Prep</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
                                 <Link href="/our-course" legacyBehavior>
