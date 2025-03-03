@@ -2,8 +2,8 @@ import React from 'react';
 import Counter from '../../common/counter';
 
 const counter_data = [
-    {color:'primary-color',number:45.2,text:'K',title:'Student Enrolled',decimal: 1},
-    {color:'secondary-color',number:32.4,text:'K',title:'Class Completed',decimal: 1},
+    {color:'primary-color',number:150,text:'+',title:'Student Enrolled',decimal: 1},
+    {color:'secondary-color',number:200,text:'+',title:'Class Completed',decimal: 1},
     {color:'extra05-color',number:354,text:'+',title:'Top Instructors'},
     {color:'extra02-color',number:100,text:'%',title:'Satisfaction Rate'},
 ];
