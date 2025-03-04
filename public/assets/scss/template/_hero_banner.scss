@@ -35,7 +35,7 @@
         }
         .title {
             margin-bottom: 18px;
-            // text-align: justify;
+            text-align: justify;
             @media #{$smlg-device} {
                 br {
                     display: none;
