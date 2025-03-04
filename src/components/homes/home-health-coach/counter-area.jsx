@@ -4,17 +4,17 @@ import Counter from '../../common/counter';
 const data = [
     {
         icon: 'icon-77',
-        count: 29.3,
-        text: 'K',
+        count: 150,
+        text: '+',
         title: 'Student Enrolled',
-        decimal: 1
+        
     },
     {
         icon: 'icon-78',
-        count: 32.4,
-        text: 'K',
+        count: 200,
+        text: '+',
         title: 'Class Completed',
-        decimal: 1,
+       
         extraClass: 'icon-flower'
     },
     {
@@ -25,8 +25,8 @@ const data = [
     },
     {
         icon: 'icon-80',
-        count: 354,
-        text: '%',
+        count: 10,
+        text: '+',
         title: 'Top Instructors'
     }
 ]
