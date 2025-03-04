@@ -8,7 +8,7 @@ const counter_data = [
         count: 150,
         text: '+',
         title: 'Student Enrolled',
-        decimal: 1
+       
     },
     {
         color: 'secondary-color',
@@ -16,7 +16,7 @@ const counter_data = [
         count: 200,
         text: '+',
         title: 'Class Completed',
-        decimal: 1
+        
     },
     {
         color: 'extra02-color',
