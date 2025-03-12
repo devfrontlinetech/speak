@@ -5,18 +5,18 @@ const counter_data = [
     {
         color: 'primary-color',
         delay: '50',
-        count: 29.3,
-        text: 'K',
+        count: 150,
+        text: '+',
         title: 'Student Enrolled',
-        decimal: 1
+       
     },
     {
         color: 'secondary-color',
         delay: '100',
-        count: 32.4,
-        text: 'K',
+        count: 200,
+        text: '+',
         title: 'Class Completed',
-        decimal: 1
+        
     },
     {
         color: 'extra02-color',
@@ -28,7 +28,7 @@ const counter_data = [
     {
         color: 'extra05-color',
         delay: '200',
-        count: 354,
+        count: 10,
         text: '%',
         title: 'Top Instructors'
     }

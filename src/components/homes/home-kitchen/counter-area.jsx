@@ -5,16 +5,16 @@ const counter_data = [
     {
         color: 'primary-color',
         icon: 'icon-48',
-        count: 29.3,
-        text: 'K',
+        count: 150,
+        text: '+',
         title: 'Student Enrolled',
         decimal: 1
     },
     {
         color: 'secondary-color',
         icon: 'icon-47',
-        count: 32.4,
-        text: 'K',
+        count: 200,
+        text: '+',
         title: 'Class Completed',
         decimal: 1
     },
@@ -28,7 +28,7 @@ const counter_data = [
     {
         color: 'extra05-color',
         icon: 'icon-50',
-        count: 354,
+        count: 10,
         text: '+',
         title: 'Top Instructors'
     }
