@@ -1,18 +1,65 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
+import React, { useState } from "react";
+import Calendar from "react-calendar";
+import "react-calendar/dist/Calendar.css";
+import { format } from "date-fns";
 
 const HeroArea = () => {
-const { mouseDirection, mouseReverse } = useMouseMoveUI();
+    const { mouseDirection, mouseReverse } = useMouseMoveUI();
+
+    const [selectedDate, setSelectedDate] = useState(null);
+  const [timeSlots, setTimeSlots] = useState([]);
+  const [selectedTime, setSelectedTime] = useState(null);
+
+  // Mock Data
+  const availableDates = ["15-03-2025", "18-03-2025", "22-03-2025", "11-04-2025", "12-04-2025", "13-04-2025", "14-04-2025"];
+  const bookedDates = ["17-03-2025", "20-03-2025", "17-04-2025", "18-04-2025", "19-04-2025", "20-04-2025"];
+  const unavailableDates = ["19-03-2025", "25-03-2025", "07-04-2025", "08-04-2025", "09-04-2025", "10-04-2025"];
+
+  const handleDateChange = (date) => {
+    const formattedDate = format(date, "dd-MM-yyyy");
+    setSelectedDate(formattedDate);
+    setSelectedTime(null);
+
+    if (availableDates.includes(formattedDate)) {
+      setTimeSlots([
+        { time: "10:00 AM to 11:00 AM", available: true },
+        { time: "11:00 AM to 02:00 PM", available: true },
+        { time: "02:00 AM to 05:00 PM", available: true },
+      ]);
+    } else {
+      setTimeSlots([]);
+    }
+  };
+
+  const handleBooking = () => {
+    if (selectedTime) {
+      const whatsappNumber = "+919789655455";
+      const whatsappMessage = `Hello, I would like to book an appointment on ${selectedDate} for the following time slots: ${selectedTime}.`;
+      const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+      window.open(whatsappURL, "_blank");
+    }
+  };
+
+  const tileClassName = ({ date }) => {
+    const formattedDate = format(date, "dd-MM-yyyy");
+    if (bookedDates.includes(formattedDate)) return "booked-date";
+    if (availableDates.includes(formattedDate)) return "available-date";
+    if (unavailableDates.includes(formattedDate)) return "unavailable-date";
+    return "";
+  };
+
     return (
-
-        
         <div className="hero-banner hero-style-1">
-
-            <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-lg-6">
-                        <div className="banner-content">
+            <div className="container-fluid">
+                <div className='row'>
+                    <div className='col-lg-2' offset="2"></div>
+                    <div className='col-lg-8'>
+                    <div className="row align-items-center">
+                    <div className="col-lg-6 col-md-12">
+                    <div className="banner-content">
                             <h2 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Get best courses in <span className="color-secondary">IELTS, PTE, TOEFL </span> <br />and Spoken English from SpeakSure.</h2>
                             <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Spoken English, Exam Prep</p>
                             <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
@@ -32,24 +79,73 @@ const { mouseDirection, mouseReverse } = useMouseMoveUI();
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-md-12">   
                         <div className="banner-thumbnail">
-                            <div className="thumbnail" data-sal-delay="500" data-sal="slide-left" data-sal-duration="1000">
-                                <img src="/assets/images/banner/girl-1.webp" alt="Girl Image" />
+
+                        <div className="booking-container">
+                            
+      <div className="calendar-container">
+      <h5 className='heading'>Check Availability nline</h5>
+        <Calendar onChange={handleDateChange} minDate={new Date()} tileClassName={tileClassName} />
+
+        <div className="legend-container">
+        <span className="legend available">Available</span>
+        <span className="legend booked">Booked</span>
+        <span className="legend unavailable">Not Available</span>
+      </div>
+
+
+      </div> 
+
+     
+      {selectedDate && (
+        <div className="time-slots-container">
+          <h3 className="slot-title">Time Slots for {selectedDate}</h3>
+          {timeSlots.length > 0 ? (
+            timeSlots.map((slot, index) => (
+              <div key={index} className="time-slot-box">
+                <input
+                  type="radio"
+                  name="timeSlot" className='rad'
+                  onChange={() => setSelectedTime(slot.time)}
+                />
+                <span className="slot-time">{slot.time}</span>
+                <span className="slot-status">Available</span>
+              </div>
+            ))
+          ) : (
+            <p className="no-slots">No time slots available</p>
+          )}
+          {selectedTime && (
+            <button className="book-btn" onClick={handleBooking}>
+              Book Now
+            </button>
+          )}
+        </div>
+      )}
+
+      
+    </div>
+
+
+
+
+                            {/* <div className="thumbnail" data-sal-delay="500" data-sal="slide-left" data-sal-duration="1000">
+                                <img src="/assets/images/banner/heroimg.webp" alt="Girl Image" />
                             </div>
                             <div className="instructor-info" data-sal-delay="600" data-sal="slide-up" data-sal-duration="1000">
                                 <div className="inner">
                                     <h5 className="title">Instructor</h5>
                                     <div className="media">
                                         <div className="thumb">
-                                            <img src="/assets/images/banner/author-1.png" alt="Images" />
+                                            <img src="/assets/images/banner/ins-img.jpg" alt="Images" />
                                         </div>
                                         <div className="content">
                                             <span>Top</span> Instructors
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <ul className="shape-group">
                                 <li className="shape-1" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
                                     <img src="/assets/images/about/shape-15.png" alt="Shape" />
@@ -72,9 +168,9 @@ const { mouseDirection, mouseReverse } = useMouseMoveUI();
                                 <span className="circle-shape d-block"></span>
                                 </motion.li>
 
-                               {/* <li className="shape-4" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
-                                    <img src="/assets/images/counterup/shape-02.png" alt="Shape" />
-                                </li>*/}
+                                <li className="shape-4" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">
+                                    {/* <img src="/assets/images/counterup/shape-02.png" alt="Shape" /> */}
+                                </li>
                                 <motion.li className="shape-5 scene" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000"
                                     animate={ {
                                         x: mouseReverse(25).x,
@@ -83,28 +179,31 @@ const { mouseDirection, mouseReverse } = useMouseMoveUI();
                                 >
                                     <img src="/assets/images/about/shape-13.png" alt="Shape" />
                                 </motion.li>
-                                <motion.li className="shape-6 scene" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000"
+                                {/* <motion.li className="shape-6 scene" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000"
                                     animate={ {
                                         x: mouseDirection(20).x,
                                         y: mouseDirection(20).y
                                     } }
                                 >
                                     <img src="/assets/images/about/shape-18.png" alt="Shape" />
-                                </motion.li>
+                                </motion.li> */}
                             </ul>
                         </div>
                     </div>
                 </div>
+
+                    </div>
+                    <div className='col-lg-2' offset="2"></div>
+                    </div>{/* row1--> */}
+                
             </div>
             <div className="shape-7">
                 <img src="/assets/images/about/h-1-shape-01.png" alt="Shape" />
             </div>
         </div>
     )
-
- 
 }
 
-
-
 export default HeroArea;
+
+
