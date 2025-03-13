@@ -1473,3 +1473,270 @@
     }
     
 }
+
+
+
+.booking-container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .calendar-container {
+    padding: 20px;
+    margin-bottom: 20px !important;
+    background: #f5f5f5 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .time-slots-container {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-left: 50px !important;
+    align-items: center !important;
+    width: 300px !important;
+    padding: 10px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 8px !important;
+    background-color: #fff !important;
+  }
+  
+  .slot-title {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+  }
+  
+  .time-slot-box {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    padding: 10px !important;
+    margin: 5px 0 !important;
+    border-radius: 6px !important;
+    background-color: #f0f0f0 !important;
+    
+  }
+  
+  .slot-time {
+    font-size: 14px !important;
+  }
+  
+  .slot-status {
+    color: #1ab69d !important;
+    font-weight: bold !important;
+  }
+  
+  .book-btn {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #1ab69d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-btn:hover {
+    background: none;
+    color: black;
+    border: 1px solid #1ab69d;
+  }
+  
+  .legend-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    
+  }
+  
+  .legend {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .available {
+    background-color: rgb(122, 255, 122);
+  }
+  
+  .booked {
+    background-color: rgb(247, 96, 96);
+  }
+  
+  .unavailable {
+    background-color: gray;
+  }
+  
+  .available-date {
+    background-color: rgb(122, 255, 122) !important;
+    color: white;
+  }
+  
+  .booked-date {
+    background-color: rgb(247, 96, 96) !important;
+    color: white;
+  }
+  
+  .unavailable-date {
+    background-color: gray !important;
+    color: white;
+  }
+  .rad
+  {
+    width: 7%!important;
+    opacity: 1!important;
+    position: unset!important;
+    height: 15px!important;
+  }
+  .react-calendar {
+    width: 100%!important;
+  }
+
+
+
+  .react-calendar__navigation__label__labelText,.react-calendar__navigation__label__labelText--from{
+    color: red!important;
+}
+.heading{
+    color: rgb(142, 141, 141)!important;
+}
+
+
+    @media screen  and (max-width : 2976px) 
+    {
+        .time-slots-container
+        {
+            width: 100%!important;
+            
+        }
+    }
+    
+    @media screen  and (max-width : 2154px) 
+    {
+        .time-slots-container
+        {
+            width: 100%!important;
+            
+        }
+    }
+
+  @media screen and (max-width :1920px)
+    {
+    .bbc {
+        flex: 0 0 auto;
+        width: 100%!important;
+    }
+    .time-slots-container
+    {
+        width: 70%!important;
+        
+    }
+    .calendar-container
+    {
+        width: 70%;
+        margin: auto;
+    }
+    .banner-content
+    {
+        padding-top: 10%;
+    }
+} 
+@media screen  and (max-width : 1779px) 
+{
+    .time-slots-container
+    {
+        width: 100%!important;
+        
+    }
+}
+
+@media screen  and (max-width : 1613px) 
+{
+    .time-slots-container
+    {
+        width: 100%!important;
+        
+    }
+}
+@media screen  and (max-width : 1596px) 
+{
+    .time-slots-container
+    {
+        width: 100%!important;
+        
+    }
+}
+@media screen and (max-width : 1585px)
+{
+    .booking-container {
+        flex: 0 0 auto;
+        width: 100%!important;
+        display: contents;
+    }
+    .calendar-container,.time-slots-container
+    {
+        width: 100%;
+        
+    }
+    .time-slots-container
+    {
+        margin-top: 5%!important;
+        margin-bottom: 5%!important;
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+} 
+@media screen and (max-width : 1450px)
+{
+    .booking-container {
+        flex: 0 0 auto;
+        width: 100%!important;
+        display: contents;
+    }
+    .calendar-container,.time-slots-container
+    {
+        width: 100%;
+        
+    }
+    .time-slots-container
+    {
+        margin-top: 5%!important;
+        margin-bottom: 5%!important;
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+} 
+  @media screen and (max-width : 992px)
+{
+    // .col-md-12 {
+    //     flex: 0 0 auto;
+    //     width: 100%!important;
+    // }
+} 
+@media screen and (max-width : 767px)
+{
+    .booking-container {
+        flex: 0 0 auto;
+        width: 100%!important;
+        display: contents;
+    }
+    .calendar-container,.time-slots-container
+    {
+        width: 100%;
+        
+    }
+    .banner-content
+    {
+        padding-top: 20%!important;
+    }
+    .time-slots-container
+    {
+        margin-bottom: 10%!important;
+        margin-left: 0px !important;
+        width: 100% !important;
+    }
+} 
