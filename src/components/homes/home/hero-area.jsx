@@ -7,9 +7,9 @@ import "react-calendar/dist/Calendar.css";
 import { format } from "date-fns";
 
 const HeroArea = () => {
-    const { mouseDirection, mouseReverse } = useMouseMoveUI();
-
-    const [selectedDate, setSelectedDate] = useState(null);
+    
+  const { mouseDirection, mouseReverse } = useMouseMoveUI();
+  const [selectedDate, setSelectedDate] = useState(null);
   const [timeSlots, setTimeSlots] = useState([]);
   const [selectedTime, setSelectedTime] = useState(null);
 
