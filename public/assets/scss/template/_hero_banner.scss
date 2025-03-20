@@ -1571,20 +1571,36 @@
     background-color: gray;
   }
   
-  .available-date {
+ 
+.available-date {
     background-color: rgb(122, 255, 122) !important;
     color: white;
   }
+
+  .available-date:hover{
+    background-color: white!important;
+    color: black;
+  }
   
-  .booked-date {
-    background-color: rgb(247, 96, 96) !important;
+  .booked-date {  
+    background-color: rgb(247, 96, 96);
     color: white;
+  }
+
+  .booked-date:hover{
+    background-color: white!important;
+    color: black;
   }
   
   .unavailable-date {
     background-color: gray !important;
     color: white;
   }
+
+  .unavailable-date:hover{
+
+    background-color: white!important;
+    color: black;
   .rad
   {
     width: 7%!important;
