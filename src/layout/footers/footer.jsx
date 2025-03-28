@@ -53,7 +53,7 @@ const Footer = ({ style_2, dark_bg,home_4 }) => {
                                     <Link href={''} legacyBehavior>
                                         <a aria-label="Speaksure">
                                             {!dark_bg && <>
-                                                {!style_2 && <img className="logo-light" src={logoLight} alt="Corporate Logo" />}
+                                                {/* {!style_2 && <img className="logo-light" src={logoLight} alt="Corporate Logo" />} */}
                                                 <img className="logo-dark" src={logoDark} alt="Corporate Logo" />
                                             </>}
                                         </a>
