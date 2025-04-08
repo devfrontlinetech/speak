@@ -16,7 +16,7 @@ const HeroArea = () => {
    // Mock Data
   const availableDates = [ "15-04-2025", "16-04-2025", "17-04-2025", "18-04-2025", "29-04-2025", "30-04-2025", ];
   const bookedDates = [ "20-04-2025", "19-04-2025"];
-  const unavailableDates = [ "25-03-2025", "07-04-2025", "08-04-2025", "09-04-2025", "10-04-2025"];
+  const unavailableDates = [ "25-03-2025", "08-04-2025", "09-04-2025", "10-04-2025"];
 
   const handleDateChange = (date) => {
     const formattedDate = format(date, "dd-MM-yyyy");
