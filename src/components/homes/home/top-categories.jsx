@@ -91,7 +91,7 @@ const TopCategories = () => {
                                 </div>
                                 <div className="content">
                                     <Link href={item.link}>
-                                        <a>
+                                        <a clasName="categorie">
                                             <h5 className="title">{item.title}</h5>
                                         </a>
                                     </Link>
