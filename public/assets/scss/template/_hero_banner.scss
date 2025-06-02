@@ -1624,6 +1624,8 @@
 }
 
 
+
+
     @media screen  and (max-width : 2976px) 
     {
         .time-slots-container
@@ -1728,6 +1730,16 @@
         width: 100% !important;
     }
 } 
+
+ @media screen  and (max-width : 1375px) 
+    {
+        .time-slots-container
+        {
+            width: 100%!important;
+            
+        }
+    }
+
   @media screen and (max-width : 992px)
 {
     // .col-md-12 {
