@@ -40,7 +40,8 @@ const CounterArea = () => {
                         <div key={i} className="col-lg-3 col-sm-6">
                             <div className={`edu-counterup counterup-style-3 ${c.border_none ? c.border_none : '' }`}>
                                 <h2 className={`counter-item count-number ${c.color}`}>
-                                    <span className="odometer"><Counter number={parseFloat(c.count)} text={c.text} decimal={c.decimal} /></span>
+                             {/*   <span className="odometer"><Counter number={parseFloat(c.count)} text={c.text} decimal={c.decimal} /></span> */}
+                                    <span className="odometer"><Counter number={parseFloat(c.count)} text={c.text} /></span>
                                 </h2>
                                 <h6 className="title">{c.title}</h6>
                             </div>
