@@ -14,9 +14,9 @@ const HeroArea = () => {
   const [selectedTime, setSelectedTime] = useState(null);
 
    // Mock Data
-  const availableDates = [ "26-07-2025", "22-08-2025", "23-08-2025","26-08-2025"];
-  const bookedDates = [ "22-07-2025", "23-07-2025","26-07-2025","27-07-2025"];
-  const unavailableDates = [ "06-07-2025", "20-07-2025", "27-07-2025"];
+  const availableDates = [ "24-07-2025", "25-07-2025", "26-07-2025", "22-08-2025", "23-08-2025","26-08-2025"];
+  const bookedDates = [ "26-07-2025", "28-07-2025", "29-07-2025"];
+  const unavailableDates = [ "06-07-2025", "27-07-2025"];
     
   const handleDateChange = (date) => {
     const formattedDate = format(date, "dd-MM-yyyy");
