@@ -1507,6 +1507,7 @@
     font-size: 16px !important;
     font-weight: bold !important;
     margin-bottom: 10px !important;
+    color: #473e3e !important;
   }
   
   .time-slot-box {
@@ -1571,20 +1572,37 @@
     background-color: gray;
   }
   
-  .available-date {
+ 
+.available-date {
     background-color: rgb(122, 255, 122) !important;
     color: white;
   }
+
+  .available-date:hover{
+    background-color: white!important;
+    color: black;
+  }
   
-  .booked-date {
+  .booked-date {  
     background-color: rgb(247, 96, 96) !important;
     color: white;
+  }
+
+  .booked-date:hover{
+    background-color: white!important;
+    color: black;
   }
   
   .unavailable-date {
     background-color: gray !important;
     color: white;
   }
+
+  .unavailable-date:hover{
+
+    background-color: white!important;
+    color: black;
+}
   .rad
   {
     width: 7%!important;
@@ -1604,6 +1622,8 @@
 .heading{
     color: rgb(142, 141, 141)!important;
 }
+
+
 
 
     @media screen  and (max-width : 2976px) 
@@ -1710,6 +1730,16 @@
         width: 100% !important;
     }
 } 
+
+ @media screen  and (max-width : 1375px) 
+    {
+        .time-slots-container
+        {
+            width: 100%!important;
+            
+        }
+    }
+
   @media screen and (max-width : 992px)
 {
     // .col-md-12 {
