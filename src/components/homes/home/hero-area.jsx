@@ -82,7 +82,7 @@ const HeroArea = () => {
                     data-sal-duration="1000"
                   >
                     Get best courses in{" "}
-                    <span className="color-secondary">
+                    <span className="color-secondary"> 
                       <br />
                       IELTS, PTE, TOEFL{" "}
                     </span>
