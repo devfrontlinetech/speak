@@ -265,7 +265,7 @@ const HeroArea = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
           <div className="col-lg-2" offset="2"></div>
         </div>

@@ -10,7 +10,7 @@ const CourseDetailsArea = ({ course }) => {
         <section className="edu-section-gap course-details-area">
             <div className="container">
                 <div className="row row--30">
-                    <div className="col-lg-8">
+                    <div className="col-lg-8">  
                         <div className="course-details-content">
                             <ul className="nav nav-tabs" id="myTab" role="tablist">
                                 <li className="nav-item" role="presentation">
