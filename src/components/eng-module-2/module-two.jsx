@@ -26,7 +26,7 @@ const questions = [
     options: ["yes", "no", "sometimes", "maybe"],
   },
   {
-    text: "Are you happy today",
+    text: "Are you happy today !",
     answer: "Yes, I am. / No, I am not.",
     gif: "../assets/images/english-test/girl-02.png",
     options: ["yes", "no", "not really", "maybe"],
