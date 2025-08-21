@@ -28,8 +28,20 @@ const HeroArea = () => {
     "23-09-2025",
     "26-09-2025",
   ];
-  const bookedDates = ["16-08-2025", "29-08-2025", "26-08-2025", "28-08-2025"];
-  const unavailableDates = ["10-08-2025", "17-08-2025", "24-08-2025"];
+ const bookedDates = [
+    "25-08-2025",
+    "28-08-2025",
+    "16-09-2025",
+    "29-09-2025",
+    "26-09-2025",
+    "28-09-2025",
+  ];
+  const unavailableDates = [
+    
+    "24-08-2025",
+    "27-08-2025",
+    "31-08-2025",
+  ];
 
   const handleDateChange = (date) => {
     const formattedDate = format(date, "dd-MM-yyyy");
