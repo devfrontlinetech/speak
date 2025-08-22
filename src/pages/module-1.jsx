@@ -11,4 +11,4 @@ const ModuleOneMain = () => {
     )
 }
 
-export default ModuleOneMain;
+export default ModuleOneMain; 
