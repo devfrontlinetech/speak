@@ -138,7 +138,7 @@ const introSteps = [
   { icon: <FaSmile />, text: "Have fun while learning!" },
 ];
 
-const ModuleOne = () => {
+const ModuleTwo = () => {
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [spokenWord, setSpokenWord] = useState("");
@@ -751,4 +751,4 @@ const ModuleOne = () => {
   );
 };
 
-export default ModuleOne;
+export default ModuleTwo;
