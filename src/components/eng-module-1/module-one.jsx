@@ -13,7 +13,7 @@ const questions = [
     gif: "../assets/images/english-test/girl-01.gif",
     options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Maybe."],
   },
-  {
+  { 
     text: "Do you eat ice cream",
     answer: "Yes, I do. / No, I don't.",
     gif: "../assets/images/english-test/girl-02.png",
