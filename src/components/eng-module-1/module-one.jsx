@@ -275,7 +275,7 @@ const ModuleOne = () => {
       try {
         await sound.play();
       } catch (e) {
-        console.error("Sound failed:", e);
+        console.error("Sound failed:", e);   
       }
     }
   };
