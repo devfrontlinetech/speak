@@ -5,17 +5,8 @@ import React, { useState, useEffect, useRef } from "react";
 // import { Link } from 'react-router-dom';
 import { FaMicrophoneAlt, FaVolumeUp, FaSmile } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faMicrophoneLines,
-  faMicrophoneLinesSlash,
-  faRotateRight,
-  faHandPointRight,
-} from "@fortawesome/free-solid-svg-icons";
-import {
-  faHeart as fullHeart,
-  faHeartCrack as halfHeart,
-  faHeart as emptyHeart,
-} from "@fortawesome/free-solid-svg-icons";
+import { faMicrophoneLines,faMicrophoneLinesSlash,faRotateRight, faHandPointRight } from "@fortawesome/free-solid-svg-icons";
+import { faHeart as fullHeart,faHeartCrack as halfHeart,faHeart as emptyHeart } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/navigation";
 
 const questions = [
