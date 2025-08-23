@@ -446,6 +446,7 @@ const ModuleOne = () => {
               </div>
 
               <div className="common-box">
+                <h1 className="welcome-title">Welcome</h1>
                 <div className="heart-container">
                   <div className="heart-bar">
                     {Array.from({ length: 5 }).map((_, i) => {
