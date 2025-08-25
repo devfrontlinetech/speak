@@ -88,7 +88,7 @@ const HeroArea = () => {
               <div className="col-lg-6 col-md-12">
                 <div className="banner-content">
                   <h2
-                    className="title"
+                    className="title" 
                     data-sal-delay="100"
                     data-sal="slide-up"
                     data-sal-duration="1000"
