@@ -143,7 +143,10 @@ STYLESHEET INDEXING
 @import 'header/header-action';
 @import 'header/mobilemenu';
 @import 'header/search-popup';
+@import 'header/moduleone';
+@import 'header/voicetest';
 @import "footer/footer";
+
 
 /*=======================================================================
 5.Blog Styles 
@@ -165,5 +168,5 @@ STYLESHEET INDEXING
 /*=======================================================================
 7. speaktest
 =========================================================================*/
-@import "speaktest/moduleone";
-@import "speaktest/voicetest";
+// @import "speaktest/moduleone";
+// @import "speaktest/voicetest";
