@@ -98,6 +98,7 @@ const menu_data = [
             { title: 'Spoken English', link: '/spoken-english' },
             { title: 'Competitive Exam Training', link: '/competitive-exam' },
             { title: 'Language Training', link: '/language-training' },
+            { title: 'Model Test', link: '/eng-test' }
             
             /* { title: 'Apps', link: '/course-style-4' },
             { title: 'Course Style 5', link: '/course-style-5' },*/ 
