@@ -14,7 +14,6 @@ import {
   faHeart as emptyHeart,
 } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/navigation";
-import '../../../public/assets/scss/header/moduleone.scss';
 
 const questions = [
   {
