@@ -100,7 +100,7 @@ const HeroArea = () => {
                     </span>
                     and Spoken English from SpeakSure.
                   </h2>
-                  <p
+                  <p 
                     data-sal-delay="200"
                     data-sal="slide-up"
                     data-sal-duration="1000"
