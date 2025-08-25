@@ -17,7 +17,7 @@ import { useRouter } from "next/navigation";
 
 const questions = [
   {
-    text: "Do you like pizza",
+    text: "Do you like ",
     answer: "Yes, I do. / No, I don't.",
     gif: "../assets/images/english-test/girl-01.gif",
     options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Maybe."],
