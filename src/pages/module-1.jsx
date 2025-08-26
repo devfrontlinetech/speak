@@ -1,6 +1,6 @@
 import SEO from '../components/seo';
 import { Wrapper } from '../layout';
-import ModuleOneArea from '../components/eng-modules';
+import ModuleOneArea from '../components/eng-module-1';
 
 const ModuleOneMain = () => {
     return (
