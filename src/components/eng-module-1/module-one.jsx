@@ -14,9 +14,129 @@ import {
   faHeart as emptyHeart,
 } from "@fortawesome/free-solid-svg-icons";
 import { useRouter } from "next/navigation";
-import { question_data } from '../../data';
 
-
+const questions = [
+  {
+    text: "Do you like pizza",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/girl-01.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Maybe."],
+  },
+  {
+    text: "Do you eat ice cream",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/girl-02.png",
+    options: ["Yes, I do.", "No, I don't.", "Rarely.", "Never."],
+  },
+  {
+    text: "Do you want to go out",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-gif.gif",
+    options: ["Yes, I do.", "No, I don't.", "Maybe.", "Not sure."],
+  },
+  {
+    text: "Do you want to play",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-02.gif",
+    options: ["Yes, I do.", "No, I don't.", "Later.", "Not sure."],
+  },
+  {
+    text: "Do you like coffee",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-03.gif",
+    options: ["Yes, I do.", "No, I don't.", "Not really.", "Only sometimes."],
+  },
+  {
+    text: "Do you have a toy",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-04.gif",
+    options: ["Yes, I do.", "No, I don't.", "I had one.", "I lost it."],
+  },
+  {
+    text: "Do you like this game",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/girl-01.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Not really."],
+  },
+  {
+    text: "Do you like to read",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/girl-02.png",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Not really."],
+  },
+  {
+    text: "Do you like chocolates",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-gif.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Not really."],
+  },
+  {
+    text: "Do you want a gift",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-02.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Not really."],
+  },
+  {
+    text: "Do you study English",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-gif.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Not really."],
+  },
+  {
+    text: "Do you like swimming",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-03.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Not really."],
+  },
+  {
+    text: "Do you like animals",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-04.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Rarely."],
+  },
+  {
+    text: "Do you enjoy playing games",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/girl-01.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Not really."],
+  },
+  {
+    text: "Do you go to school",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/girl-02.png",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Not anymore."],
+  },
+  {
+    text: "Do you clean your room",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-gif.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Rarely."],
+  },
+  {
+    text: "Do you wear glasses",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-02.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Not really."],
+  },
+  {
+    text: "Do you like dancing",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-03.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Not really."],
+  },
+  {
+    text: "Do you write emails",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/boy-04.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Rarely."],
+  },
+  {
+    text: "Do you like winter",
+    answer: "Yes, I do. / No, I don't.",
+    gif: "../assets/images/english-test/girl-01.gif",
+    options: ["Yes, I do.", "No, I don't.", "Sometimes.", "Not really."],
+  },
+];
 
 const introSteps = [
   { icon: <FaVolumeUp />, text: "Listen carefully to each question" },
@@ -43,7 +163,6 @@ const ModuleOne = () => {
   const [showCompletionPopup, setShowCompletionPopup] = useState(false);
   const coinSound = "/assets/audio/coin.mp3";
   const wrongSound = "/assets/audio/wrong.mp3";
-  const [courses,setCourses] = useState(question_data);
 
   // GOOD:
   //   playSound(match ? coinSound : wrongSound);
