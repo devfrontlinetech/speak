@@ -28,8 +28,6 @@ const HeroArea = () => {
 
   const bookedDates = [
     // October
-    
-   
     "20-10-2025",
     "26-10-2025",
     "28-10-2025",
@@ -42,6 +40,13 @@ const HeroArea = () => {
     "25-11-2025",
   ];
 
+  const unavailableDates = [
+    // October
+    "19-10-2025",
+    // November
+    "03-11-2025",
+    "17-11-2025",
+  ];
 
   const handleDateChange = (date) => {
     const formattedDate = format(date, "dd-MM-yyyy");
