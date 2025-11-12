@@ -8,7 +8,7 @@ const MainMenu = () => {
             {menu_data.map((menu, i) => (
                 <li key={i} className="has-droupdown">
                     {/* Check if the menu item is Home, Gallery, Blog, Lms, or Contact, render as a simple link */}
-                    {menu.title === 'Home' || menu.title === 'Gallery' || menu.title === 'Blog' || menu.title === 'LMS' || menu.title === 'Contact' ? (
+                    {menu.title === 'Home' || menu.title === 'Gallery' || menu.title ==='Quizz'||  menu.title === 'Blog' || menu.title === 'LMS' || menu.title === 'Contact' ? (
                         <Link href={menu.link}>
                             <a>{menu.title}</a>
                         </Link>
@@ -22,7 +22,7 @@ const MainMenu = () => {
                     )}
 
                     {/* Render submenu only if the menu is not Home, Gallery, Blog, Lms, or Contact and has submenus */}
-                    {!menu.mega_menu && menu.submenus?.length > 0 && (menu.title !== 'Home' && menu.title !== 'Gallery' && menu.title !== 'Blog' && menu.title !== 'LMS' && menu.title !== 'Contact') && (
+                    {!menu.mega_menu && menu.submenus?.length > 0 && (menu.title !== 'Home' && menu.title !== 'Gallery' && menu.title !== 'Quizz' && menu.title !== 'Blog' && menu.title !== 'LMS' && menu.title !== 'Contact') && (
                         <ul className="submenu">
                             {menu.submenus.map((nav, i) => (
                                 <li key={i}>
@@ -39,7 +39,7 @@ const MainMenu = () => {
                     )}
 
                     {/* Render mega-menu only if the menu is not Home, Gallery, Blog, Lms, or Contact and has submenus */}
-                    {menu.mega_menu && menu.submenus?.length > 0 && (menu.title !== 'Home' && menu.title !== 'Gallery' && menu.title !== 'Blog' && menu.title !== 'LMS' && menu.title !== 'Contact') && (
+                    {menu.mega_menu && menu.submenus?.length > 0 && (menu.title !== 'Home' && menu.title !== 'Gallery' && menu.title !== 'Quizz' && menu.title !== 'Blog' && menu.title !== 'LMS' && menu.title !== 'Contact') && (
                         <ul className="mega-menu">
                             {menu.submenus.map((nav, i) => (
                                 <li key={i}>
