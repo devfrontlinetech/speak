@@ -110,7 +110,7 @@ const menu_data = [
     },
    
     {
-        title: 'Quizz',
+        title: 'Quick Test',
         link: '/eng-test',
 
     }, 
