@@ -15,7 +15,6 @@ const HeroArea = () => {
   // Mock Data
   const availableDates = [
  
-    "22-11-2025",
     "27-11-2025",
     "28-11-2025",
     "29-11-2025",
@@ -24,16 +23,16 @@ const HeroArea = () => {
 
   const bookedDates = [
   
-    "24-11-2025",
-    "25-11-2025",
-    "26-11-2025",
+    "24-12-2025",
+    "25-12-2025",
+    "26-12-2025",
     
   ];
 
   const unavailableDates = [
 
-    "22-11-2025",
-    "23-11-2025",
+    "22-12-2025",
+    "23-12-2025",
 
   ];
   const handleDateChange = (date) => {
