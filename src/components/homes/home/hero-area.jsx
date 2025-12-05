@@ -12,29 +12,42 @@ const HeroArea = () => {
   const [timeSlots, setTimeSlots] = useState([]);
   const [selectedTime, setSelectedTime] = useState(null);
 
-  // Mock Data
+   // Mock Data
   const availableDates = [
- 
-    "27-11-2025",
-    "28-11-2025",
-    "29-11-2025",
-    "30-11-2025",
+    "05-12-2025",
+    "06-12-2025",
+    "07-12-2025",
+    "08-12-2025",
+    "09-12-2025",
+    "15-12-2025",
+    "16-12-2025",
+    "17-12-2025",
+    "02-01-2026",
+    "03-01-2026",
+    "04-01-2026",
   ];
 
   const bookedDates = [
-  
-    "24-12-2025",
-    "25-12-2025",
-    "26-12-2025",
-    
+    "10-12-2025",
+    "11-12-2025",
+    "12-12-2025",
+    "18-12-2025",
+    "19-12-2025",
+    "20-12-2025",
+    "05-01-2026",
+    "06-01-2026",
   ];
 
   const unavailableDates = [
-
+    "13-12-2025",
+    "14-12-2025",
+    "21-12-2025",
     "22-12-2025",
     "23-12-2025",
-
+    "07-01-2026",
+    "08-01-2026",
   ];
+
   const handleDateChange = (date) => {
     const formattedDate = format(date, "dd-MM-yyyy");
     setSelectedDate(formattedDate);
