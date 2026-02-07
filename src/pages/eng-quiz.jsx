@@ -2,7 +2,7 @@ import SEO from "../components/seo";
 import { Wrapper } from "../layout";
 import EngQuiz from "../components/eng-quiz";
 
-const EngQuiz = () => {
+const EngQuizPage = () => {
   return (
     <Wrapper>
       <SEO pageTitle={"Landing Demo"} />
@@ -11,4 +11,4 @@ const EngQuiz = () => {
   );
 };
 
-export default EngQuiz;
+export default EngQuizPage;
