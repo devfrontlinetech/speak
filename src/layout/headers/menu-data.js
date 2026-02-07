@@ -12,11 +12,11 @@ const menu_data = [
              
         //    ]
     }, 
-    {
-        title: 'Gallery',
-        link: '/gallery-grid',
+    // {
+    //     title: 'Gallery',
+    //     link: '/gallery-grid',
 
-    },   
+    // },   
     
    /*{ 
         title: 'Pages',
