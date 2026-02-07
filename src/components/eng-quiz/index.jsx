@@ -1,11 +1,13 @@
 import React from "react";
-import VoiceArea from "./voice-test";
+import Header from "./header";
+import HeroArea from "./hero-area";
 
 const index = () => {
   return (
     <div className="sticky-header">
       <div id="main-wrapper" className="main-wrapper">
-        <VoiceArea />
+        <Header />
+        <HeroArea />
       </div>
     </div>
   );

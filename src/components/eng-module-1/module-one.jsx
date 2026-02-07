@@ -181,8 +181,8 @@ const ModuleOne = () => {
         opt
           .toLowerCase()
           .split(/\s+/)
-          .some((word) => item.spokenAnswer.toLowerCase().includes(word))
-      )
+          .some((word) => item.spokenAnswer.toLowerCase().includes(word)),
+      ),
   ).length;
 
   useEffect(() => {
@@ -260,7 +260,7 @@ const ModuleOne = () => {
     const voices = window.speechSynthesis.getVoices();
     const femaleVoice = voices.find(
       (voice) =>
-        voice.lang === "en-US" && voice.name.toLowerCase().includes("zira")
+        voice.lang === "en-US" && voice.name.toLowerCase().includes("zira"),
     );
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US";
@@ -308,7 +308,7 @@ const ModuleOne = () => {
         opt
           .toLowerCase()
           .split(/\s+/)
-          .some((word) => transcript.includes(word))
+          .some((word) => transcript.includes(word)),
       );
       playSound(match ? coinSound : wrongSound);
       setGifMood(match ? "happy" : "sad");
@@ -343,7 +343,7 @@ const ModuleOne = () => {
       opt
         .toLowerCase()
         .split(/\s+/)
-        .some((word) => spokenWord.toLowerCase().includes(word))
+        .some((word) => spokenWord.toLowerCase().includes(word)),
     );
 
     let newMistakes = mistakes;
@@ -496,7 +496,7 @@ const ModuleOne = () => {
                         r="44"
                         stroke={`rgb(${Math.min(
                           255,
-                          255 - (timeLeft / 20) * 255
+                          255 - (timeLeft / 20) * 255,
                         )}, ${Math.min(255, (timeLeft / 20) * 255)}, 0)`}
                         strokeWidth="10"
                         fill="none"
@@ -517,7 +517,7 @@ const ModuleOne = () => {
                         y2="5"
                         stroke={`rgb(${Math.min(
                           255,
-                          255 - (timeLeft / 20) * 255
+                          255 - (timeLeft / 20) * 255,
                         )}, ${Math.min(255, (timeLeft / 20) * 255)}, 0)`}
                         strokeWidth="4"
                         strokeLinecap="round"
@@ -589,8 +589,8 @@ const ModuleOne = () => {
                           gifMood === "happy"
                             ? "/assets/images/english-test/happy.gif"
                             : gifMood === "sad"
-                            ? "/assets/images/english-test/sad.gif"
-                            : "/assets/images/english-test/normal.gif"
+                              ? "/assets/images/english-test/sad.gif"
+                              : "/assets/images/english-test/normal.gif"
                         }
                         alt="Mood GIF"
                         className="mood-gif"
