@@ -24,17 +24,17 @@ const HeroArea = () => {
               View Dashboard
             </Link>
           </div>
-        </div>
+        </div>  
 
         {/* RIGHT IMAGE */}
         <div className="hero-image">
           <img
             src="../assets/images/english-test/hero-background.png"
-            alt="Learning Owl"
+            alt="Learning"
           />
         </div>
 
-      </div>
+      </div> 
     </section>
   );
 };

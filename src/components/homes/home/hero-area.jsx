@@ -12,10 +12,11 @@ const HeroArea = () => {
   const [timeSlots, setTimeSlots] = useState([]);
   const [selectedTime, setSelectedTime] = useState(null);
 
-   // Mock Data
+  // Mock Data
   const availableDates = [
-    
-    "07-02-2026",
+    "09-02-2026",
+    "10-02-2026",
+    "11-02-2026",
     "15-02-2026",
     "16-02-2026",
     "17-02-2026",
@@ -43,7 +44,6 @@ const HeroArea = () => {
     "08-01-2026",
   ];
 
-
   const handleDateChange = (date) => {
     const formattedDate = format(date, "dd-MM-yyyy");
     setSelectedDate(formattedDate);
@@ -65,7 +65,7 @@ const HeroArea = () => {
       const whatsappNumber = "+919789655455";
       const whatsappMessage = `Hello, I would like to book an appointment on ${selectedDate} for the following time slots: ${selectedTime}.`;
       const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-        whatsappMessage
+        whatsappMessage,
       )}`;
       window.open(whatsappURL, "_blank");
     }
@@ -89,19 +89,19 @@ const HeroArea = () => {
               <div className="col-lg-6 col-md-12">
                 <div className="banner-content">
                   <h2
-                    className="title" 
+                    className="title"
                     data-sal-delay="100"
                     data-sal="slide-up"
                     data-sal-duration="1000"
                   >
                     Get best courses in{" "}
-                    <span className="color-secondary"> 
+                    <span className="color-secondary">
                       <br />
                       IELTS, PTE, TOEFL{" "}
                     </span>
                     and Spoken English from SpeakSure.
                   </h2>
-                  <p 
+                  <p
                     data-sal-delay="200"
                     data-sal="slide-up"
                     data-sal-duration="1000"
@@ -278,7 +278,7 @@ const HeroArea = () => {
                   </ul>
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
           <div className="col-lg-2" offset="2"></div>
         </div>
