@@ -50,8 +50,8 @@ const HeaderTwo = ({ style_3, no_topBar = false }) => {
                                 <div className="logo">
                                     <Link href="/" legacyBehavior>
                                         <a>
-                                            <img className="logo-light" src={style_3 ? '/assets/images/santhosh/SpeakSure.png' : "/assets/images/santhosh/SpeakSure.png"} alt="Corporate Logo" />
-                                            <img className="logo-dark" src={style_3 ? '/assets/images/santhosh/SpeakSure.png' : "/assets/images/santhosh/SpeakSure.png"} alt="Corporate Logo" />
+                                            <img className="logo-light" src={style_3 ? '/assets/images/speak-logo/SpeakSure.png' : "/assets/images/santhosh/SpeakSure.png"} alt="Corporate Logo" />
+                                            <img className="logo-dark" src={style_3 ? '/assets/images/speak-logo/SpeakSure.png' : "/assets/images/santhosh/SpeakSure.png"} alt="Corporate Logo" />
                                         </a>
                                     </Link>
                                 </div>

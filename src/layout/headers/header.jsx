@@ -77,8 +77,8 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
                                 <div className="logo">
                                     <Link href={'/'} legacyBehavior>
                                         <a>
-                                            <img className="logo-light" src='/assets/images/santhosh/speaksure.png' alt="logo" />
-                                            <img className="logo-dark" src='/assets/images/santhosh/speaksure.png' alt="logo" />
+                                            <img className="logo-light" src='/assets/images/speak-logo/speaksure.png' alt="logo" />
+                                            <img className="logo-dark" src='/assets/images/speak-logo/speaksure.png' alt="logo" />
                                        </a>
                                     </Link>
                                 </div>
