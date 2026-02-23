@@ -1,5 +1,5 @@
 import React from 'react';
-import Lightbox from 'react-image-lightbox';
+// import Lightbox from 'react-image-lightbox';
 
 const ImageLightBox = ({images,open,setOpen,photoIndex,setPhotoIndex}) => {
     return (
