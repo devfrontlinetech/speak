@@ -7,6 +7,7 @@ if (typeof window !== 'undefined') {
   require ('bootstrap/dist/js/bootstrap');
 }
 import '../styles/index.scss';
+import 'react-image-lightbox/style.css';
 import { store } from '../redux/store';
 import Theme from '../components/common/theme';
 import { MouseMoveProvider } from '../contexts/mouse-move-context';
