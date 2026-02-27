@@ -33,30 +33,61 @@ export default function Home() {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "EducationalOrganization",
+              "@type": "LocalBusiness",
+              "@id": "https://speaksure.in/#localbusiness",
               name: "Speaksure Academy",
+              image: "https://speaksure.in/og-image.jpg",
               url: "https://speaksure.in",
               telephone: "+919943318199",
+              priceRange: "$$",
+
               address: {
                 "@type": "PostalAddress",
+                streetAddress: "Your Full Street Address Here",
                 addressLocality: "Karur",
-                addressRegion: "TN",
+                addressRegion: "Tamil Nadu",
                 postalCode: "639007",
                 addressCountry: "IN",
               },
+
               geo: {
                 "@type": "GeoCoordinates",
-                latitude: "10.9601",
-                longitude: "78.0766",
+                latitude: 10.9601,
+                longitude: 78.0766,
               },
+
+              hasMap: "https://www.google.com/maps?q=10.9601,78.0766",
+
               areaServed: {
                 "@type": "City",
                 name: "Karur",
               },
+
+              sameAs: [
+                "https://www.facebook.com/speaksure",
+                "https://www.instagram.com/speaksure",
+              ],
+
+              openingHoursSpecification: [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday",
+                  ],
+                  opens: "09:00",
+                  closes: "18:00",
+                },
+              ],
+
               aggregateRating: {
                 "@type": "AggregateRating",
-                ratingValue: "4.8",
-                reviewCount: "200",
+                ratingValue: 4.8,
+                reviewCount: 200,
               },
             }),
           }}
