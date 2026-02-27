@@ -38,7 +38,7 @@ export default function Home() {
               name: "Speaksure Academy",
               image: "https://speaksure.in/og-image.jpg",
               url: "https://speaksure.in",
-              telephone: "+919943318199",
+              telephone: "+919789655455",
               priceRange: "$$",
 
               address: {
@@ -46,7 +46,7 @@ export default function Home() {
                 streetAddress: "Your Full Street Address Here",
                 addressLocality: "Karur",
                 addressRegion: "Tamil Nadu",
-                postalCode: "639007",
+                postalCode: "639001",
                 addressCountry: "IN",
               },
 

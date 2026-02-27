@@ -10,7 +10,7 @@ const SEO = ({
   schema,
 }) => {
   const siteName = "Speaksure";
-  const siteUrl = "https://speaksure.in"; // change to your domain
+  const siteUrl = "https://speaksure.in";
 
   const fullTitle = pageTitle ? `${siteName} - ${pageTitle}` : siteName;
 
@@ -51,10 +51,6 @@ const SEO = ({
 };
 
 export default SEO;
-
-
-
-
 
 // old code 27-02-2026
 

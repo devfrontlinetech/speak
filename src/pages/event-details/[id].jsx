@@ -33,7 +33,7 @@ export async function getStaticPaths() {
     }
   }
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
     return {
         props: {}
     }
