@@ -1,83 +1,68 @@
-
-import HomeMain from '../components/homes/home';
-import SEO from '../components/seo';
-import { Wrapper } from '../layout';
-import { NextSeo } from 'next-seo';
-import Head from 'next/head';
+import HomeMain from "../components/homes/home";
+import { Wrapper } from "../layout";
+import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 export default function Home() {
-    return (
-        <Wrapper>
-            <SEO pageTitle={'Home'} />
-            <NextSeo
-                title="Speaksure Academy Ielts Pte - Karur"
-                description="Welcome to Speaksure Academy, your trusted destination for mastering English proficiency exams. Specializing in Study Visa, IELTS, PTE, and CELPIP, TOEFL we offer expert-led courses designed to boost your scores and enhance your language skills."
-                openGraph={{
-                    type: 'article',
-                    article: {
-                        publishedTime: '2025-01-27T00:00:00Z',
-                        modifiedTime: '2025-01-27T08:00:00Z',
-                        authors: ['https://myamazingwebsite.com/authors/jane-doe'],
-                        tags: ['Coding', 'Web Development', 'Next.js', 'React.js'],
-                    },
-                }}
-            />
-            <Head>
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{
-                        __html: JSON.stringify({
-                            '@context': 'https://schema.org',
-                            '@type': 'Article',
-                            headline: 'Speaksure Academy Ielts Pte - Karur',
-                            description: 'Welcome to Speaksure Academy, your trusted destination for mastering English proficiency exams. Specializing in Study Visa, IELTS, PTE, and CELPIP, TOEFL we offer expert-led courses designed to boost your scores and enhance your language skills.',
-                            datePublished: '2025-01-25T00:00:00Z',
-                            dateModified: '2025-01-25T08:00:00Z',
-                            author: {
-                                '@type': 'Person',
-                                name: 'Anbu',
-                            },
-                            publisher: {
-                                '@type': 'Organization',
-                                name: 'Speaksure Academy',
-                                logo: {
-                                    '@type': 'ImageObject',
-                                    url: 'https://myamazingwebsite.com/logo.png',
-                                },
-                            },
-                            image: 'https://myamazingwebsite.com/article-image.jpg',
-                        }),
-                    }}
-                />
-                 <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{
-                        __html: JSON.stringify({
-                            '@context': 'https://schema.org',
-                            '@type': 'Product',
-                            'name': 'Speaksure Academy Ielts Pte - Karur',
-                            'aggregateRating': {
-                                '@type': 'AggregateRating',
-                                'ratingValue': 4.8,
-                                'ratingCount': 200, 
-                                'reviewCount': 200,
-                            },    
-                        }),
-                    }}     
-                />
-            </Head>
-            <HomeMain />
-        </Wrapper>
-    );
-}   
+  return (
+    <Wrapper>
+      <NextSeo
+        title="IELTS, PTE & Study Visa Coaching in Karur | Speaksure Academy"
+        description="Speaksure Academy in Karur offers expert IELTS, PTE, CELPIP, TOEFL and Spoken English coaching with high success rates."
+        canonical="https://speaksure.in"
+        openGraph={{
+          url: "https://speaksure.in",
+          title: "Speaksure Academy IELTS PTE - Karur",
+          description:
+            "Best IELTS, PTE & Spoken English coaching centre in Karur.",
+          images: [
+            {
+              url: "https://speaksure.in/og-image.jpg",
+              width: 1200,
+              height: 630,
+              alt: "Speaksure Academy Karur",
+            },
+          ],
+          site_name: "Speaksure Academy",
+        }}
+      />
 
-
-
-
-
-
-
-
-
-
-
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "EducationalOrganization",
+              name: "Speaksure Academy",
+              url: "https://speaksure.in",
+              telephone: "+919943318199",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Karur",
+                addressRegion: "TN",
+                postalCode: "639007",
+                addressCountry: "IN",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: "10.9601",
+                longitude: "78.0766",
+              },
+              areaServed: {
+                "@type": "City",
+                name: "Karur",
+              },
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.8",
+                reviewCount: "200",
+              },
+            }),
+          }}
+        />
+      </Head>
+      <HomeMain />
+    </Wrapper>
+  );
+}
