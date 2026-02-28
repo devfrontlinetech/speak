@@ -52,11 +52,11 @@ export default function Home() {
 
               geo: {
                 "@type": "GeoCoordinates",
-                latitude: 10.9601,
-                longitude: 78.0766,
+                latitude: 10.9582996,
+                longitude: 78.0765351,
               },
 
-              hasMap: "https://www.google.com/maps?q=10.9601,78.0766",
+              hasMap: "https://www.google.com/maps/place/Speaksure+Academy+of+IELTS+%26+PTE+%7C+Study+Visa+%7C+Spoken+English+Karur+%7C+Fluency+Accent+%7C+TOEFL+%7C+CELPIP%7C+BEC%7C+Business+English/@10.9591998,78.0752801,18z/data=!4m6!3m5!1s0x3baa2fa534963b01:0x81b93ad3da53c8b5!8m2!3d10.9582996!4d78.0765351!16s%2Fg%2F11b70l240g?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D",
 
               areaServed: {
                 "@type": "City",
