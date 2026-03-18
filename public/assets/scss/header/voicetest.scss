@@ -1,5 +1,5 @@
 .voice-container {
-  background-image: url("../../images/english-test/main-bg.png");
+  background-image: url("../../../assets//images/english-test/main-bg.png");
   width: 100%;
   min-height: 100vh;
   background-position: center;
@@ -12,15 +12,13 @@
   box-sizing: border-box;
 }
 
-
 .test-right {
   width: 100%;
-  max-width: 420px;  
-  min-width: 320px;  
+  max-width: 420px;
+  min-width: 320px;
   text-align: left;
   margin: -124px 279px 0px 0px;
 }
-
 
 .right-head {
   font-size: 30px;
@@ -29,11 +27,9 @@
   color: #004f3a;
 }
 
-
 .test-box {
   margin-top: 20px;
 }
-
 
 .test-link {
   width: 100%;
@@ -58,7 +54,6 @@ a {
   color: inherit !important;
 }
 
-
 @media screen and (max-width: 1023px) {
   .voice-container {
     justify-content: center;
@@ -68,7 +63,6 @@ a {
     max-width: 500px;
   }
 }
-
 
 @media screen and (max-width: 767px) {
   .voice-container {
@@ -91,15 +85,6 @@ a {
     padding: 14px;
   }
 }
-
-
-
-
-
-
-
-
-
 
 // .voice-container {
 //   // background-image: url("../../../assets/images/english-test/bg.jpg");
@@ -157,7 +142,7 @@ a {
 //   font-weight: 500;
 //   transition: all 0.3s ease;
 //   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  
+
 // }
 
 // .test-link:hover {
