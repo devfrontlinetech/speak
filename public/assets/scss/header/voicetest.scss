@@ -1,12 +1,12 @@
 .voice-container {
-  background-image: url("../images/voice-test/main-bg.png");
+  background-image: url("../../images/english-test/main-bg.png");
   width: 100%;
   min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  justify-content: flex-end; /* ✅ push to right */
+  justify-content: flex-end;
   align-items: center;
   padding: 2rem 5%;
   box-sizing: border-box;
