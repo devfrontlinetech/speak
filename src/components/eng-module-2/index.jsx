@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Footer, Header } from '../../layout';
+import { Footer, Header } from '../../layout';
 
 import ModuleTwo from './module-two';
 
@@ -7,9 +7,9 @@ const index = () => {
     return (
         <div className='sticky-header'>
             <div id="main-wrapper" className="main-wrapper">
-                {/* <Header no_top_bar={true} /> */}
+                <Header no_top_bar={true} />
                 <ModuleTwo />
-                {/* <Footer style_2={'footer-dark bg-image footer-style-2'} /> */}
+                <Footer style_2={'footer-dark bg-image footer-style-2'} />
             </div>
         </div>
     )

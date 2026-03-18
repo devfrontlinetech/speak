@@ -393,7 +393,7 @@ const ModuleOne = () => {
   };
 
   const handleNextTest = () => {
-    router.push("/module-3"); // navigates to next test
+    router.push("/module-3");
   };
 
   return (
