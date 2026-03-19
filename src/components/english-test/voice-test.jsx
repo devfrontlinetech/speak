@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Header } from '../../layout';
 
 const VoiceTest = () => {
   const testLink = [
@@ -9,8 +8,6 @@ const VoiceTest = () => {
   ];
 
   return (
-    <>
-    <Header no_top_bar={true} />
     <div className="voice-container">
       <div className="test-right">
         <h1 className="right-head">SpeakTest</h1>
@@ -24,7 +21,6 @@ const VoiceTest = () => {
         </div>
       </div>
     </div>
-    </>
   );
 };
 
