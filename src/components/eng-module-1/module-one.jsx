@@ -377,7 +377,7 @@ const ModuleOne = () => {
     if (currentIndex < questions.length - 1) {
       setCurrentIndex(currentIndex + 1);
     } else {
-      // ✅ Show completion popup instead of alert
+      //  Show completion popup instead of alert
       setShowCompletionPopup(true);
     }
   };
