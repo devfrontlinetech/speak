@@ -27,8 +27,8 @@ const HeaderThree = () => {
                                 <div className="logo">
                                     <Link href="/" legacyBehavior>
                                         <a>
-                                            <img className="logo-light" src="/assets/images/speak-logo/SpeakSure.png" alt="Corporate Logo" />
-                                            <img className="logo-dark" src="/assets/images/speak-logo/SpeakSure.png" alt="Corporate Logo" />
+                                            <img className="logo-light" src="/assets/images/speak-logo/speakSure.png" alt="Corporate Logo" />
+                                            <img className="logo-dark" src="/assets/images/speak-logo/speakSure.png" alt="Corporate Logo" />
                                             
                                         </a>
                                     </Link>
