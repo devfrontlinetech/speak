@@ -39,19 +39,19 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="about-content">
+                       <div className="about-content">
                             <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 <span className="pre-title">About Us</span>
                                 <h2 className="title">Individual <span className="color-secondary">Nutrition</span> Counseling & Coaching</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
-                                <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod ex tempor incididunt labore dolore magna aliquaenim ad minim.</p>
+                                <p>We provide personalized nutrition counseling and coaching to help you achieve your health goals through tailored meal plans, expert advice, and ongoing support.</p>
                             </div>
                             <ul className="features-list" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 <li>Expert Trainers</li>
                                 <li>Online Remote Learning</li>
                                 <li>Lifetime Access</li>
                             </ul>
-                            <a href="#" className="edu-btn">Get Start Today <i className="icon-4"></i></a>
+                            <a href="#" className="edu-btn">Get Started Today <i className="icon-4"></i></a>
                         </div>
                     </div>
                 </div>

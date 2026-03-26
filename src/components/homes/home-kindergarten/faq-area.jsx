@@ -2,27 +2,28 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
+
 const accordion_items = [
     {
         id: 'collapseOne', 
         show: true, 
         title: 'How can I contact a school directly?',
-        style:'style-extra02',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        style: 'style-extra02',
+        desc: 'You can contact a school by visiting their official website, calling their administrative office, or sending an email to their admissions department. Most schools also have a contact form for inquiries.'
     },
     {
         id: 'collapseTwo', 
         show: false,
         title: 'How do I find a school where I want to study?',
-        style:'style-extra05',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        style: 'style-extra05',
+        desc: 'Start by researching schools online, checking rankings, and reading reviews. Narrow down based on your preferred location, courses offered, and other facilities that are important to you.'
     },
     {
         id: 'collapseThree', 
         show: false, 
         title: 'Where should I study abroad?',
-        style:'style-primary',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        style: 'style-primary',
+        desc: 'Choosing where to study abroad depends on your field of study, budget, language preference, and cultural interests. Popular destinations include the USA, UK, Canada, and Australia.'
     }
 ];
 

@@ -1,7 +1,7 @@
 const brand_contents = {
     pre_title: 'Our Partners',
     title: 'Learn with Our Partners',
-    text: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor incididunt.',
+    text: 'We collaborate with top institutions and organizations to provide you with high-quality learning experiences.',
     brands: [
         'assets/images/brand/brand-01.png',
         'assets/images/brand/brand-02.png',

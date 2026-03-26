@@ -5,9 +5,9 @@ import { useMouseMoveUI } from '../../contexts/mouse-move-context';
 import FooterSocial from './component/footer-social';
 
 const footer_contents = {
-    desc: 'Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.',
-    add: '29/11 A Old Bypass Road, Near SBI, Karur 1.',
-    call: '+091-9789655455',
+    desc: 'We provide practical training in communication skills, spoken English, and modern technologies to help you build confidence and grow your career.',
+    add: '29/11 A Old Bypass Road, Near SBI, Karur, Tamil Nadu',
+    call: '+91 97896 55455',
     email: 'speaksure@gmail.com',
     widgets: [
         {

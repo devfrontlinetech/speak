@@ -15,7 +15,7 @@ const CounterArea = () => {
                                 <span className="pre-title">Fun Facts</span>
                                 <h2 className="title">The Large <span className="color-secondary">Number</span> of Counting</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
-                                <p>Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor incididunt labore dolore magna aliquaenim ad minim.</p>
+                                <p>Thousands of students have improved their communication skills and built confidence through our expert-led training programs.</p>
                             </div>
                         </div>
                     </div>

@@ -10,23 +10,23 @@ const contents = [
         title: 'Student',
         ratings: [1, 2, 3, 4, 5],
         imgSrc: '/assets/images/testimonial/testimonial-09.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.'
+        desc: 'Speaksure has truly transformed my learning experience. The guidance and resources helped me achieve my goals faster than I expected.'
     },
     {
         name: 'Sara Lopez',
         title: 'Designer',
         ratings: [1, 2, 3, 4, 5],
         imgSrc: '/assets/images/testimonial/testimonial-10.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.'
+        desc: 'The personalized support and interactive sessions made learning both easy and enjoyable. I highly recommend this platform.'
     },
     {
         name: 'Amber Page',
-        title: 'developer',
+        title: 'Developer',
         ratings: [1, 2, 3, 4, 5],
         imgSrc: '/assets/images/testimonial/testimonial-11.jpg',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.'
+        desc: 'Fantastic experience! The structured programs and helpful instructors have boosted my confidence and skills significantly.'
     }
-]
+];
 
 const Testimonial = () => {
     const [loop, setLoop] = useState(false);

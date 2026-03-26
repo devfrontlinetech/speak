@@ -1,6 +1,6 @@
 import React from 'react'
 
-const features = () => {
+const Features = () => {
     return (
         <div className="edu-categorie-area categorie-area-5 edu-section-gap">
             <div className="container">
@@ -16,8 +16,8 @@ const features = () => {
                                 <i className="icon-83"></i>
                             </div>
                             <div className="content">
-                                <h5 className="title">Daily Excersize</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <h5 className="title">Daily Exercise</h5>
+                                <p>Simple, effective workouts designed to keep you active and energized every day.</p>
                             </div>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ const features = () => {
                             </div>
                             <div className="content">
                                 <h5 className="title">Personal Program</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <p>Tailored coaching plans customized to your goals, lifestyle, and preferences.</p>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ const features = () => {
                             </div>
                             <div className="content">
                                 <h5 className="title">Natural Process</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <p>Guidance on nutrition and wellness practices that promote natural, sustainable results.</p>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ const features = () => {
                             </div>
                             <div className="content">
                                 <h5 className="title">Improving Health</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <p>Evidence-based techniques to boost your overall health and vitality.</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const features = () => {
                             </div>
                             <div className="content">
                                 <h5 className="title">Immune System</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <p>Nutrition and lifestyle strategies designed to strengthen your immune system.</p>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const features = () => {
                             </div>
                             <div className="content">
                                 <h5 className="title">Physical Activity</h5>
-                                <p>Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod.</p>
+                                <p>Structured movement programs to improve strength, flexibility, and endurance.</p>
                             </div>
                         </div>
                     </div>
@@ -82,4 +82,4 @@ const features = () => {
     )
 }
 
-export default features;
+export default Features;

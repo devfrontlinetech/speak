@@ -824,75 +824,80 @@ const course_data = [
   ]
 },
 
-  {
-    id: 'ielts-preparation',
-    university_courses: true,
-    img: 'san.jpg',
-    filter_category: ["undergraduate", "online"],
-    duration: '8 Weeks',
-    level: 'Intermediate',
-    course_outline: 'Online + Onsite',
-    title: 'IELTS Preparation Course',
-    rating: '4.8',
-    rating_count: 200,
-    course_price: '',
-    lesson: 30,
-    student: 150,
-    category: 'Language & Test Prep',
-    short_desc: 'Prepare effectively for the IELTS exam with expert instructors and practice tests.',
-    instructor: 'RR Anbuthane',
-    instructor_img: 'team-03.webp',
-    instructor_title: 'IELTS Expert & Instructor',
-    instructor_desc: '  over 10 years of experience helping students achieve their desired band scores. His engaging teaching methods have helped thousands of students succeed in the IELTS exam.',
-    features: [
-      'Comprehensive lessons covering all 4 sections of the IELTS exam (Reading, Writing, Listening, Speaking).',
-      'Access to practice tests and personalized feedback.',
-      'Expert instructors with proven success rates.'
-    ], 
-    social_links: [
-      { link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook' },
-      { link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter' },
-      { link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2' },
-      { link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube' }
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',  // You can change this to the relevant video ID for the IELTS course.
-    course_desc: 'This IELTS preparation course covers all sections of the IELTS exam, including speaking, writing, listening, and reading. With expert instructors and tailored feedback, you will be well-prepared to achieve your target band score.',
-    course_desc_2: 'Throughout the course, you will take practice tests, receive personalized feedback, and develop strategies to succeed on exam day.',
-    learn_list: ['Master the IELTS speaking test with expert strategies', 'develop your listening skills through real-life practice tests', 'Enhance your writing with clear and effective techniques', 'Improve your reading speed and comprehension for the test'],
-    course_desc_3: 'By the end of the course, you will feel confident and prepared to tackle the IELTS exam and achieve your desired band score.',
-    curriculum_desc: 'This course is designed for students who want to improve their IELTS scores and are committed to preparing for all aspects of the test.',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Introduction to IELTS: Understanding the Test Format',
-        lessons: [
-          { title: 'Introduction to the IELTS Test', icon: 'icon-68' },
-          { title: 'Understanding the Speaking Module', icon: 'icon-68' },
-          { title: 'Reading Strategies', icon: 'icon-68' },
-          { title: 'Practice Listening Test', icon: 'icon-68' },
-          { title: 'Writing Task 1: Overview and Structure', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced IELTS Techniques and Practice',
-        lessons: [
-          { title: 'Speaking Test Simulation', icon: 'icon-68' },
-          { title: 'Writing Task 2: Opinion Essays', icon: 'icon-68' },
-          { title: 'Mock Listening Test', badge_list: true, question: 2, minutes: 20 },
-          { title: 'Reading Speed Practice', icon: 'icon-68' },
-          { title: 'Final Practice Test and Feedback', icon: 'icon-68' },
-        ]
-        },
-        ],
-    reviews:[
-      {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-    ]
-  },
+ {
+  id: 'ielts-preparation',
+  university_courses: true,
+  img: 'san.jpg',
+  filter_category: ["undergraduate", "online"],
+  duration: '8 Weeks',
+  level: 'Intermediate',
+  course_outline: 'Online + Onsite',
+  title: 'IELTS Preparation Course',
+  rating: '4.8',
+  rating_count: 200,
+  course_price: '',
+  lesson: 30,
+  student: 150,
+  category: 'Language & Test Prep',
+  short_desc: 'Prepare effectively for the IELTS exam with expert instructors and practice tests.',
+  instructor: 'RR Anbuthane',
+  instructor_img: 'team-03.webp',
+  instructor_title: 'IELTS Expert & Instructor',
+  instructor_desc: 'Over 10 years of experience helping students achieve their desired band scores. His engaging teaching methods have helped thousands of students succeed in the IELTS exam.',
+  features: [
+    'Comprehensive lessons covering all 4 sections of the IELTS exam (Reading, Writing, Listening, Speaking).',
+    'Access to practice tests and personalized feedback.',
+    'Expert instructors with proven success rates.'
+  ],
+  social_links: [
+    { link: 'http://facebook.com', target: '_blank', icon: 'icon-facebook' },
+    { link: 'http://twitter.com', target: '_blank', icon: 'icon-twitter' },
+    { link: 'https://www.linkedin.com/', target: '_blank', icon: 'icon-linkedin2' },
+    { link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube' }
+  ],
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc', // Replace with relevant IELTS course video ID if needed
+  course_desc: 'This IELTS preparation course covers all sections of the exam, including speaking, writing, listening, and reading. Expert instructors provide tailored feedback to ensure you are fully prepared for your target band score.',
+  course_desc_2: 'Throughout the course, you will take practice tests, receive personalized feedback, and learn effective strategies for exam success.',
+  learn_list: [
+    'Master the IELTS speaking test with expert strategies.',
+    'Develop your listening skills through real-life practice tests.',
+    'Enhance your writing with clear and effective techniques.',
+    'Improve your reading speed and comprehension for the test.'
+  ],
+  course_desc_3: 'By the end of this course, you will feel confident and prepared to tackle the IELTS exam and achieve your desired band score.',
+  curriculum_desc: 'This course is designed for students who want to improve their IELTS scores and are committed to preparing for all aspects of the test.',
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Introduction to IELTS: Understanding the Test Format',
+      lessons: [
+        { title: 'Introduction to the IELTS Test', icon: 'icon-68' },
+        { title: 'Understanding the Speaking Module', icon: 'icon-68' },
+        { title: 'Reading Strategies', icon: 'icon-68' },
+        { title: 'Practice Listening Test', icon: 'icon-68' },
+        { title: 'Writing Task 1: Overview and Structure', icon: 'icon-68' },
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced IELTS Techniques and Practice',
+      lessons: [
+        { title: 'Speaking Test Simulation', icon: 'icon-68' },
+        { title: 'Writing Task 2: Opinion Essays', icon: 'icon-68' },
+        { title: 'Mock Listening Test', badge_list: true, question: 2, minutes: 20 },
+        { title: 'Reading Speed Practice', icon: 'icon-68' },
+        { title: 'Final Practice Test and Feedback', icon: 'icon-68' },
+      ]
+    }
+  ],
+  reviews:[
+    { img:'/assets/images/blog/comment-01.jpg', rating:5, name:'Haley Bennet', date:'Oct 10, 2021', desc:'The IELTS strategies taught in this course helped me improve my speaking and writing scores significantly.' },
+    { img:'/assets/images/blog/comment-02.jpg', rating:5, name:'Simon Baker', date:'Oct 15, 2021', desc:'Excellent practice tests and feedback. I felt confident going into the real exam.' },
+    { img:'/assets/images/blog/comment-03.jpg', rating:5, name:'Richard Gere', date:'Oct 19, 2021', desc:'The instructor’s tips and exam strategies were invaluable. I achieved my target band score!' },
+  ]
+},
   {
     id: 'pte-preparation',
     university_courses: true,
@@ -1614,76 +1619,78 @@ const course_data = [
   ]
   },
   {
-    id: 'toastmasters',
-    kitchen_course:true,
-    duration: '(weekly/monthly)',
-    course_outline:'Onsite Only',
-    img: 'course-19.jpg',
-    hours: 35,
-    level: 'Beginners to Advanced',
-    title: 'Toastmasters,Speaking and Leadership Training',
-    rating: '5',
-    rating_count: 40,
-    course_price: '',
-    lesson: 20,
-    student: 36,
-    category:'Academics',
-    short_desc: 'Toastmasters Club training is a program designed to help individuals improve their public speaking,peer-driven environment.',
-    instructor: 'RR Anbuthane',
-    instructor_img:'team-01.webp',
-    instructor_title:'Founder & CEO',
-    instructor_desc:'Experienced Toastmasters Facilitators..',
-    features: [
-      'Prepared Speeches',
-      'Leadership Roles',
-      'Mentorship'
-    ], 
-    social_links:[
-      {link: 'https://www.facebook.com/frontlinetechin/', target: '_blank', icon: 'icon-facebook'},
-      {link: 'https://twitter.com/FrontlineTechin', target: '_blank', icon: 'icon-twitter'},
-      {link: 'https://www.linkedin.com/company/frontline-technologies', target: '_blank', icon: 'icon-linkedin2'},
-      {link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube'}
-    ],
-    language: 'English',
-    certificate: 'yes',
-    videoId: 'PICj5tr9hcc',
-    course_desc: 'Interactive Sessions: Learn by doing, with regular opportunities to speak.',
-    course_desc_2: 'Constructive criticism and praise from fellow members.',
-    learn_list: ['Confidence to speak in various public settings (presentations, meetings, events, etc.)'],
-    course_desc_3: 'Enhanced leadership abilities through managing roles and team dynamics',
-    curriculum_desc: 'Understanding the goals of Toastmasters: Communication and Leadership',
-    course_lessons: [
-      {
-        title: 'Week 1-4',
-        text: 'Introduction to Toastmasters',
-        lessons: [
-          { title: 'Introduction', icon: 'icon-68' },
-          { title: 'Course Overview', icon: 'icon-68' },
-          { title: 'Overview of Toastmasters International programs and structure' },
-          { title: 'Public Speaking Fundamentals', icon: 'icon-68' },
-          { title: 'Speech Preparation', icon: 'icon-68' },
-          { title: ' Course Exercise / Reference Files', icon: 'icon-68' },
-        ]
-      },
-      {
-        title: 'Week 5-8',
-        text: 'Advanced story telling techniques for writers: Personas, Characters & Plots',
-        lessons: [
-          { title: 'Advanced Storytelling Techniques', icon: 'icon-68' },
-          { title: 'Character and Plot Development', icon: 'icon-68' },
-          { title: 'Global Variables and Speech Strategy', badge_list: true, question: 2, minutes: 15 },
-          { title: 'Using Visual Aids and Presentation Tools', icon: 'icon-68' },
-          { title: 'Defining Functions in Public Speaking', icon: 'icon-68' },
-          { title: 'Constants', icon: 'icon-68' },
-        ]
-      },
-    ],
-    reviews:[
-      {img:'/assets/images/blog/comment-01.jpg',rating:5,name:'Haley Bennet',date:'Oct 10, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-02.jpg',rating:5,name:'Simon Baker',date:'Oct 15, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-      {img:'/assets/images/blog/comment-03.jpg',rating:5,name:'Richard Gere',date:'Oct 19, 2021',desc:'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-    ]
-  },
+  id: 'toastmasters',
+  kitchen_course: true,
+  duration: '(weekly/monthly)',
+  course_outline: 'Onsite Only',
+  img: 'course-19.jpg',
+  hours: 35,
+  level: 'Beginners to Advanced',
+  title: 'Toastmasters, Speaking and Leadership Training',
+  rating: '5',
+  rating_count: 40,
+  course_price: '',
+  lesson: 20,
+  student: 36,
+  category: 'Academics',
+  short_desc: 'Toastmasters Club training is designed to help individuals improve public speaking and leadership skills in a peer-driven environment.',
+  instructor: 'RR Anbuthane',
+  instructor_img: 'team-01.webp',
+  instructor_title: 'Founder & CEO',
+  instructor_desc: 'Experienced Toastmasters facilitator with years of mentoring individuals to achieve confident communication and leadership growth.',
+  features: [
+    'Prepared Speeches',
+    'Leadership Roles',
+    'Mentorship'
+  ],
+  social_links: [
+    { link: 'https://www.facebook.com/frontlinetechin/', target: '_blank', icon: 'icon-facebook' },
+    { link: 'https://twitter.com/FrontlineTechin', target: '_blank', icon: 'icon-twitter' },
+    { link: 'https://www.linkedin.com/company/frontline-technologies', target: '_blank', icon: 'icon-linkedin2' },
+    { link: 'https://www.youtube.com/', target: '_blank', icon: 'icon-youtube' }
+  ],
+  language: 'English',
+  certificate: 'yes',
+  videoId: 'PICj5tr9hcc',
+  course_desc: 'Engage in interactive sessions that provide practical speaking opportunities and skill-building exercises.',
+  course_desc_2: 'Receive constructive feedback and praise from peers to enhance your communication abilities.',
+  learn_list: [
+    'Gain confidence to speak in various public settings such as presentations, meetings, and events.'
+  ],
+  course_desc_3: 'Develop leadership abilities through managing roles, mentoring peers, and leading team activities.',
+  curriculum_desc: 'Learn the goals of Toastmasters: effective communication and leadership development.',
+  course_lessons: [
+    {
+      title: 'Week 1-4',
+      text: 'Introduction to Toastmasters',
+      lessons: [
+        { title: 'Introduction', icon: 'icon-68' },
+        { title: 'Course Overview', icon: 'icon-68' },
+        { title: 'Overview of Toastmasters International programs and structure', icon: 'icon-68' },
+        { title: 'Public Speaking Fundamentals', icon: 'icon-68' },
+        { title: 'Speech Preparation', icon: 'icon-68' },
+        { title: 'Course Exercises and Reference Materials', icon: 'icon-68' }
+      ]
+    },
+    {
+      title: 'Week 5-8',
+      text: 'Advanced Speaking and Leadership Techniques',
+      lessons: [
+        { title: 'Advanced Storytelling Techniques', icon: 'icon-68' },
+        { title: 'Character and Plot Development for Speeches', icon: 'icon-68' },
+        { title: 'Speech Strategy and Planning', badge_list: true, question: 2, minutes: 15 },
+        { title: 'Using Visual Aids and Presentation Tools', icon: 'icon-68' },
+        { title: 'Effective Leadership in Club Roles', icon: 'icon-68' },
+        { title: 'Mentorship and Peer Feedback Practices', icon: 'icon-68' }
+      ]
+    }
+  ],
+  reviews: [
+    { img: '/assets/images/blog/comment-01.jpg', rating: 5, name: 'Haley Bennet', date: 'Oct 10, 2021', desc: 'This course significantly improved my confidence in public speaking and helped me take on leadership roles effectively.' },
+    { img: '/assets/images/blog/comment-02.jpg', rating: 5, name: 'Simon Baker', date: 'Oct 15, 2021', desc: 'The mentorship and peer feedback in this program were incredibly valuable for improving my speaking skills.' },
+    { img: '/assets/images/blog/comment-03.jpg', rating: 5, name: 'Richard Gere', date: 'Oct 19, 2021', desc: 'I learned practical techniques for speech preparation and leadership that I now use in professional settings.' }
+  ]
+},
   /*{
     id: 20,
     yoga_course: true,

@@ -12,27 +12,33 @@ const EventDetailsArea = ({event}) => {
                         <img src="/assets/images/event/event-21.jpg" alt="Event" />
                     </div>
                     <div className="row row--30">
-                        <div className="col-lg-8">
-                            <div className="details-content">
-                                <h3>About The Event</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exerec tation ullamco laboris nis aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores.</p>
-                                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
-                                <ul>
-                                    <li>Aute irure dolor in reprehenderit</li>
-                                    <li>Occaecat cupidatat non proident sunt in culpa</li>
-                                    <li>Pariatur enim ipsam.</li>
-                                </ul>
-                                <h3>Event Location</h3>
-                                <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam. </p>
-                                <ul className="event-meta">
-                                    <li><i className="icon-40"></i>Newyork City, USA</li>
-                                    <li><i className="icon-71"></i>+012 (345) 6789</li>
-                                </ul>
-                                <div className="gmap_canvas">
-                                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=melbourne,%20Australia&t=&z=15&ie=UTF8&iwloc=&output=embed" ></iframe>
-                                </div>
+                    <div className="col-lg-8">
+                        <div className="details-content">
+                            <h3>About The Event</h3>
+                            <p>This event brings together industry experts and enthusiasts for a day of insightful talks, networking, and hands-on workshops. Attendees will gain practical knowledge and actionable strategies to advance their skills and careers.</p>
+                            <p>Expect interactive sessions, live demonstrations, and Q&A panels where you can engage directly with speakers. The event is designed for professionals, students, and anyone interested in learning from the best in the field.</p>
+                            <ul>
+                                <li>Engage with top industry professionals</li>
+                                <li>Participate in interactive workshops and sessions</li>
+                                <li>Network with peers and experts from around the world</li>
+                            </ul>
+
+                            <h3>Event Location</h3>
+                            <p>The event will be held at the heart of New York City, offering easy access to public transportation, local accommodations, and dining options. Join us for a productive and memorable experience.</p>
+                            <ul className="event-meta">
+                                <li><i className="icon-40"></i>29/11 A Old Bypass Road, Near SBI, Karur 1.</li>
+                                <li><i className="icon-71"></i>+91 97896 55455</li>
+                            </ul>
+
+                            <div className="gmap_canvas">
+                                <iframe 
+                                    id="gmap_canvas" 
+                                    src="https://maps.google.com/maps?q=melbourne,%20Australia&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                                    title="Event Location"
+                                ></iframe>
                             </div>
                         </div>
+                    </div>
 
                         <div className="col-lg-4">
                             <div className="course-sidebar-3">

@@ -22,16 +22,26 @@ const AboutUsArea = () => {
             <div className="container">
                 <div className="row g-5">
                     <div className="col-lg-6">
-                        <div className="about-content">
+                       <div className="about-content">
                             <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 <span className="pre-title">About Us</span>
                                 <h2 className="title">We Provide Best <span className="color-secondary">Education</span> Services For You.</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
-                                <p>Magna aliquaenim ad minim veniam quis nostrud exercitation ullamco laborisLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius tempor incididunt labore.</p>
+                                <p>We are committed to delivering high-quality education that helps students improve their skills, build confidence, and achieve their career goals.</p>
                             </div>
                             <div className="about-mission">
-                                <MissionItem color="02" icon="51" title="Our Mission" text="Magna aliquaenim minim quis nostrud exercitation ulamco labor is Lorem ipsum." />
-                                <MissionItem color="06" icon="52" title="Our Vision" text="Magna aliquaenim minim quis nostrud exercitation ulamco labor is Lorem ipsum." />
+                                <MissionItem 
+                                    color="02" 
+                                    icon="51" 
+                                    title="Our Mission" 
+                                    text="Our mission is to empower learners with practical knowledge and real-world skills for personal and professional growth." 
+                                />
+                                <MissionItem 
+                                    color="06" 
+                                    icon="52" 
+                                    title="Our Vision" 
+                                    text="Our vision is to create a learning platform that transforms lives through accessible and effective education." 
+                                />
                             </div>
                         </div>
                     </div>

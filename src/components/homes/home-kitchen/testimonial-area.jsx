@@ -7,24 +7,24 @@ import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 const testimonial_items = [
     {
         ratings: [1, 2, 3, 4, 5],
-        desc: 'Lorem ipsum dolor amet consectur elit adicing elit sed mod tempor incididunt enim minim veniam quis nosrud citation laboris nisiste aliquip comodo perspiatix unde omnis iste natus error sit voluptatem.',
+        desc: 'Haley provided excellent design guidance and always met deadlines with high-quality work. Her creativity greatly improved our project outcomes.',
         img: '/assets/images/testimonial/testimonial-01.png',
         name: 'Haley Bennet',
         title: 'Designer'
     },
     {
         ratings: [1, 2, 3, 4, 5],
-        desc: 'Lorem ipsum dolor amet consectur elit adicing elit sed mod tempor incididunt enim minim veniam quis nosrud citation laboris nisiste aliquip comodo perspiatix unde omnis iste natus error sit voluptatem.',
+        desc: 'Richard is an outstanding developer who consistently delivers reliable and efficient code. He collaborates well and helps the team achieve targets.',
         img: '/assets/images/testimonial/testimonial-02.png',
         name: 'Richard Gere',
-        title: 'developer'
+        title: 'Developer'
     },
     {
         ratings: [1, 2, 3, 4, 5],
-        desc: 'Lorem ipsum dolor amet consectur elit adicing elit sed mod tempor incididunt enim minim veniam quis nosrud citation laboris nisiste aliquip comodo perspiatix unde omnis iste natus error sit voluptatem.',
+        desc: 'Megan’s content creation skills are top-notch. She crafts engaging content that resonates with the audience and drives engagement.',
         img: '/assets/images/testimonial/testimonial-03.png',
         name: 'Megan Foxx',
-        title: 'Content creator'
+        title: 'Content Creator'
     }
 ];
 

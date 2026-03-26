@@ -7,19 +7,19 @@ const accordion_items = [
         id: 'collapseOne', 
         show: true, 
         title: 'How can I contact a school directly?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'You can contact a school directly via their official website, email, or phone. Most schools also provide an inquiry form for prospective students.'
     },
     {
         id: 'collapseTwo', 
         show: false, 
         title: 'How do I find a school where I want to study?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'Research schools based on location, programs offered, and accreditation. Use online school directories or visit campus websites to find detailed information.'
     },
     {
         id: 'collapseThree', 
         show: false, 
         title: 'Where should I study abroad?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'Choose a country and institution based on your field of study, budget, language preferences, and cultural interests. Consider student support and visa requirements.'
     }
 ];
 

@@ -14,11 +14,26 @@ const WhyChose = () => {
                     <span className="shape-line"><i className="icon-19"></i></span>
                 </div>
                 <div className="row g-5">
-                    <ChoseBox color="color-primary-style" icon="45" title="High Quality Courses" subtitle="Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna." />
+                    <ChoseBox 
+                        color="color-primary-style" 
+                        icon="45" 
+                        title="High Quality Courses" 
+                        subtitle="Our courses are designed with real-world scenarios to help you build practical skills and confidence." 
+                    />
 
-                    <ChoseBox color="color-secondary-style" icon="46" title="Life Time Access" subtitle="Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna." />
+                    <ChoseBox 
+                        color="color-secondary-style" 
+                        icon="46" 
+                        title="Life Time Access" 
+                        subtitle="Get lifetime access to all learning materials so you can learn anytime at your own pace." 
+                    />
 
-                    <ChoseBox color="color-extra08-style" icon="47" title="Expert Instructors" subtitle="Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna." />
+                    <ChoseBox 
+                        color="color-extra08-style" 
+                        icon="47" 
+                        title="Expert Instructors" 
+                        subtitle="Learn from industry experts who guide you step-by-step with proven teaching methods." 
+                    />
                 </div>
                 <ul className="shape-group">
                     <li className="shape-5" data-sal-delay="500" data-sal="fade" data-sal-duration="200">

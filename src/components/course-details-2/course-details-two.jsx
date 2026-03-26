@@ -54,7 +54,7 @@ const CourseDetailsTwo = ({ course }) => {
 
                             <div className="course-curriculam mb--90">
                                 <h3 className="heading-title" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">Topics for This Course</h3>
-                                <p data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inc idid unt ut labore et dolore magna aliqua.</p>
+                              <p data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">  This course provides a comprehensive overview of all the topics you need to succeed, including hands-on exercises and practical examples.</p>
                                 <div className="accordion edu-accordion" id="accordionExample" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
 
                                     <SingleAccordion show={true} id="1" title="Course Introduction" desc={[

@@ -31,16 +31,31 @@ const WhyChose = () => {
                     <h2 className="title">The Best <span className="color-secondary">Beneficial</span> Side <br /> of EduBlink</h2>
                     <span className="shape-line"><i className="icon-19"></i></span>
                 </div>
-                <div className="row g-5">
-                    <FeatureBox color="color-primary-style" img="03" icon="45" title="High Quality Courses"
-                    text="Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna." />
+             <div className="row g-5">
+                <FeatureBox 
+                    color="color-primary-style" 
+                    img="03" 
+                    icon="45" 
+                    title="High Quality Courses"
+                    text="Our courses are designed with practical lessons and real-world examples to ensure effective learning outcomes." 
+                />
 
-                    <FeatureBox color="color-secondary-style" img="04" icon="46" title="Life Time Access"
-                    text="Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna." />
+                <FeatureBox 
+                    color="color-secondary-style" 
+                    img="04" 
+                    icon="46" 
+                    title="Life Time Access"
+                    text="Enjoy lifetime access to course materials so you can revisit lessons anytime and continue improving your skills." 
+                />
 
-                    <FeatureBox color="color-extra08-style" img="05" icon="47" title="Expert Instructors"
-                    text="Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna." />
-                </div>
+                <FeatureBox 
+                    color="color-extra08-style" 
+                    img="05" 
+                    icon="47" 
+                    title="Expert Instructors"
+                    text="Learn from experienced trainers who provide clear guidance and support throughout your learning journey." 
+                />
+            </div>
                 <ul className="shape-group">
                     <li className="shape-1" data-sal-delay="500" data-sal="fade" data-sal-duration="200">
                         <img className="rotateit" src="/assets/images/about/shape-13.png" alt="shape" />

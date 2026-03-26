@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
 
 const contents = {
-    pre_title: 'Testimonials',
-    title: <>What Our Students <br/> Have To Say</>,
-    desc: "Lorem ipsum dolor sit amet consectur adipiscing elit sed eiusmod tempor incidid unt labore dolore magna aliquaenim minim.",
+   pre_title: 'Testimonials',
+title: <>What Our Students <br/> Are Saying</>,
+desc: "Our students share their experiences and success stories, highlighting how our courses helped them achieve their goals efficiently.",
     testimonial_items: [
         {
             logo: '/assets/images/testimonial/logo-01.png',

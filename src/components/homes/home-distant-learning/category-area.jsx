@@ -2,40 +2,40 @@ import Link from "next/link";
 import { HybridDistancePrograms, NonDegreeProgram, OffCanvasPrograms, OnlineDegree } from "../../../svg";
 
 const contents = {
-    category_data: [
-        {
-            icon: <OnlineDegree />,
-            title: 'Competitive Exam',
-            text: 'Lorem ipsum dolor consec tur elit adicing sed umod tempor.',
-            courses: 7,
-            color: 'color-primary-style',
-            delay: '100'
-        },
-        {
-            icon: <NonDegreeProgram />,
-            title: 'Language Training',
-            text: 'Lorem ipsum dolor consec tur elit adicing sed umod tempor.',
-            courses: 4,
-            color: 'color-secondary-style',
-            delay: '200'
-        },
-        {
-            icon: <OffCanvasPrograms />,
-            title: 'Interview Training',
-            text: 'Lorem ipsum dolor consec tur elit adicing sed umod tempor.',
-            courses: 8,
-            color: 'color-extra08-style',
-            delay: '300'
-        },
-        {
-            icon: <HybridDistancePrograms />,
-            title: 'Spoken English',
-            text: 'Lorem ipsum dolor consec tur elit adicing sed umod tempor.',
-            courses: 5,
-            color: 'color-extra05-style',
-            delay: '400'
-        }
-    ]
+ category_data: [
+    {
+        icon: <OnlineDegree />,
+        title: 'Competitive Exam',
+        text: 'Prepare effectively for competitive exams with expert guidance and resources.',
+        courses: 7,
+        color: 'color-primary-style',
+        delay: '100'
+    },
+    {
+        icon: <NonDegreeProgram />,
+        title: 'Language Training',
+        text: 'Improve your language skills with interactive courses and practical exercises.',
+        courses: 4,
+        color: 'color-secondary-style',
+        delay: '200'
+    },
+    {
+        icon: <OffCanvasPrograms />,
+        title: 'Interview Training',
+        text: 'Gain confidence and excel in interviews with professional coaching sessions.',
+        courses: 8,
+        color: 'color-extra08-style',
+        delay: '300'
+    },
+    {
+        icon: <HybridDistancePrograms />,
+        title: 'Spoken English',
+        text: 'Enhance your spoken English fluency through conversation and real-life practice.',
+        courses: 5,
+        color: 'color-extra05-style',
+        delay: '400'
+    }
+]
 }
 
 const CategoryArea = () => {

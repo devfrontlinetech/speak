@@ -6,20 +6,26 @@ const contents = {
     pre_title: 'FAq’s',
     title: 'Step into Your Dream with PTE Achieve!',
     faq_img: "/assets/images/faq/faq-07.jpg",
-    accordion_items: [
-        {
-            id: 'collapseOne', show: true, title: 'How can I contact a school directly?',
-            desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
-        },
-        {
-            id: 'collapseTwo', show: false, title: 'How do I find a school where I want to study?',
-            desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
-        },
-        {
-            id: 'collapseThree', show: false, title: 'Where should I study abroad?',
-            desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
-        }
-    ]
+   accordion_items: [
+            {
+                id: 'collapseOne',
+                show: true,
+                title: 'How can I contact a school directly?',
+                desc: 'You can contact a school directly through their official website, email, or phone. Most schools also provide a contact form for inquiries and admissions support.'
+            },
+            {
+                id: 'collapseTwo',
+                show: false,
+                title: 'How do I find a school where I want to study?',
+                desc: 'Research online for schools that offer your desired program. Check rankings, read student reviews, and consider location, tuition, and available facilities.'
+            },
+            {
+                id: 'collapseThree',
+                show: false,
+                title: 'Where should I study abroad?',
+                desc: 'The best study abroad destination depends on your course, budget, and language preference. Popular countries include the USA, UK, Canada, and Australia.'
+            }
+        ]
 }
 
 const { pre_title, title, accordion_items, faq_img } = contents;

@@ -12,21 +12,21 @@ const contents = {
     testimonials: [
         {
             ratings: [1, 2, 3, 4, 5],
-            desc: '“Lorem ipsum dolor amet consectur elit adicing elit sed do umod tempor ux incididunt enim ad minim veniam quis sit nosrud citation laboris nisiste aliquip comodo perspiatix une omnis iste natus error sit voluptatem accusantium dolore que laudantum”.',
+            desc: '“The training at Speaksure helped me improve my communication skills and confidence. The sessions were interactive and very practical.”',
             author: '/assets/images/testimonial/testimonial-01.png',
             name: 'Haley Bennet',
             title: 'Designer'
         },
         {
             ratings: [1, 2, 3, 4, 5],
-            desc: '“Lorem ipsum dolor amet consectur elit adicing elit sed do umod tempor ux incididunt enim ad minim veniam quis sit nosrud citation laboris nisiste aliquip comodo perspiatix une omnis iste natus error sit voluptatem accusantium dolore que laudantum”.',
+            desc: '“I gained real-world knowledge and improved my speaking ability. The instructors explained concepts clearly and guided me step by step.”',
             author: '/assets/images/testimonial/testimonial-02.png',
             name: 'Richard Gere',
-            title: 'developer'
+            title: 'Developer'
         },
         {
             ratings: [1, 2, 3, 4, 5],
-            desc: '“Lorem ipsum dolor amet consectur elit adicing elit sed do umod tempor ux incididunt enim ad minim veniam quis sit nosrud citation laboris nisiste aliquip comodo perspiatix une omnis iste natus error sit voluptatem accusantium dolore que laudantum”.',
+            desc: '“This course helped me build confidence in public speaking and communication. I highly recommend it to anyone looking to improve.”',
             author: '/assets/images/testimonial/testimonial-03.png',
             name: 'Megan Foxx',
             title: 'Designer'

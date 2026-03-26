@@ -1,25 +1,24 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useMouseMoveUI } from '../../../contexts/mouse-move-context';
-
 const accordion_items = [
     {
-        id:'collapseOne',
-        show:true,
-        title:'How can I contact a school directly?',
-        desc:'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        id: 'collapseOne',
+        show: true,
+        title: 'How can I contact a school directly?',
+        desc: 'You can contact a school directly via their official website, email, or phone number. Most schools also have inquiry forms for prospective students.'
     },
     {
-        id:'collapseTwo',
-        show:false,
-        title:'How do I find a school where I want to study?',
-        desc:'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        id: 'collapseTwo',
+        show: false,
+        title: 'How do I find a school where I want to study?',
+        desc: 'Use online directories, school websites, and education portals to search for schools based on location, programs, and admission requirements.'
     },
     {
-        id:'collapseThree',
-        show:false,
-        title:'Where should I study abroad?',
-        desc:'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        id: 'collapseThree',
+        show: false,
+        title: 'Where should I study abroad?',
+        desc: 'Consider factors like course quality, location, cost of living, language, and career opportunities when choosing a country and university to study abroad.'
     }
 ];
 

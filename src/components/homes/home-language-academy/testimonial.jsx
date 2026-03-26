@@ -8,34 +8,34 @@ const testimonial_contents = {
     pre_title: 'Testimonials',
     title: 'What Our Students <br/> Have To Say',
     testimonial_data: [
-        {
-            img: '/assets/images/testimonial/testimonial-11.jpg',
-            desc: 'Lorem ipsum dolor amet consectur elit adicing elit sed mod tempor incid idunt enim minim veniam quis nosrud citation laboris nisiste aliquip comodo perspiatix unde omnis iste natus error sit voluptatem. accusantium doloreq laudantum.',
-            ratings: [1, 2, 3, 4, 5],
-            name: 'Ray Sanchez',
-            title: 'Student'
-        },
-        {
-            img: '/assets/images/testimonial/testimonial-09.png',
-            desc: 'Lorem ipsum dolor amet consectur elit adicing elit sed mod tempor incid idunt enim minim veniam quis nosrud citation laboris nisiste aliquip comodo perspiatix unde omnis iste natus error sit voluptatem. accusantium doloreq laudantum.',
-            ratings: [1, 2, 3, 4, 5],
-            name: 'Thomas Lopez',
-            title: 'Designer'
-        },
-        {
-            img: '/assets/images/testimonial/testimonial-10.png',
-            desc: 'Lorem ipsum dolor amet consectur elit adicing elit sed mod tempor incid idunt enim minim veniam quis nosrud citation laboris nisiste aliquip comodo perspiatix unde omnis iste natus error sit voluptatem. accusantium doloreq laudantum.',
-            ratings: [1, 2, 3, 4, 5],
-            name: 'Amber Page',
-            title: 'developer'
-        },
-        {
-            img: '/assets/images/testimonial/testimonial-12.jpg',
-            desc: 'Lorem ipsum dolor amet consectur elit adicing elit sed mod tempor incid idunt enim minim veniam quis nosrud citation laboris nisiste aliquip comodo perspiatix unde omnis iste natus error sit voluptatem. accusantium doloreq laudantum.',
-            ratings: [1, 2, 3, 4, 5],
-            name: 'Robert Tapp',
-            title: 'Content Creator'
-        }
+          {
+        img: '/assets/images/testimonial/testimonial-11.jpg',
+        desc: 'Ray’s guidance in the course was exceptional. He helped me understand complex topics with ease and made learning fun.',
+        ratings: [1, 2, 3, 4, 5],
+        name: 'Ray Sanchez',
+        title: 'Student'
+    },
+    {
+        img: '/assets/images/testimonial/testimonial-09.png',
+        desc: 'Thomas’s design insights transformed our project. His attention to detail and creative vision made a huge difference.',
+        ratings: [1, 2, 3, 4, 5],
+        name: 'Thomas Lopez',
+        title: 'Designer'
+    },
+    {
+        img: '/assets/images/testimonial/testimonial-10.png',
+        desc: 'Amber’s coding expertise helped us deliver the application faster. Her problem-solving skills are top-notch.',
+        ratings: [1, 2, 3, 4, 5],
+        name: 'Amber Page',
+        title: 'Developer'
+    },
+    {
+        img: '/assets/images/testimonial/testimonial-12.jpg',
+        desc: 'Robert consistently creates engaging content. His strategies improved our audience interaction and reach significantly.',
+        ratings: [1, 2, 3, 4, 5],
+        name: 'Robert Tapp',
+        title: 'Content Creator'
+    }
     ]
 }
 

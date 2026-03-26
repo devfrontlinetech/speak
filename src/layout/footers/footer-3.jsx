@@ -47,7 +47,7 @@ const FooterThree = () => {
                                         </a>
                                     </Link>
                                 </div>
-                                <p className="description">Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore magna aliqua enim.</p>
+                               <p className="description"> We provide high-quality training programs designed to build real-world skills, improve communication, and help you achieve your career goals.</p>
                             </div>
                         </div>
 
@@ -72,14 +72,24 @@ const FooterThree = () => {
                             <div className="edu-footer-widget">
                             <h6 className="widget-title">Contacts</h6>
                                 <div className="inner">
-                                    <p className="description">Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor dolore.</p>
+                                   <p className="description"> We offer industry-relevant training programs focused on communication skills, web development, and career growth to help you succeed in today’s competitive world.</p>
+
                                     <div className="widget-information">
-                                        <ul className="information-list">
-                                            <li><span>Add:</span>29/11 A Old Bypass Road, Near SBI, karur 1.</li>
-                                            <li><span>Call:</span><a href="tel:+091-9789655455">+091-9789655455</a></li>
-                                            <li><span>Email:</span><a href="mailto:speaksure@gmail.com" target="_blank" rel="noreferrer">speaksure@gmail.com</a></li>
-                                            
-                                        </ul>
+                                    <ul className="information-list">
+                                        <li>
+                                        <span>Add:</span> 29/11 A Old Bypass Road, Near SBI, Karur, Tamil Nadu
+                                        </li>
+                                        <li>
+                                        <span>Call:</span>
+                                        <a href="tel:+919789655455">+91 97896 55455</a>
+                                        </li>
+                                        <li>
+                                        <span>Email:</span>
+                                        <a href="mailto:speaksure@gmail.com" target="_blank" rel="noreferrer">
+                                            speaksure@gmail.com
+                                        </a>
+                                        </li>
+                                    </ul>
                                     </div>
 
                                     <ul className="social-share icon-transparent">

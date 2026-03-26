@@ -7,19 +7,19 @@ const accordion_items = [
         id: 'collapseOne', 
         show: true, 
         title: 'How can I contact a school directly?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'You can reach out to the school via their official email or contact form. Most schools also provide phone numbers and social media channels for direct inquiries.'
     },
     {
         id: 'collapseTwo', 
         show: false, 
         title: 'How do I find a school where I want to study?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'Start by researching schools online, using education directories or school ranking platforms. Consider location, courses offered, fees, and student reviews to make your decision.'
     },
     {
         id: 'collapseThree', 
         show: false, 
         title: 'Where should I study abroad?',
-        desc: 'Lorem ipsum dolor sit amet consectur adipiscing elit sed eius mod ex tempor incididunt labore dolore magna aliquaenim ad minim eniam.'
+        desc: 'Choose a country based on your field of study, budget, language preference, and visa regulations. Popular destinations include the USA, UK, Canada, Australia, and Germany.'
     }
 ];
 

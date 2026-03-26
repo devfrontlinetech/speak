@@ -5,34 +5,33 @@ import { Autoplay, Pagination } from 'swiper';
 const testimonials = [
     {
         img: '/assets/images/testimonial/testimonial-05.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
+        desc: 'Ray’s guidance in the program was exceptional. He made complex concepts easy to understand and motivated me throughout my learning journey.',
         ratings: [1, 2, 3, 4, 5],
         name: 'Ray Sanchez',
         title: 'Student'
     },
     {
         img: '/assets/images/testimonial/testimonial-06.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
+        desc: 'Thomas’s design expertise transformed our project. His creativity and attention to detail brought our vision to life.',
         ratings: [1, 2, 3, 4, 5],
         name: 'Thomas Lopez',
         title: 'Designer'
     },
     {
         img: '/assets/images/testimonial/testimonial-07.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
+        desc: 'Amber’s coding skills were outstanding. She helped us solve complex problems quickly and efficiently.',
         ratings: [1, 2, 3, 4, 5],
         name: 'Amber Page',
-        title: 'developer'
+        title: 'Developer'
     },
     {
         img: '/assets/images/testimonial/testimonial-06.png',
-        desc: 'Lorem ipsum dolor amet consec tur elit adicing sed do usmod zx tempor enim minim veniam quis nostrud exer citation.',
+        desc: 'Thomas continues to deliver high-quality design work. His innovative approach consistently exceeds expectations.',
         ratings: [1, 2, 3, 4, 5],
         name: 'Thomas Lopez',
         title: 'Designer'
     }
 ];
-
 const TestimonialArea = () => {
     const [loop, setLoop] = useState(false);
     useEffect(() => setLoop(true), [])

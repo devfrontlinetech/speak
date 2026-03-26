@@ -8,28 +8,30 @@ const ConditionArea = () => {
                 <div className="row row--30">
                     <div className="col-lg-8">
                         <div className="privacy-policy terms-condition">
+
                             <div className="text-block">
-                                <h3 className="title">Definitions of Basic Terms, Rights and Restriction:</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat. </p>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+                                <h3 className="title">Definitions of Basic Terms, Rights, and Restrictions</h3>
+                                <p>This document outlines the key terms, user rights, and restrictions applicable to members accessing our online courses. By enrolling, you agree to comply with these conditions to ensure a safe and fair learning environment.</p>
+                                <p>Our goal is to provide high-quality educational content while protecting our intellectual property and maintaining the integrity of our courses.</p>
                             </div>
 
                             <div className="text-block">
                                 <h4 className="title">Basic Terms</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis aliquip commodo consequat aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat. </p>
+                                <p>“Member” refers to any individual who registers and purchases access to one or more online courses. “Course” refers to the educational content, videos, materials, and related resources provided through our platform. Access is granted solely for personal educational purposes and is governed by these terms.</p>
                             </div>
 
                             <div className="text-block">
                                 <h4 className="title">Rights & Restrictions</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Members are granted limited rights to access and use the courses, subject to the following conditions:</p>
                                 <ul>
                                     <li>Members must be at least 18 years of age.</li>
-                                    <li>Members are granted a time-limited, non-exclusive, revocable, nontransferable, and non-sublicenseable right to access that portion of the online course corresponding to the purchase.</li>
-                                    <li>The portion of the online course corresponding to the purchase will be available to the Member as long as the course is maintained by the Company, which will be a minimum of one year after Member’s purchase.</li>
-                                    <li>The videos in the course are provided as a video stream and are not downloadable.</li>
-                                    <li>By agreeing to grant such access, the Company does not obligate itself to maintain the course, or to maintain it in its present form. </li>
+                                    <li>Access is time-limited, non-exclusive, revocable, non-transferable, and non-sublicenseable.</li>
+                                    <li>Courses will remain accessible for a minimum of one year from the date of purchase, or as long as maintained by the Company.</li>
+                                    <li>Course videos are provided as streaming content and are not downloadable.</li>
+                                    <li>The Company is not obligated to maintain courses indefinitely or in their current form; updates and changes may occur at the Company’s discretion.</li>
                                 </ul>
                             </div>
+
                         </div>
                     </div>
 
@@ -39,7 +41,7 @@ const ConditionArea = () => {
                 </div>
             </div>
         </section>
-    )
+    );
 }
 
 export default ConditionArea;

@@ -41,7 +41,7 @@ const BlogArea = () => {
                                             <a>{large_blog.title}</a>
                                         </Link>
                                     </h4>
-                                    <p>Lorem ipsum dolor sit amet consec tetur adipisicing sed eiusmod tempor incid idunt labore.</p>
+                                   <p>Our courses are designed to provide practical knowledge and hands-on experience, helping you achieve your learning goals efficiently.</p>
                                     <ul className="blog-meta">
                                         <li><i className="icon-25"></i>By <a href="#">{large_blog.author}</a></li>
                                         <li><i className="icon-28"></i>Com {large_blog.comment}</li>

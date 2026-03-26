@@ -17,17 +17,32 @@ const WhyChose = () => {
                             <span className="shape-line"><i className="icon-19"></i></span>
                         </div>
                         <div className="right-content">
-                            <p>Lorem ipsum dolor sit amet cons etur adipisicing elit sed do eiusm aut tempor incididunt labore dolore magna aliqua quis nostrud ex ertation lamcolab oris aliquip.</p>
+                            <p>We offer structured learning programs designed to improve communication skills, build confidence, and prepare students for real-world challenges.</p>
                         </div>
                     </div>
                 </div>
 
                 <div className="row g-5">
-                    <ChoseBox color="color-primary-style" icon="45" title="High Quality Courses" subtitle="Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna." />
+                    <ChoseBox 
+                        color="color-primary-style" 
+                        icon="45" 
+                        title="High Quality Courses" 
+                        subtitle="Our courses are carefully designed with practical exercises and real-life scenarios for better learning outcomes." 
+                    />
 
-                    <ChoseBox color="color-secondary-style" icon="46" title="Life Time Access" subtitle="Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna." />
+                    <ChoseBox 
+                        color="color-secondary-style" 
+                        icon="46" 
+                        title="Life Time Access" 
+                        subtitle="Access your learning materials anytime and revisit lessons whenever you need to strengthen your skills." 
+                    />
 
-                    <ChoseBox color="color-extra08-style" icon="47" title="Expert Instructors" subtitle="Lorem ipsum dolor sit amet conset ur elit sed eiusmod ex tempor inc labore dolore magna." />
+                    <ChoseBox 
+                        color="color-extra08-style" 
+                        icon="47" 
+                        title="Expert Instructors" 
+                        subtitle="Learn from experienced trainers who provide step-by-step guidance and personalized support." 
+                    />
                 </div>
             </div>
             <ul className="shape-group">

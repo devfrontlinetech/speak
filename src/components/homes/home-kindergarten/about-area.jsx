@@ -38,16 +38,17 @@ const AboutArea = () => {
                     <div className="col-lg-6">
                         <div className="about-content">
                             <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                <span className="pre-title pre-textsecondary">Welcome to the SpeakSure</span>
-                                <h2 className="title">Welcome To Best Preschool Class Center</h2>
+                                <span className="pre-title pre-textsecondary">Welcome to SpeakSure</span>
+                                <h2 className="title">Welcome to the Best Preschool Class Center</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
-                                <p>Magna aliquaenim minim veniam quis nostrud exercitation ullamco laborisLorem ipsum dolor sit amet consectetur adipisicing elit sed do eius tempor incididunt labore.</p>
+                                <p>We provide a nurturing environment for young learners, focusing on creativity, learning, and fun activities designed to inspire growth and curiosity.</p>
                             </div>
+
                             <div className="about-mission" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                                 <div className="row g-5 row--20">
                                     <div className="col-lg-6">
                                         <h5 className="title">Our Vision</h5>
-                                        <p>Magna aliquaenim minim veniamquis nostrud exercitation ulamco laboris Lorem ipsum dolor sit amet.</p>
+                                        <p>To create a safe and engaging space where every child can develop their full potential.</p>
                                         <ul className="features-list">
                                             <li>Transportation</li>
                                             <li>Outdoor Games</li>
@@ -55,13 +56,16 @@ const AboutArea = () => {
                                     </div>
                                     <div className="col-lg-6">
                                         <h5 className="title">Our Mission</h5>
-                                        <p>Consectetur do eius adipisicing elit sed do eius tempor incididunt labore.</p>
-                                        <p>dolore magna aliqua. Ut enim ad minim veniam quis nosud exercitation ulamco.</p>
+                                        <p>To provide high-quality early childhood education through interactive learning and caring guidance.</p>
+                                        <p>We aim to nurture curiosity, creativity, and confidence in every child while fostering a love for learning.</p>
                                     </div>
                                 </div>
                             </div>
+
                             <Link href="/contact-us" legacyBehavior>
-                                <a className="edu-btn btn-curved" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">Get Start Today <i className="icon-4"></i></a>
+                                <a className="edu-btn btn-curved" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                                    Get Started Today <i className="icon-4"></i>
+                                </a>
                             </Link>
                         </div>
                     </div>
