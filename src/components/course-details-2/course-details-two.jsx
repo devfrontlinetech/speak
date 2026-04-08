@@ -101,7 +101,7 @@ const CourseDetailsTwo = ({ course }) => {
 
                                     <div className="author-content">
                                         <h6 className="title">{instructor}</h6>
-                                        <span className="subtitle">{instructor_title}</span>
+                                        <span className="subtitle">{instructor_title}</span>   
                                         <p>{instructor_desc}</p>
                                         <ul className="social-share">
                                             {social_links?.map((social, i) => (
