@@ -11,7 +11,7 @@ const VoiceTest = () => {
     <div className="voice-container">
       <div className="test-right">
         <h1 className="right-head">SpeakTest</h1>
-
+        
         <div className="test-box">
           {testLink.map((item, index) => (
             <Link key={index} href={item.path}>

@@ -1,5 +1,5 @@
 .voice-container {
-  background-image: url("../../../assets//images/english-test/main-bg.png");
+  background-image: url("../../../assets/images/english-test/main-bg.png");
   width: 100%;
   min-height: 100vh;
   background-position: center;
@@ -10,6 +10,11 @@
   align-items: center;
   padding: 2rem 5%;
   box-sizing: border-box;
+}
+
+/* 🌙 Dark mode override */
+.dark .voice-container {
+  background-image: url("../../../assets/images/english-test/main-bg-dark.png");
 }
 
 .test-right {
