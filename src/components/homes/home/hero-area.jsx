@@ -12,9 +12,7 @@ const HeroArea = () => {
   const [timeSlots, setTimeSlots] = useState([]);
   const [selectedTime, setSelectedTime] = useState(null);
 
-const availableDates = [
-
-    "2026-05-05",
+  const availableDates = [
     "2026-05-10",
     "2026-05-20",
     "2026-05-21",
@@ -32,7 +30,6 @@ const availableDates = [
   ];
 
   const bookedDates = [
-   
     "2026-05-12",
     "2026-05-18",
     "2026-05-25",
@@ -49,7 +46,6 @@ const availableDates = [
   ];
 
   const unavailableDates = [
-  
     "2026-05-08",
     "2026-05-22",
     "2026-05-29",
@@ -60,7 +56,6 @@ const availableDates = [
     "2026-07-17",
     "2026-07-24",
   ];
-
 
   const handleDateChange = (date) => {
     const formattedDate = format(date, "dd-MM-yyyy");
