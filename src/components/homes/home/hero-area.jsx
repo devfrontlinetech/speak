@@ -13,35 +13,44 @@ const HeroArea = () => {
   const [selectedTime, setSelectedTime] = useState(null);
 
   const availableDates = [
-    "09-07-2026",
-    "10-07-2026",
-    "11-07-2026",
-    "12-07-2026",
-    "13-07-2026",
-    "14-07-2026",
+    "2026-07-12",
+    "2026-07-18",
+    "2026-07-25",
+    "2026-07-03",
+    "2026-07-09",
+    "2026-07-15",
+    "2026-07-22",
+    "2026-07-29",
   ];
 
   const bookedDates = [
-    "15-07-2026",
-    "16-07-2026",
-    "17-07-2026",
-    "18-07-2026",
-    "19-07-2026",
-    "20-07-2026",
-
+    "2026-08-12",
+    "2026-08-18",
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-27",
+    "2026-08-08",
+    "2026-08-14",
+    "2026-08-20",
+    "2026-07-05",
+    "2026-07-12",
+    "2026-07-19",
+    "2026-07-26",
   ];
 
   const unavailableDates = [
-    "21-07-2026",
-    "22-07-2026",
-    "23-07-2026",
-    "24-07-2026",
-    "25-07-2026",
-    
+    "2026-08-22",
+    "2026-08-29",
+    "2026-08-04",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-01",
+    "2026-07-17",
+    "2026-07-24",
   ];
-
   const handleDateChange = (date) => {
-    const formattedDate = format(date, "dd-MM-yyyy");
+    const formattedDate = format(date, "yyyy-MM-dd");
+
     setSelectedDate(formattedDate);
     setSelectedTime(null);
 
@@ -49,12 +58,28 @@ const HeroArea = () => {
       setTimeSlots([
         { time: "10:00 AM to 11:00 AM", available: true },
         { time: "11:00 AM to 02:00 PM", available: true },
-        { time: "02:00 AM to 05:00 PM", available: true },
+        { time: "02:00 PM to 05:00 PM", available: true },
       ]);
     } else {
       setTimeSlots([]);
     }
   };
+
+  // const handleDateChange = (date) => {
+  //   const formattedDate = format(date, "dd-MM-yyyy");
+  //   setSelectedDate(formattedDate);
+  //   setSelectedTime(null);
+
+  //   if (availableDates.includes(formattedDate)) {
+  //     setTimeSlots([
+  //       { time: "10:00 AM to 11:00 AM", available: true },
+  //       { time: "11:00 AM to 02:00 PM", available: true },
+  //       { time: "02:00 AM to 05:00 PM", available: true },
+  //     ]);
+  //   } else {
+  //     setTimeSlots([]);
+  //   }
+  // };
 
   const handleBooking = () => {
     if (selectedTime) {
@@ -68,12 +93,22 @@ const HeroArea = () => {
   };
 
   const tileClassName = ({ date }) => {
-    const formattedDate = format(date, "dd-MM-yyyy");
+    const formattedDate = format(date, "yyyy-MM-dd");
+
     if (bookedDates.includes(formattedDate)) return "booked-date";
     if (availableDates.includes(formattedDate)) return "available-date";
     if (unavailableDates.includes(formattedDate)) return "unavailable-date";
+
     return "";
   };
+
+  // const tileClassName = ({ date }) => {
+  //   const formattedDate = format(date, "dd-MM-yyyy");
+  //   if (bookedDates.includes(formattedDate)) return "booked-date";
+  //   if (availableDates.includes(formattedDate)) return "available-date";
+  //   if (unavailableDates.includes(formattedDate)) return "unavailable-date";
+  //   return "";
+  // };
 
   return (
     <div className="hero-banner hero-style-1">
