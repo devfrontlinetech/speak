@@ -11,43 +11,43 @@ const HeroArea = () => {
   const [selectedDate, setSelectedDate] = useState(null);
   const [timeSlots, setTimeSlots] = useState([]);
   const [selectedTime, setSelectedTime] = useState(null);
-
   const availableDates = [
-    "2026-07-18",
-    "2026-07-25",
-    "2026-07-03",
-    "2026-07-09",
-    "2026-07-15",
-    "2026-07-22",
-    "2026-07-29",
+    "18-07-2026",
+    "25-07-2026",
+    "03-07-2026",
+    "09-07-2026",
+    "15-07-2026",
+    "22-07-2026",
+    "29-07-2026",
   ];
 
   const bookedDates = [
-    "2026-08-12",
-    "2026-08-18",
-    "2026-08-25",
-    "2026-08-26",
-    "2026-08-27",
-    "2026-08-08",
-    "2026-08-14",
-    "2026-08-20",
-    "2026-07-05",
-    "2026-07-12",
-    "2026-07-19",
-    "2026-07-26",
+    "12-08-2026",
+    "18-08-2026",
+    "25-08-2026",
+    "26-08-2026",
+    "27-08-2026",
+    "08-08-2026",
+    "14-08-2026",
+    "20-08-2026",
+    "05-07-2026",
+    "12-07-2026",
+    "19-07-2026",
+    "26-07-2026",
   ];
 
   const unavailableDates = [
-    "2026-08-22",
-    "2026-08-29",
-    "2026-08-04",
-    "2026-08-16",
-    "2026-08-23",
-    "2026-08-01",
-    "2026-07-24",
+    "22-08-2026",
+    "29-08-2026",
+    "04-08-2026",
+    "16-08-2026",
+    "23-08-2026",
+    "01-08-2026",
+    "24-07-2026",
   ];
+
   const handleDateChange = (date) => {
-    const formattedDate = format(date, "yyyy-MM-dd");
+    const formattedDate = format(date, "dd-MM-yyyy");
 
     setSelectedDate(formattedDate);
     setSelectedTime(null);
@@ -91,7 +91,7 @@ const HeroArea = () => {
   };
 
   const tileClassName = ({ date }) => {
-    const formattedDate = format(date, "yyyy-MM-dd");
+    const formattedDate = format(date, "dd-MM-yyyy");
 
     if (bookedDates.includes(formattedDate)) return "booked-date";
     if (availableDates.includes(formattedDate)) return "available-date";
