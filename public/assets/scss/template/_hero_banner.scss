@@ -194,6 +194,7 @@
                 background: #31B978;
                 background: linear-gradient(to left, #31B978 0%, #1AB69D 76%);
                 -webkit-background-clip: text;
+                background-clip: text;
                 -webkit-text-fill-color: transparent;
                 margin-bottom: 40px;
                 @media #{$sm-layout} {
@@ -580,8 +581,12 @@
         z-index: 1;
         mask-image: url(../../images/others/mask-01.png);
         -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
         -webkit-mask-size: cover;
+        mask-size: cover;
         -webkit-mask-position: center;
+        mask-position: center;
+        mask-position: center;
         @media #{$md-layout} {
             min-height: 100%;
         }
@@ -1077,8 +1082,11 @@
         background-color: var(--color-lighten04);
         mask-image: url(../../images/others/mask-02.webp);
         -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
         -webkit-mask-size: cover;
+        mask-size: cover;
         -webkit-mask-position: center;
+        mask-position: center;
         min-height: 715px;
         position: relative;
         @media #{$md-layout} {
@@ -1199,8 +1207,11 @@
             z-index: -1;
             mask-image: url(../../images/others/mask-03.webp);
             -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
             -webkit-mask-size: cover;
+            mask-size: cover;
             -webkit-mask-position: center;
+            mask-position: center;
         }
         
         .banner-thumbnail {
