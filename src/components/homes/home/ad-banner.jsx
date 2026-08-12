@@ -14,7 +14,7 @@ const AdBanner = () => {
                                 <h2 className="title">Get Your Quality Skills <span className="color-secondary">Certificate</span> Through SpeakSure</h2>
                                 <Link href="/contact-us" legacyBehavior>
                                     <a className="edu-btn">Get started now <i className="icon-4"></i>
-                                    </a>
+                                    </a> 
                                 </Link>
                             </div>
                         </div>
