@@ -238,7 +238,7 @@ const HeroArea = () => {
                         <span className="legend available">
                           <i></i>
                           Available
-                        </span>
+                        </span> 
 
                         <span className="legend booked">
                           <i></i>
