@@ -48,7 +48,7 @@ button {
         display: inline-block;
         height: 60px;
         line-height: 62px;
-        color: var(--edu-btn-color);
+        color: var(--edu-btn-color) !important;
         background: #0aa78e;
         padding: 0 30px;
         font-size: 15px;
