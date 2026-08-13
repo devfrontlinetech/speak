@@ -19,7 +19,7 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-    "2026-08-13",
+  
     "2026-08-15",
     "2026-08-22",
     "2026-08-23",
