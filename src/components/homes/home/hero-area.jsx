@@ -19,7 +19,6 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-
     "2026-08-13",
     "2026-08-15",
     "2026-08-22",
@@ -240,7 +239,7 @@ const HeroArea = () => {
                         <span className="legend available">
                           <i></i>
                           Available
-                        </span> 
+                        </span>
 
                         <span className="legend booked">
                           <i></i>
