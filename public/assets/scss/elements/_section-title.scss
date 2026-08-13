@@ -91,6 +91,7 @@
         background: #31B978;
         background: linear-gradient(to left, #31B978 0%, #1AB69D 76%);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         @media #{$md-layout} {
             font-size: 50px;  
@@ -105,6 +106,7 @@
         background: #31B978;
         background: linear-gradient(to left, #31B978 0%, #1AB69D 76%);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
     }
     .title {
