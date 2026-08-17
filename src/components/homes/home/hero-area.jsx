@@ -401,7 +401,7 @@ const HeroArea = () => {
 
             <button
               type="button"
-              className="confirm-booking-btn"
+              className="confirm-booking-btn"  
               disabled={!selectedTime}
               onClick={handleBooking}
             >
