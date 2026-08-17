@@ -453,7 +453,7 @@ const HeroArea = () => {
               onClick={closeWarningModal}
             >
               Choose Another Date
-            </button>
+            </button> 
           </div>
         </div>
       )}
