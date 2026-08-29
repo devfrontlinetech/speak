@@ -87,7 +87,7 @@ export default function TestimonialArea() {
                             speed={1500}
                             autoplay={{
                                 delay: 3500
-                            }}
+                            }} 
                             breakpoints={{
                                 577: {
                                 slidesPerView: 2
