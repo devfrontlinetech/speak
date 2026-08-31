@@ -104,7 +104,7 @@ const HeroArea = () => {
 
     Hello Speaksure Academy, I would like to book a free consultation for your courses.
 
-    Date: ${selectedDate} 
+    Date: ${selectedDate}
     Time: ${selectedTime}
 
     Please confirm my appointment slot. Thank you!
