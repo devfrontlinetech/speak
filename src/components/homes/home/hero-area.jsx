@@ -96,7 +96,7 @@ const HeroArea = () => {
 
   const handleBooking = () => {
     if (!selectedDate || !selectedTime) return;
-
+ 
     const whatsappNumber = "919789655455";
 
     const whatsappMessage = `
