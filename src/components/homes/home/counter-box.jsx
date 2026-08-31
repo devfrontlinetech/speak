@@ -22,7 +22,7 @@ const CounterBox = () => {
                         <h6 className="title">{c.title}</h6>
                     </div>
                 ) ) }
-            </div>
+            </div> 
             <div className="counterup-box counterup-box-2">
                 { counter_data.slice(2,4).map( ( c,i ) => (
                     <div key={i} className="edu-counterup counterup-style-2">
