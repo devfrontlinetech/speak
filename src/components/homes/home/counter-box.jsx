@@ -18,7 +18,7 @@ const CounterBox = () => {
                         <span className="odometer">
                             <Counter number={parseFloat(c.number)} text={c.text} decimal={c.decimal} />
                         </span>
-                        </h2>
+                        </h2> 
                         <h6 className="title">{c.title}</h6>
                     </div>
                 ) ) }
