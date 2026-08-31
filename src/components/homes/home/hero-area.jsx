@@ -376,7 +376,7 @@ const HeroArea = () => {
               {timeSlots.map((slot, index) => (
                 <button
                   key={index}
-                  type="button"
+                  type="button"   
                   className={`modal-slot ${
                     selectedTime === slot.time ? "active" : ""
                   }`}
