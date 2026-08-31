@@ -427,7 +427,7 @@ const HeroArea = () => {
             <button
               type="button"
               className="modal-close"
-              onClick={closeWarningModal}
+              onClick={closeWarningModal}  
               aria-label="Close warning popup"
             >
               <FaTimes />
