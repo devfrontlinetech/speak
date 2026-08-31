@@ -26,7 +26,7 @@ const HeroArea = () => {
   ];
 
   const bookedDates = [
-    "2026-08-30",
+  
     "2026-08-31",
     // September 2026 dates added below
     "2026-09-01",
