@@ -125,7 +125,7 @@ const HeroArea = () => {
   const closeWarningModal = () => {
     setShowWarningModal(false);
   };
-
+ 
   const tileClassName = ({ date }) => {
     const formattedDate = format(date, "yyyy-MM-dd");
 
