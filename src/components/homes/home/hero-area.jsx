@@ -410,7 +410,7 @@ const HeroArea = () => {
 
             <button
               type="button"
-              className="cancel-booking-btn"
+              className="cancel-booking-btn" 
               onClick={closeBookingModal}
             >
               Cancel
