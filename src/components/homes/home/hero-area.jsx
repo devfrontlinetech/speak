@@ -26,7 +26,6 @@ const HeroArea = () => {
   ];
 
   const bookedDates = [
-  
     "2026-08-31",
     // September 2026 dates added below
     "2026-09-01",
@@ -96,7 +95,7 @@ const HeroArea = () => {
 
   const handleBooking = () => {
     if (!selectedDate || !selectedTime) return;
- 
+
     const whatsappNumber = "919789655455";
 
     const whatsappMessage = `
