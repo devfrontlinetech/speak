@@ -273,7 +273,7 @@ const HeroArea = () => {
                         src="/assets/images/about/shape-15.png"
                         alt="Shape"
                       />
-                    </li>
+                    </li> 
                     <motion.li
                       className="shape-2 scene"
                       data-sal-delay="1000"
