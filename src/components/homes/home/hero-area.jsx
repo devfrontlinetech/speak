@@ -25,19 +25,9 @@ const HeroArea = () => {
     "2026-09-10",
   ];
 
-  const bookedDates = [
+  const bookedDates = ["2026-09-01", "2026-09-04", "2026-09-07"];
 
-    "2026-09-01",
-    "2026-09-04",
-    "2026-09-07",
-  ];
-
-  const unavailableDates = [
-
-    "2026-09-06",
-    "2026-09-08",
-    "2026-09-09",
-  ];
+  const unavailableDates = ["2026-09-06", "2026-09-08", "2026-09-09"];
 
   const handleDateChange = (date) => {
     const formattedDate = format(date, "yyyy-MM-dd");
@@ -123,7 +113,7 @@ const HeroArea = () => {
   const closeWarningModal = () => {
     setShowWarningModal(false);
   };
- 
+
   const tileClassName = ({ date }) => {
     const formattedDate = format(date, "yyyy-MM-dd");
 
@@ -273,7 +263,7 @@ const HeroArea = () => {
                         src="/assets/images/about/shape-15.png"
                         alt="Shape"
                       />
-                    </li> 
+                    </li>
                     <motion.li
                       className="shape-2 scene"
                       data-sal-delay="1000"
@@ -366,7 +356,7 @@ const HeroArea = () => {
             <h3>Select Your Time</h3>
 
             <p className="modal-date">
-              Appointment Date: 
+              Appointment Date:
               <strong>{selectedDate}</strong>
             </p>
 
@@ -374,7 +364,7 @@ const HeroArea = () => {
               {timeSlots.map((slot, index) => (
                 <button
                   key={index}
-                  type="button"   
+                  type="button"
                   className={`modal-slot ${
                     selectedTime === slot.time ? "active" : ""
                   }`}
@@ -408,7 +398,7 @@ const HeroArea = () => {
 
             <button
               type="button"
-              className="cancel-booking-btn" 
+              className="cancel-booking-btn"
               onClick={closeBookingModal}
             >
               Cancel
@@ -425,7 +415,7 @@ const HeroArea = () => {
             <button
               type="button"
               className="modal-close"
-              onClick={closeWarningModal}  
+              onClick={closeWarningModal}
               aria-label="Close warning popup"
             >
               <FaTimes />
