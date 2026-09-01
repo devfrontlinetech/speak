@@ -26,16 +26,14 @@ const HeroArea = () => {
   ];
 
   const bookedDates = [
-    "2026-08-31",
-    // September 2026 dates added below
+
     "2026-09-01",
     "2026-09-04",
     "2026-09-07",
   ];
 
   const unavailableDates = [
-    "2026-08-30",
-    // September 2026 dates added below
+
     "2026-09-06",
     "2026-09-08",
     "2026-09-09",
