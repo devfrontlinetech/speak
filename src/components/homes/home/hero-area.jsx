@@ -366,7 +366,7 @@ const HeroArea = () => {
             <h3>Select Your Time</h3>
 
             <p className="modal-date">
-              Appointment Date:
+              Appointment Date: 
               <strong>{selectedDate}</strong>
             </p>
 
