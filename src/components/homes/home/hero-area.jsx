@@ -172,7 +172,7 @@ const HeroArea = () => {
 
     setShowBookingModal(false);
   };
- 
+
   const closeBookingModal = () => {
     setShowBookingModal(false);
     setSelectedTime(null);
