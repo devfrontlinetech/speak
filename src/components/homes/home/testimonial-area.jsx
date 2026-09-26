@@ -26,7 +26,7 @@ const testimonial_data = [
             <i className="icon-23"></i>
             <i className="icon-23"></i>
         </>,
-        name: 'Vishnu',
+        name: 'Kavya',
         title: 'Student'
     },
     {
@@ -39,7 +39,7 @@ const testimonial_data = [
             <i className="icon-23"></i>
             <i className="icon-23"></i>
         </>,
-        name: 'Hema G',
+        name: 'Nithish R',
         title: 'Student'
     },
     {
@@ -52,7 +52,7 @@ const testimonial_data = [
             <i className="icon-23"></i>
             <i className="icon-23"></i>
         </>,
-        name: 'Nithish R',
+        name: 'Hema G',
         title: 'Student'
     }
 ]
