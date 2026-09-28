@@ -2,7 +2,7 @@ const course_data = [
   
     {
       id: 'spoken-english',
-      img: 'course-01.jpg',
+      img: 'class-01.jpg',
       duration: '6 Weeks',
       course_outline: 'Online + Onsite',
       level: 'Beginner to Advanced',
@@ -87,7 +87,7 @@ const course_data = [
     
     {
       id: 'english-training',
-     img: "course-06.jpg",
+     img: "class-02.jpg",
     duration: "8 Weeks",
     course_outline: "Online + Onsite",
     level: "Beginner to Intermediate",
@@ -210,7 +210,7 @@ const course_data = [
   {
     id: 'speak-fluency',
     
-  img: "fluency.jpg",
+  img: "class-03.jpg",
   duration: "8 Weeks",
   course_outline: "Online + Onsite",
   level: "Beginner to Advanced",
@@ -333,7 +333,7 @@ const course_data = [
 
 {
   "id": 'business-english',
-  "img": "course-04.jpg",
+  "img": "class-04.jpg",
   "duration": "10 Weeks",
   "course_outline": "Online + Onsite",
   "level": "Beginner to Advanced",
@@ -473,7 +473,7 @@ const course_data = [
 
 {
     id: 'training-course',
-    "img": "course-02.jpg",
+    "img": "class-05.jpg",
       "duration": "4 Weeks",
       "course_outline": "Online + Onsite",
       "level": "Beginner to Advanced",
@@ -558,7 +558,7 @@ const course_data = [
   },
   {
     "id": 'visa-interview-training',
-    "img": "course-03.jpg",
+    "img": "class-06.jpg",
     "duration": "6 Weeks",
     "course_outline": "Online + Onsite",
     "level": "Beginner to Advanced",
@@ -664,7 +664,7 @@ const course_data = [
 {
   id: 'merchandaiser-training',
   university_courses: true,
-  img: 'course-07.jpg',
+  img: 'class-07.jpg',
   filter_category: ['undergraduate', 'graduate'],
   duration: '8 Weeks',
   course_outline: 'Online + Onsite',
@@ -747,7 +747,7 @@ const course_data = [
 {
   id: 'soft-skill-training',
   university_courses: true,
-  img: 'course-08.jpg',
+  img: 'class-08.jpg',
   filter_category: ["undergraduate", "graduate"],
   duration: '6 Weeks',
   course_outline: 'Online + Onsite',
@@ -827,7 +827,7 @@ const course_data = [
  {
   id: 'ielts-preparation',
   university_courses: true,
-  img: 'san.jpg',
+  img: 'class-09.jpg',
   filter_category: ["undergraduate", "online"],
   duration: '8 Weeks',
   level: 'Intermediate',
@@ -901,7 +901,7 @@ const course_data = [
   {
     id: 'pte-preparation',
     university_courses: true,
-    img: 'sum.jpg',
+    img: 'class-10.jpg',
     filter_category: ["test-prep", "online"],
     duration: '10 Weeks',
     hours: 40,
@@ -988,7 +988,7 @@ const course_data = [
     
     id: 'toefl-preparation',
     university_courses: true,
-    img: 'jeg.jpg',
+    img: 'class-11.jpg',
     filter_category: ["test-prep", "online"],
     duration: '12 Weeks',
     hours: 45,
@@ -1085,7 +1085,7 @@ const course_data = [
     id: 'celpip-preparation',
     duration: '10 Weeks',
     course_outline: 'Online + Onsite',
-    img: 'cel.jpg',
+    img: 'class-12.jpg',
     hours: 30,
     level: 'Intermediate',
     title: 'CELPIP Test Preparation (General & Academic)',
@@ -1171,7 +1171,7 @@ const course_data = [
   kitchen_course: false,  // This is not a kitchen course, so we set it to false.
   course_outline: 'Online + Onsite',
   duration: '12 Weeks',
-  img: 'oet.jpg',
+  img: 'class-13.jpg',
   hours: 35,
   level: 'Test Preparation',
   title: 'OET Test Preparation (Healthcare Professionals)',
@@ -1262,7 +1262,7 @@ const course_data = [
     kitchen_course: false, // Not a kitchen course
     duration: '12 Weeks', // Duration of the course
     course_outline: 'Online + Onsite', // The course is offered both online and onsite
-    img: 'yle.jpg', // Course image
+    img: 'class-14.jpg', // Course image
     hours: 40, // Total hours of the course
     level: 'Beginner', // Course level
     title: 'Young Learners English Training',
@@ -1346,7 +1346,7 @@ const course_data = [
     kitchen_course: false, // Not a kitchen course
     duration: '12 Weeks', // Duration of the course
     course_outline: 'Online + Onsite', // Course offered both online and onsite
-    img: 'hindi.jpg', // Course image
+    img: 'class-15.jpg', // Course image
     hours: 40, // Total hours of the course
     level: 'Beginner to Advanced', // Suitable for beginners to intermediate learners
     title: 'Hindi Language Training - Learn Hindi from Scratch',
@@ -1431,7 +1431,7 @@ const course_data = [
   kitchen_course: false, // Not a kitchen course
   duration: '16 Weeks', // Duration of the course
   course_outline: 'Online + Onsite', // Course offered both online and onsite
-  img: 'fren.jpg', // Course image
+  img: 'class-16.jpg', // Course image
   hours: 40, // Total hours of the course
   level: 'Begineer to Advanced', // Language learning course
   title: 'French Language Class - Learn French from Basics to Advanced',
@@ -1527,7 +1527,7 @@ const course_data = [
   kitchen_course: false, // Not a kitchen course
   duration: '15 Weeks', // Duration of the course
   course_outline: 'Online + Onsite', // Course offered both online and onsite
-  img: 'ger.jpg', // Course image
+  img: 'class-17.jpg', // Course image
   hours: 32, // Total hours of the course
   level: 'Begineer to Advanced', // Language learning course
   title: 'German Language Mastery - Speak German with Confidence',
@@ -1623,7 +1623,7 @@ const course_data = [
   kitchen_course: true,
   duration: '(weekly/monthly)',
   course_outline: 'Onsite Only',
-  img: 'course-19.jpg',
+  img: 'class-18.jpg',
   hours: 35,
   level: 'Beginners to Advanced',
   title: 'Toastmasters, Speaking and Leadership Training',
