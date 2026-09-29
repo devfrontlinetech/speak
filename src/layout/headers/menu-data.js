@@ -117,7 +117,7 @@ const menu_data = [
    
    {
         title: 'Blog',
-        link: '/blog-details',
+        link: '/blog',
         mega_menu: false,
       //  submenus: [
            /* { title: 'Blog Standard', link: '/blog-standard' },
