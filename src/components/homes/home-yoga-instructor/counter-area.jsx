@@ -2,10 +2,10 @@ import React from 'react';
 import Counter from '../../common/counter';
 
 const counter_data = [
-    { icon: 'icon-77', count: 29.3, text: 'K', title: 'Student Enrolled', decimal: 1 },
-    { icon: 'icon-78', count: 32.4, text: 'K', title: 'Class Completed', decimal: 1 },
+    { icon: 'icon-77', count: 21.5, text: 'K', title: 'Student Enrolled', decimal: 1 },
+    { icon: 'icon-78', count: 20, text: 'K', title: 'Class Completed', decimal: 1 },
     { icon: 'icon-79', count: 100, text: '%', title: 'Satisfaction Rate' },
-    { icon: 'icon-80', count: 354, text: '+', title: 'Top Instructors' }
+    { icon: 'icon-80', count: 34, text: '+', title: 'Top Instructors' }
 ]
 
 const CounterArea = () => {
