@@ -123,14 +123,14 @@ const HeroArea = () => {
 
     Please confirm my appointment slot. Thank you! 
 `.trim();
-
+  
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       whatsappMessage,
     )}`;
 
     window.open(whatsappURL, "_blank", "noopener,noreferrer");
 
-    setShowBookingModal(false);
+    setShowBookingModal(false); 
   };
 
   const closeBookingModal = () => {
