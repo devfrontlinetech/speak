@@ -95,7 +95,7 @@ const HeroArea = () => {
       setWarningMessage(
         "This date is unavailable. Sundays and other unavailable dates cannot be booked.",
       );
-  
+
       setShowWarningModal(true);
       setShowBookingModal(false);
     } else {
@@ -104,10 +104,10 @@ const HeroArea = () => {
       );
 
       setShowWarningModal(true);
-      setShowBookingModal(false);  
+      setShowBookingModal(false);
     }
   };
- 
+
   const handleBooking = () => {
     if (!selectedDate || !selectedTime) return;
 
@@ -123,14 +123,14 @@ const HeroArea = () => {
 
     Please confirm my appointment slot. Thank you! 
 `.trim();
-  
+
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       whatsappMessage,
     )}`;
 
     window.open(whatsappURL, "_blank", "noopener,noreferrer");
 
-    setShowBookingModal(false); 
+    setShowBookingModal(false);
   };
 
   const closeBookingModal = () => {
