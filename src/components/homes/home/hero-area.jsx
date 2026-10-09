@@ -105,7 +105,7 @@ const HeroArea = () => {
 
       setShowWarningModal(true);
       setShowBookingModal(false);
-    }
+    } 
   };
 
   const handleBooking = () => {
