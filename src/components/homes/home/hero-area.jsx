@@ -95,7 +95,7 @@ const HeroArea = () => {
       setWarningMessage(
         "This date is unavailable. Sundays and other unavailable dates cannot be booked.",
       );
-
+  
       setShowWarningModal(true);
       setShowBookingModal(false);
     } else {
