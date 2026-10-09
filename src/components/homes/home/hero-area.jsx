@@ -104,7 +104,7 @@ const HeroArea = () => {
       );
 
       setShowWarningModal(true);
-      setShowBookingModal(false);
+      setShowBookingModal(false);  
     }
   };
  
