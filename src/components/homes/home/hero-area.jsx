@@ -107,7 +107,7 @@ const HeroArea = () => {
       setShowBookingModal(false);
     }
   };
-
+ 
   const handleBooking = () => {
     if (!selectedDate || !selectedTime) return;
 
