@@ -121,7 +121,7 @@ const HeroArea = () => {
     Date: ${selectedDate}
     Time: ${selectedTime}
 
-    Please confirm my appointment slot. Thank you!
+    Please confirm my appointment slot. Thank you! 
 `.trim();
 
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
