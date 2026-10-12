@@ -19,7 +19,6 @@ const HeroArea = () => {
   const [warningMessage, setWarningMessage] = useState("");
 
   const availableDates = [
-
     "2026-10-13",
     "2026-10-15",
     "2026-10-16",
@@ -98,7 +97,7 @@ const HeroArea = () => {
 
       setShowWarningModal(true);
       setShowBookingModal(false);
-    } 
+    }
   };
 
   const handleBooking = () => {
@@ -132,20 +131,20 @@ const HeroArea = () => {
   };
   const closeWarningModal = () => {
     setShowWarningModal(false);
-  }; 
+  };
 
   const tileClassName = ({ date }) => {
-    const formattedDate = format(date, "yyyy-MM-dd"); 
+    const formattedDate = format(date, "yyyy-MM-dd");
 
     if (bookedDates.includes(formattedDate)) {
       return "booked-date";
-    } 
+    }
 
-    if (availableDates.includes(formattedDate)) { 
+    if (availableDates.includes(formattedDate)) {
       return "available-date";
     }
 
-    if (unavailableDates.includes(formattedDate)) {  
+    if (unavailableDates.includes(formattedDate)) {
       return "unavailable-date";
     }
 
