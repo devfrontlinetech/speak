@@ -135,13 +135,13 @@ const HeroArea = () => {
   }; 
 
   const tileClassName = ({ date }) => {
-    const formattedDate = format(date, "yyyy-MM-dd");
+    const formattedDate = format(date, "yyyy-MM-dd"); 
 
     if (bookedDates.includes(formattedDate)) {
       return "booked-date";
-    }
+    } 
 
-    if (availableDates.includes(formattedDate)) {
+    if (availableDates.includes(formattedDate)) { 
       return "available-date";
     }
 
