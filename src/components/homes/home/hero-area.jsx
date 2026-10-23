@@ -145,7 +145,7 @@ const HeroArea = () => {
       setShowWarningModal(true);
       setShowBookingModal(false);
     } else {
-      setWarningMessage( 
+      setWarningMessage(
         "No booking slots are available for this date. Please select an available date.",
       );
 
