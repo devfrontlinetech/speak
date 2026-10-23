@@ -102,7 +102,6 @@ const HeroArea = () => {
     "2026-12-27",
   ];
 
-
   const handleDateChange = (date) => {
     const formattedDate = format(date, "yyyy-MM-dd");
 
