@@ -22,10 +22,6 @@ const HeroArea = () => {
 
     // November 2026 - Tuesday, Thursday, Saturday
 
-
-    "2026-11-17",
-    "2026-11-19",
-    "2026-11-21",
     "2026-11-24",
     "2026-11-26",
     "2026-11-28",
@@ -50,10 +46,6 @@ const HeroArea = () => {
   const bookedDates = [
     // November 2026 - Monday, Wednesday, Friday
 
-
-    "2026-11-16",
-    "2026-11-18",
-    "2026-11-20",
     "2026-11-23",
     "2026-11-25",
     "2026-11-27",
@@ -78,8 +70,6 @@ const HeroArea = () => {
   const unavailableDates = [
     // November 2026 - Sundays
 
-
-    "2026-11-22",
     "2026-11-29",
 
     // December 2026 - Sundays
